@@ -10,7 +10,7 @@ Hi! I am a computer science PhD candidate at ETH Zurich. My supervisor is [David
 
 ## Research Interest
 
-Web privacy: Internet develops fast, but the needs of its users are overlooked, namely in privacy. Regulations like GDPR are trying to fix that, but their enforcement is lacking behind. I try to address this lack of enforcement by developing automated techniques for privacy compliance analysis or directly by blocking web elements to preserve user privacy.
+Web privacy: Internet develops fast, but the users' needs are overlooked, namely privacy. Regulations like the GDPR are trying to fix that, but their enforcement is lacking behind. I try to address this lack of enforcement by developing automated techniques for privacy compliance analysis, or by directly blocking web elements to preserve user privacy.
 
 Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I studied how statistical testing can automate analysis of cryptoprimitives.
 
