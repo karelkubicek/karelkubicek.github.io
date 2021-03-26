@@ -3,24 +3,25 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
+* Email: [karel.kubicek@inf.ethz.ch](mailto:karel.kubicek@inf.ethz.ch)
 
-* Phone: [+91-123123](tel:+91-123123)
+* Phone: [+41 44 633 94 97](tel:+41446339497)
 
 ---
 
 ## Mailing Address
 
-> 221B, Baker Street
+> CAB F 58.1
 >
-> London
+> Universitätstrasse 6
 >
-> United Kingdom
+> 8092 Zürich
+>
+> Switzerland
 
 ---
 
 ## Social
 
-1. [Facebook](#)
-2. [Twitter](#)
-3. [Google+](#)
+1. [Google scholar](https://scholar.google.com/citations?user=OBc6SfAAAAAJ)
+2. [Twitter](https://twitter.com/KK21966233)
