@@ -8,8 +8,7 @@ ins_logo: "./eth-logo.png"
 tracking_id: #
 
 footer: yes
-footer_url: "https://github.com/ankitsultana"
-footer_text: "Jekyll template by Ankit Sultana"
+footer_text: ""
 
 sass:
     style: compressed

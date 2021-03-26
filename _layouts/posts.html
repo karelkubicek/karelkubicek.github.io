@@ -66,9 +66,9 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="navbar container">
+        <div class="navbar container" style="padding-top: 0px;">
             {% if site.ins_logo %}
-                <img id="ins-logo" src="{{ site.url }}/{{ site.ins_logo }}" style="padding-top: 0px;" />
+                <img id="ins-logo" src="{{ site.url }}/{{ site.ins_logo }}" />
             {% endif %}
             <a id="author-name" class="alignable pull-left" href="{{ site.url }}">{{ site.title }}</a>
             <ul id="navlist" class="alignable pull-right navbar-ul">
