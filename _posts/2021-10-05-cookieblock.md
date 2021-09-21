@@ -84,39 +84,39 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
 
 ### Q&A
 
-**Q:** Is CookieBlock collecting any information from my browser?
+* **Q:** Is CookieBlock collecting any information from my browser?
 
-**A:** No, all classification and enforcement happen on the client-side. We also do **not** collect any scientific data, and we adhere to GDPR. If you want to provide us feedback, please fill out the [feedback form](https://forms.gle/tL21ruvPZq2q218P8) or leave a review in the extension store or send us an email. If you observe a malfunctioning website, send us an email to <cookie.block.extension@gmail.com>, fill an [issue on GitHub](https://github.com/dibollinger/CookieBlock/issues), or make a pull-request with updated [`known_cookies.json`](https://github.com/dibollinger/CookieBlock/blob/main/src/ext_data/known_cookies.json).
-
-
-**Q:** CookieBlock breaks website xyz.com. What should I do?
-
-**A:** Easiest solution is to "Add this site as an exception" in the CookieBlock popup. If the website does not start working immediately, you might need to clear cookies for the website. If even this does not help, you can "Pause cookie removal." No matter what technique you use, let us know about your issues by email to <cookie.block.extension@gmail.com> or an [issue on GitHub](https://github.com/dibollinger/CookieBlock/issues).
+  **A:** No, all classification and enforcement happen on the client-side. We also do **not** collect any scientific data, and we adhere to GDPR. If you want to provide us feedback, please fill out the [feedback form](https://forms.gle/tL21ruvPZq2q218P8) or leave a review in the extension store or send us an email. If you observe a malfunctioning website, send us an email to <cookie.block.extension@gmail.com>, fill an [issue on GitHub](https://github.com/dibollinger/CookieBlock/issues), or make a pull-request with updated [`known_cookies.json`](https://github.com/dibollinger/CookieBlock/blob/main/src/ext_data/known_cookies.json).
 
 
-**Q:** Does CookieBlock work outside of the EU?
+* **Q:** CookieBlock breaks website xyz.com. What should I do?
 
-**A:** Yes, despite the fact that other countries do not have as advanced privacy regulations as the EU, the classification model works independently of your location. For websites other than in English, the model can have slightly reduced performance, as it cannot extract all meaningful features about the cookie content. However, the most useful features for the classification are language agnostic, so this might have only a minor impact.
-
-
-**Q:** Can I use CookieBlock together with other extensions?
-
-**A:** Yes, we are not aware of any incompatibility with extensions such as uBlock Origin, AdBlock, Ghostery, Privacy Badger, Consent-O-Matic, or I don't care about cookies.
+  **A:** Easiest solution is to "Add this site as an exception" in the CookieBlock popup. If the website does not start working immediately, you might need to clear cookies for the website. If even this does not help, you can "Pause cookie removal." No matter what technique you use, let us know about your issues by email to <cookie.block.extension@gmail.com> or an [issue on GitHub](https://github.com/dibollinger/CookieBlock/issues).
 
 
-**Q:** CookieBlock does not remove the cookie banners. How do I get rid of them?
+* **Q:** Does CookieBlock work outside of the EU?
 
-**A:** We want to keep our extension as simple as possible and with only the purpose of removing the cookies. Recommended extensions that remove the popups are: [Consent-O-Matic](https://github.com/cavi-au/Consent-O-Matic), [I don't care about cookies](https://www.i-dont-care-about-cookies.eu/), or [uBlock Origin](https://ublockorigin.com/) with Annoyances filters (e.g., EasyList Cookie).
-
-
-**Q:** My website is in the published dataset, and according to it, it contains violations. Can you redact it?
-
-**A:** While some of the violation detection methods can produce false positives, given the vast non-compliance, it is likely that your website does violate some of the consent requirements. We also appreciate your effort, given that your website at least uses a CMP giving user choices, which is better than 96% of the Internet. You can contact the CMP or the web developer to inspect what can be improved. Anyway, you can contact us at <cookie.block.extension@gmail.com>, and we can figure out the removal from the dataset.
+  **A:** Yes, despite the fact that other countries do not have as advanced privacy regulations as the EU, the classification model works independently of your location. For websites other than in English, the model can have slightly reduced performance, as it cannot extract all meaningful features about the cookie content. However, the most useful features for the classification are language agnostic, so this might have only a minor impact.
 
 
-**Q:** How severe are the detected violations?
+* **Q:** Can I use CookieBlock together with other extensions?
 
-**A:** While we refer to the violations as *potential*, we do so as only a judicial ruling can provide the legal certainty as to whether they are true legal violations. All of the violations imply that the user consents to incorrect information, and it requires an individual inspection to declare them as neglect or malice. However, severe violations as marking Google Analytics cookies as necessary or unclassified or even omitting to declare them forces users to accept them. In such a case, the website might do even worse than the website without a cookie banner, as it gives users a false impression of choice.
+  **A:** Yes, we are not aware of any incompatibility with extensions such as uBlock Origin, AdBlock, Ghostery, Privacy Badger, Consent-O-Matic, or I don't care about cookies.
+
+
+* **Q:** CookieBlock does not remove the cookie banners. How do I get rid of them?
+
+  **A:** We want to keep our extension as simple as possible and with only the purpose of removing the cookies. Recommended extensions that remove the popups are: [Consent-O-Matic](https://github.com/cavi-au/Consent-O-Matic), [I don't care about cookies](https://www.i-dont-care-about-cookies.eu/), or [uBlock Origin](https://ublockorigin.com/) with Annoyances filters (e.g., EasyList Cookie).
+
+
+* **Q:** My website is in the published dataset, and according to it, it contains violations. Can you redact it?
+
+  **A:** While some of the violation detection methods can produce false positives, given the vast non-compliance, it is likely that your website does violate some of the consent requirements. We also appreciate your effort, given that your website at least uses a CMP giving user choices, which is better than 96% of the Internet. You can contact the CMP or the web developer to inspect what can be improved. Anyway, you can contact us at <cookie.block.extension@gmail.com>, and we can figure out the removal from the dataset.
+
+
+* **Q:** How severe are the detected violations?
+
+  **A:** While we refer to the violations as *potential*, we do so as only a judicial ruling can provide the legal certainty as to whether they are true legal violations. All of the violations imply that the user consents to incorrect information, and it requires an individual inspection to declare them as neglect or malice. However, severe violations as marking Google Analytics cookies as necessary or unclassified or even omitting to declare them forces users to accept them. In such a case, the website might do even worse than the website without a cookie banner, as it gives users a false impression of choice.
 
 
 ### Updates
