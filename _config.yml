@@ -24,4 +24,4 @@ nav:
 
 collections:
   posts:
-    permalink: none
+    permalink: /post/:title:output_ext
