@@ -22,4 +22,6 @@ nav:
  - name: "Contact"
    link: "contact"
 
-permalink: none
+collections:
+  posts:
+    permalink: none
