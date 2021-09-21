@@ -67,8 +67,12 @@ In order to train a model for cookie purpose classification, we collected a data
 To classify cookies, CookieBlock uses an ensemble of decision trees model, which is trained using the XGBoost library. We evaluate the model by comparing its performance to that of the [Cookiepedia repository](https://cookiepedia.co.uk/). Cookiepedia assigns purposes to cookies based on their name, and was constructed manually over a span of 10 years by human operators. We query this repository for purpose predictions and compare the results to the ground truth. In summary, we find that Cookiepedia achieves a balanced accuracy of 84.7%, while our XGBoost model achieves 84.4%. As such, our model is competitive with human expertise, showing that it is possible to automatically classify cookies by purpose using only the information available in the cookies themselves.
 
 <p float="left">
-  <img src="https://karelkubicek.github.io/assets/images/cookieblock_paper/cookiepedia_perf.png" width="50" alt="Cookiepedia performance"/>
-  <img src="https://karelkubicek.github.io/assets/images/cookieblock_paper/xgboost_perf.png" width="50" alt="Our XGBoost model performance"/>
+  <div style="float:left;">
+    <img src="https://karelkubicek.github.io/assets/images/cookieblock_paper/cookiepedia_perf.png" width="50" alt="Cookiepedia performance"/>
+  </div>
+  <div style="float:left;">
+    <img src="https://karelkubicek.github.io/assets/images/cookieblock_paper/xgboost_perf.png" width="50" alt="Our XGBoost model performance"/>
+  </div>
 </p>
 
 ![Confusion matrices](https://karelkubicek.github.io/assets/images/cookieblock_paper/conf_matrices.png)
