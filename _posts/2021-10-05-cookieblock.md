@@ -7,6 +7,7 @@ We address this issue by giving users the power to protect their privacy. We dev
 authors: Dino Bollinger, Karel Kubicek, Carlos Cotrini, David Basin
 publisher: To appear in The 31st USENIX Security Symposium (UsenixSec'2022), USENIX, 2022.
 categories: cookies CMP GDPR privacy
+keywords: cookies, CMP, GDPR, privacy
 ---
 
 # Automating Cookie Consent and GDPR Violation Detection

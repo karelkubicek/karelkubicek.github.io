@@ -43,7 +43,7 @@
         <link rel="author" href="https://twitter.com/{{ site.twitter_username }}">
     {% endif %}
     <!-- Facebook Open Graph -->
-    <meta name="og:description" content="{{ desc }}">
+    <meta name="og:description" content="{{ site.title }}">
     <meta name="og:title" content="{{ site.title }}">
     <meta name="og:url" content="{{ url }}">
     <meta name="og:type" content="article">
@@ -56,7 +56,7 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{ site.title }}">
-    <meta name="twitter:description" content="{{ desc }}">
+    <meta name="twitter:description" content="{{ site.title }}">
     <meta name="twitter:url" content="{{ url }}">
     {% if site.twitter_image %}
         <meta name="twitter:image" content="{{ site.twitter_image }}">
