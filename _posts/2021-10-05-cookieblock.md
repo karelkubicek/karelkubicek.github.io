@@ -86,7 +86,7 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
 
 * **Q:** Is CookieBlock collecting any information from my browser?
 
-  **A:** No, all classification and enforcement happen on the client-side. We also do **not** collect any scientific data, and we adhere to GDPR. If you want to provide us feedback, please fill out the [feedback form](https://forms.gle/tL21ruvPZq2q218P8) or leave a review in the extension store or send us an email. If you observe a malfunctioning website, send us an email to <cookie.block.extension@gmail.com>, fill an [issue on GitHub](https://github.com/dibollinger/CookieBlock/issues), or make a pull-request with updated [`known_cookies.json`](https://github.com/dibollinger/CookieBlock/blob/main/src/ext_data/known_cookies.json).
+  **A:** No, all classification and enforcement happen on the client-side. We also do **not** collect any scientific data, and we adhere to the GDPR. If you want to provide us feedback, please fill out the [feedback form](https://forms.gle/tL21ruvPZq2q218P8) or leave a review in the extension store or send us an email. If you observe a malfunctioning website, send us an email to <cookie.block.extension@gmail.com>, fill an [issue on GitHub](https://github.com/dibollinger/CookieBlock/issues), or make a pull-request with updated [`known_cookies.json`](https://github.com/dibollinger/CookieBlock/blob/main/src/ext_data/known_cookies.json).
 
 
 * **Q:** CookieBlock breaks website xyz.com. What should I do?
