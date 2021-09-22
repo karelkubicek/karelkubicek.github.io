@@ -30,7 +30,7 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 
 ### Currently Open Topics
 
-*I am currently unavailable to supervise more students. Earliest possible starting date is Autumn 2021.*
+*I am currently unavailable to supervise more students. Earliest possible starting date is late Spring 2022.*
 
 * Where do spammers get my email address? Honey-potting contact on websites and Android apps.
 * ML-based trackers blocking.
