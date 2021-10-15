@@ -3,7 +3,7 @@ layout: post
 title: "Automating Cookie Consent and GDPR Violation Detection"
 abstract: "The European Union's General Data Protection Regulation (GDPR) requires websites to inform users about personal data collection and request consent for cookies. Yet the majority of websites do not give users any choices, and others attempt to deceive them into accepting all cookies. We document the severity of this situation through an analysis of potential GDPR violations in cookie banners in almost 30k websites. We identify six novel violation types, such as incorrect category assignments and misleading expiration times, and we find at least one potential violation in a surprising 94.7% of the analyzed websites.
 
-We address this issue by giving users the power to protect their privacy. We develop a browser extension that uses machine learning to enforce GDPR cookie consent at the client. It automatically categorizes cookies by usage purpose using only the information provided in the cookie itself. At a mean validation accuracy of 84.4%, our model attains a prediction quality competitive with expert knowledge in the field. Additionally, our approach differs from prior work by not relying on the cooperation of websites themselves. We empirically evaluate `CookieBlock` on a set of 100 randomly sampled websites, on which it filters roughly 90% of the privacy-invasive cookies without significantly impairing website functionality."
+We address this issue by giving users the power to protect their privacy. We develop a browser extension, called CookieBlock, that uses machine learning to enforce GDPR cookie consent at the client. It automatically categorizes cookies by usage purpose using only the information provided in the cookie itself. At a mean validation accuracy of 84.4%, our model attains a prediction quality competitive with expert knowledge in the field. Additionally, our approach differs from prior work by not relying on the cooperation of websites themselves. We empirically evaluate CookieBlock on a set of 100 randomly sampled websites, on which it filters roughly 90% of the privacy-invasive cookies without significantly impairing website functionality."
 authors: Dino Bollinger, Karel Kubicek, Carlos Cotrini, David Basin
 publisher: To appear in The 31st USENIX Security Symposium (UsenixSec'2022), USENIX, 2022.
 categories: cookies CMP GDPR privacy
@@ -14,16 +14,17 @@ keywords: cookies, CMP, GDPR, privacy
 
 **Authors: Dino Bollinger, Karel Kubicek <karel.kubicek@inf.ethz.ch>, Carlos Cotrini, David Basin**
 
-**Abstract:** *The European Union's General Data Protection Regulation (GDPR) requires websites to inform users about personal data collection and request consent for cookies. Yet the majority of websites do not give users any choices, and others attempt to deceive them into accepting all cookies. We document the severity of this situation through an analysis of potential GDPR violations in cookie banners in almost 30k websites. We identify six novel violation types, such as incorrect category assignments and misleading expiration times, and we find at least one potential violation in a surprising 94.7% of the analyzed websites.*
+**Abstract:** *The European Union's General Data Protection Regulation (GDPR) requires websites to inform users about personal data collection and request consent for cookies. Yet the majority of websites do not give users any choices, and others attempt to deceive them into accepting all cookies.
+We document the severity of this situation through an analysis of potential GDPR violations in cookie banners in almost 30k websites. We identify six novel violation types, such as incorrect category assignments and misleading expiration times, and we find at least one potential violation in a surprising 94.7% of the analyzed websites.*
 
-*We address this issue by giving users the power to protect their privacy. We develop a browser extension that uses machine learning to enforce GDPR cookie consent at the client. It automatically categorizes cookies by usage purpose using only the information provided in the cookie itself. At a mean validation accuracy of 84.4%, our model attains a prediction quality competitive with expert knowledge in the field. Additionally, our approach differs from prior work by not relying on the cooperation of websites themselves. We empirically evaluate `CookieBlock` on a set of 100 randomly sampled websites, on which it filters roughly 90% of the privacy-invasive cookies without significantly impairing website functionality.*
+*We address this issue by giving users the power to protect their privacy. We develop a browser extension, called CookieBlock, that uses machine learning to enforce GDPR cookie consent at the client. It automatically categorizes cookies by usage purpose using only the information provided in the cookie itself. At a mean validation accuracy of 84.4%, our model attains a prediction quality competitive with expert knowledge in the field. Additionally, our approach differs from prior work by not relying on the cooperation of websites themselves. We empirically evaluate CookieBlock on a set of 100 randomly sampled websites, on which it filters roughly 90% of the privacy-invasive cookies without significantly impairing website functionality.*
 
 * Conference page: [Usenix Security 2022](https://www.usenix.org/conference/usenixsecurity22)
 * Download author pre-print of the paper: [PDF](https://karelkubicek.github.io/assets/pdf/Automating_Cookie_Consent_and_GDPR_Violation_Detection.pdf)
 * Download extended version of paper (Dino Bollinger's Master's thesis): [PDF](https://karelkubicek.github.io/assets/pdf/Dino_Bollinger_Analyzing_Cookies_Compliance_with_the_GDPR.pdf)
 * Download presentation: TBA
 * See full conference talk: TBA
-* Download datasets, [crawler](https://github.com/dibollinger/CookieBlock-Consent-Crawler), [classifier](https://github.com/dibollinger/CookieBlock-Consent-Classifier), and [violation detection scripts](https://github.com/dibollinger/CookieBlock-Violation-Detection)
+* Download [datasets](https://zenodo.org/record/5568491), [crawler](https://github.com/dibollinger/CookieBlock-Consent-Crawler), [classifier](https://github.com/dibollinger/CookieBlock-Consent-Classifier), and [violation detection scripts](https://github.com/dibollinger/CookieBlock-Violation-Detection)
 * Try our extension CookieBlock: [Chrome](https://chrome.google.com/webstore/detail/cookieblock/fbhiolckidkciamgcobkokpelckgnnol), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cookieblock/), [Edge](https://microsoftedge.microsoft.com/addons/detail/cookieblock/mnfolmjlccppcgdeinhidialajfiopcc), [Opera](https://addons.opera.com/en/extensions/details/cookieblock/), or check out the [source code](https://github.com/dibollinger/CookieBlock)
 * Give us [feedback on the extension](https://forms.gle/tL21ruvPZq2q218P8)
 
@@ -87,7 +88,7 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
 
 * **Q:** Is CookieBlock collecting any information from my browser?
 
-  **A:** No, all classification and enforcement happen on the client-side. We also do **not** collect any scientific data, and we adhere to the GDPR. If you want to provide us feedback, please fill out the [feedback form](https://forms.gle/tL21ruvPZq2q218P8) or leave a review in the extension store or send us an email. If you observe a malfunctioning website, send us an email to <cookie.block.extension@gmail.com>, fill an [issue on GitHub](https://github.com/dibollinger/CookieBlock/issues), or make a pull-request with updated [`known_cookies.json`](https://github.com/dibollinger/CookieBlock/blob/main/src/ext_data/known_cookies.json).
+  **A:** No, all classification and enforcement happen on the client-side. We also do **not** collect any scientific data, and we adhere to the GDPR. If you want to provide us feedback, please fill out the [feedback form](https://forms.gle/tL21ruvPZq2q218P8), or leave a review in the extension store or send us an email. If you observe a malfunctioning website, send us an email to <cookie.block.extension@gmail.com>, fill an [issue on GitHub](https://github.com/dibollinger/CookieBlock/issues), or make a pull-request with updated [`known_cookies.json`](https://github.com/dibollinger/CookieBlock/blob/main/src/ext_data/known_cookies.json).
 
 
 * **Q:** CookieBlock breaks website xyz.com. What should I do?
@@ -122,6 +123,5 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
 
 ### Updates
 
-*September 21, 2021:* The initial version of this page.
-
-*October 5, 2021:* TBA (deadline for the camera-ready paper version).
+* *October 15, 2021:* Camera-ready paper version.
+* *September 21, 2021:* The initial version of this page.
