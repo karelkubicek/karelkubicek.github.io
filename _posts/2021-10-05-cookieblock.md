@@ -33,12 +33,12 @@ We document the severity of this situation through an analysis of potential GDPR
 ```latex
 @inproceedings{bollinger2022automating,
    author = {Dino Bollinger \and Karel Kubicek \and Carlos Cotrini \and David Basin},
-   title = {Automating Cookie Consent and GDPR Violation Detection},
-   booktitle = {The 31st USENIX Security Symposium (UsenixSec'2022)},
+   title = {Automating Cookie Consent and {GDPR} Violation Detection},
+   booktitle = {The 31st {USENIX} Security Symposium (UsenixSec'2022)},
    year = {2022},
    pages = {TBA},
    isbn = {TBA},
-   publisher = {USENIX}
+   publisher = {{USENIX} Association},
  }
 ```
 
