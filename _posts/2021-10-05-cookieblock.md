@@ -19,12 +19,13 @@ We document the severity of this situation through an analysis of potential GDPR
 
 *We address this issue by giving users the power to protect their privacy. We develop a browser extension, called CookieBlock, that uses machine learning to enforce GDPR cookie consent at the client. It automatically categorizes cookies by usage purpose using only the information provided in the cookie itself. At a mean validation accuracy of 84.4%, our model attains a prediction quality competitive with expert knowledge in the field. Additionally, our approach differs from prior work by not relying on the cooperation of websites themselves. We empirically evaluate CookieBlock on a set of 100 randomly sampled websites, on which it filters roughly 90% of the privacy-invasive cookies without significantly impairing website functionality.*
 
-* Conference page: [Usenix Security 2022](https://www.usenix.org/conference/usenixsecurity22)
-* Download author pre-print of the paper: [PDF](https://karelkubicek.github.io/assets/pdf/Automating_Cookie_Consent_and_GDPR_Violation_Detection.pdf)
+* Conference page: [Usenix Security 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/bollinger)
+* Download author pre-print of the paper: [PDF](https://www.usenix.org/system/files/sec22summer_bollinger.pdf)
 * Download extended version of paper (Dino Bollinger's Master's thesis): [PDF](https://karelkubicek.github.io/assets/pdf/Dino_Bollinger_Analyzing_Cookies_Compliance_with_the_GDPR.pdf)
 * Download presentation: TBA
 * See full conference talk: TBA
 * Download [datasets](https://zenodo.org/record/5568491), [crawler](https://github.com/dibollinger/CookieBlock-Consent-Crawler), [classifier](https://github.com/dibollinger/CookieBlock-Consent-Classifier), and [violation detection scripts](https://github.com/dibollinger/CookieBlock-Violation-Detection)
+* Test your website for violations: TBA
 * Try our extension CookieBlock: [Chrome](https://chrome.google.com/webstore/detail/cookieblock/fbhiolckidkciamgcobkokpelckgnnol), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cookieblock/), [Edge](https://microsoftedge.microsoft.com/addons/detail/cookieblock/mnfolmjlccppcgdeinhidialajfiopcc), [Opera](https://addons.opera.com/en/extensions/details/cookieblock/), or check out the [source code](https://github.com/dibollinger/CookieBlock)
 * Give us [feedback on the extension](https://forms.gle/tL21ruvPZq2q218P8)
 
@@ -32,14 +33,17 @@ We document the severity of this situation through an analysis of potential GDPR
 
 ```latex
 @inproceedings{bollinger2022automating,
-   author = {Dino Bollinger \and Karel Kubicek \and Carlos Cotrini \and David Basin},
-   title = {Automating Cookie Consent and {GDPR} Violation Detection},
-   booktitle = {The 31st {USENIX} Security Symposium (UsenixSec'2022)},
-   year = {2022},
-   pages = {TBA},
-   isbn = {TBA},
-   publisher = {{USENIX} Association},
- }
+  author = {Dino Bollinger and Karel Kubicek and Carlos Cotrini and David Basin},
+  title = {Automating Cookie Consent and {GDPR} Violation Detection},
+  booktitle = {31st USENIX Security Symposium (USENIX Security 22)},
+  year = {2022},
+  month = aug,
+  pages = {TBA},
+  isbn = {TBA},
+  publisher = {USENIX Association},
+  url = {https://www.usenix.org/conference/usenixsecurity22/presentation/bollinger},
+  address = {Boston, MA},
+}
 ```
 
 ### Cookie consents are fundamentally broken
