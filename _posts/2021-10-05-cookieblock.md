@@ -127,5 +127,6 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
 
 ### Updates
 
+* *November 11, 2021:* Paper released by USENIX.
 * *October 15, 2021:* Camera-ready paper version.
 * *September 21, 2021:* The initial version of this page.
