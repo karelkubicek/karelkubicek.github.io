@@ -20,7 +20,7 @@ We document the severity of this situation through an analysis of potential GDPR
 *We address this issue by giving users the power to protect their privacy. We develop a browser extension, called CookieBlock, that uses machine learning to enforce GDPR cookie consent at the client. It automatically categorizes cookies by usage purpose using only the information provided in the cookie itself. At a mean validation accuracy of 84.4%, our model attains a prediction quality competitive with expert knowledge in the field. Additionally, our approach differs from prior work by not relying on the cooperation of websites themselves. We empirically evaluate CookieBlock on a set of 100 randomly sampled websites, on which it filters roughly 90% of the privacy-invasive cookies without significantly impairing website functionality.*
 
 * Conference page: [Usenix Security 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/bollinger)
-* Download author pre-print of the paper: [PDF](https://www.usenix.org/system/files/sec22summer_bollinger.pdf)
+* Download author pre-print of the paper: [PDF](https://karelkubicek.github.io/assets/pdf/Automating_Cookie_Consent_and_GDPR_Violation_Detection.pdf)
 * Download extended version of paper (Dino Bollinger's Master's thesis): [PDF](https://karelkubicek.github.io/assets/pdf/Dino_Bollinger_Analyzing_Cookies_Compliance_with_the_GDPR.pdf)
 * Download presentation: TBA
 * See full conference talk: TBA
@@ -127,6 +127,7 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
 
 ### Updates
 
+* *November 17, 2021:* We received all 3 artifact badges: Artifact Available, Artifact Functional, and Artifact Reproduced.
 * *November 11, 2021:* Paper released by USENIX.
 * *October 15, 2021:* Camera-ready paper version.
 * *September 21, 2021:* The initial version of this page.
