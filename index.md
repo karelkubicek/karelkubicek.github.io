@@ -30,8 +30,7 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 
 ### Currently Open Topics
 
-*I am currently unavailable to supervise more students. Earliest possible starting date is late Spring 2022.*
-
+* MSC thesis [Query Tool for Analyzing Privacy Changes of GitHub-Hosted OSS Projects](https://karelkubicek.github.io/assets/pdf/Thesis_proposal_Query_Tool_for_Analyzing_Privacy_Changes_of_GitHub_Hosted_OSS_Projects.pdf)
 * Where do spammers get my email address? Honey-potting contact on websites and Android apps.
 * ML-based trackers blocking.
 * Interested in privacy and ML? Let me know if you have another topic.
