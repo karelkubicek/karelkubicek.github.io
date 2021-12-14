@@ -125,6 +125,13 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
   **A:** While we refer to the violations as *potential*, we do so as only a judicial ruling can provide the legal certainty as to whether they are true legal violations. All of the violations imply that the user consents to incorrect information, and it requires an individual inspection to declare them as neglect or malice. However, severe violations as marking Google Analytics cookies as necessary or unclassified or even omitting to declare them forces users to accept them. In such a case, the website might do even worse than the website without a cookie banner, as it gives users a false impression of choice.
 
 
+### Acknowledgement
+
+The authors would like to thank:
+
+ * Midas Nouwens for discussion about the initial idea of the paper.
+ * Reviewers for their feedback.
+
 ### Updates
 
 * *November 17, 2021:* We received all 3 artifact badges: Artifact Available, Artifact Functional, and Artifact Reproduced.
