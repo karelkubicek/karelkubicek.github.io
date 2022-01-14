@@ -10,11 +10,23 @@ Hi! I am a computer science PhD candidate at ETH Zurich. My supervisor is [David
 
 ## Research Interest
 
-Web privacy: Internet develops fast, but the users' needs are overlooked, namely privacy. Regulations like the GDPR are trying to fix that, but their enforcement is lacking behind. I try to address this lack of enforcement by developing automated techniques for privacy compliance analysis, or by directly blocking web elements to preserve user privacy.
+Web privacy: Internet develops fast, but the user needs are overlooked, namely privacy. Regulations like the GDPR are trying to fix that, but their enforcement is lacking behind. I try to address this lack of enforcement by developing automated techniques for privacy compliance analysis, or by directly blocking web elements to protect users.
 
 Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I studied how statistical testing can automate analysis of cryptoprimitives.
 
 ## Publications
+
+* Checking Websites’ GDPR Consent Compliance for Marketing Emails
+  * *Karel Kubicek, Jakob Merane, [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), [Alexander Stremitzer](https://laweconbusiness.ethz.ch/group/professor/stremitzer.html), [Stefan Bechtold](https://lawecon.ethz.ch/group/professors/bechtold.html), and [David Basin](http://people.inf.ethz.ch/basin/)*
+  * PETS 2022.
+  * Keywords: marketing email, website registration, ePrivacy Directive, GDPR, consent, compliance, privacy.
+  * [PDF](https://karelkubicek.github.io/assets/pdf/Checking_Websites_GDPR_Consent_Compliance_for_Marketing_Emails.pdf), [paper website](https://karelkubicek.github.io/post/reg-pets)
+
+* Automating Cookie Consent and GDPR Violation Detection
+  * *Dino Bollinger, Karel Kubicek, [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), [David Basin](http://people.inf.ethz.ch/basin/)*
+  * USENIX Security 2022
+  * Keywords: GDPR, research, cookies, CMP, GDPR, privacy. 
+  * [PDF](https://karelkubicek.github.io/assets/pdf/Automating_Cookie_Consent_and_GDPR_Violation_Detection.pdf), [paper website](https://karelkubicek.github.io/post/cookieblock)
 
 * BoolTest: The Fast Randomness Testing Strategy Based on Boolean Functions with Application to DES, 3-DES, MD5, MD6 and SHA-256
   * *Marek Sys, Dusan Klinec, Karel Kubicek and [Petr Svenda](https://crocs.fi.muni.cz/people/svenda)*
