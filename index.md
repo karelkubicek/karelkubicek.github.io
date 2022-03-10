@@ -42,16 +42,23 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 
 ### Currently Open Topics
 
-* MSC thesis [Query Tool for Analyzing Privacy Changes of GitHub-Hosted OSS Projects](https://karelkubicek.github.io/assets/pdf/Thesis_proposal_Query_Tool_for_Analyzing_Privacy_Changes_of_GitHub_Hosted_OSS_Projects.pdf)
 * Where do spammers get my email address? Honey-potting contact on websites and Android apps.
 * ML-based trackers blocking.
 * Interested in privacy and ML? Let me know if you have another topic.
 
 ### Successful Students
 
+* Understanding GDPR compliance of tracking pixel declarations using privacy filter lists
+  * *Rita Ganz*, 2022
+  * Keywords: tracking pixels, GDPR compliance, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/535362)
+
+*  Designing a generic web forms crawler to enable legal compliance analysis of authentication sections
+  * *Luka Lodrant*, 2022
+  * Keywords: crawling, registration, GDPR compliance, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/534764)
+
 * Analyzing Cookies Compliance with the GDPR
   * *Dino Bollinger*, 2021
-  * Keywords: cookies, GDPR compliance, enforcement, [PDF](https://karelkubicek.github.io/assets/pdf/Dino_Bollinger_Analyzing_Cookies_Compliance_with_the_GDPR.pdf)
+  * Keywords: cookies, GDPR compliance, enforcement, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/477333)
 
 * Enforcement Bots: Nothing can block us! Automating website registration for GDPR compliance analysis
   * *Patrice Kast*, 2021
