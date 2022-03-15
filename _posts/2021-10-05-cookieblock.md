@@ -80,7 +80,7 @@ For cookie classification, CookieBlock uses an ensemble of decision trees model,
 
 We evaluate CookieBlock on a set of 100 websites to quantify the impact the extension has on the browsing experience. CookieBlock causes no issues on 85% of the sites, minor problems involving non-essential website functions on 8%, and more substantial defects on 7%. The latter involve the user's login status being lost due to the cookie removal. To resolve these problems, the user can selectively define website exemptions, and change the classification of cookies through CookieBlock's interface.
 
-![CookieBlock interface](https://lh3.googleusercontent.com/J8SsI8l8oYuu7ytw5WPhRQzBUWMea6vZAD1ekvHuBo8wlukOfT5nZVJuuFPeSQ9qbbdqPNV930Yc_VWrM0WrRsCqCw=w640-h400-e365-rj-sc0x00ffffff)
+![CookieBlock interface](https://karelkubicek.github.io/assets/images/cookieblock_paper/cookieblock.jpg)
 *CookieBlock interface consists of a simple popup and settings.*
 
 CookieBlock, the cookie purpose classification model, and the web crawler can help various parties:
