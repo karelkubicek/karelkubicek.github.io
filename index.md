@@ -48,6 +48,10 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 
 ### Successful Students
 
+* Analysing and exploiting Google’s FLoC advertising proposal
+  * *Florian Turati*, 2022
+  * Keywords: FLoC, cookie alternatives, LSH, SimHash [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/535362)
+
 * Understanding GDPR compliance of tracking pixel declarations using privacy filter lists
   * *Rita Ganz*, 2022
   * Keywords: tracking pixels, GDPR compliance, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/535362)
