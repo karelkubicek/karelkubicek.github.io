@@ -101,14 +101,24 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
   **A:** Easiest solution is to "Add this site as an exception" in the CookieBlock popup. If the website does not start working immediately, you might need to clear cookies for the website. If even this does not help, you can "Pause cookie removal." No matter what technique you use, let us know about your issues by email to <cookie.block.extension@gmail.com> or an [issue on GitHub](https://github.com/dibollinger/CookieBlock/issues).
 
 
+* **Q:** What is the recommended settings for CookieBlock?
+
+  **A:** We strongly suggest to accept also Functional cookies. These can provide customization of websites - setting the language, currency, dark mode, etc.
+
+
 * **Q:** Does CookieBlock work outside of the EU?
 
-  **A:** Yes, despite the fact that other countries do not have as advanced privacy regulations as the EU, the classification model works independently of your location. For websites other than in English, the model can have slightly reduced performance, as it cannot extract all meaningful features about the cookie content. However, the most useful features for the classification are language agnostic, so this might have only a minor impact.
+  **A:** Yes, despite the fact that other countries do not have as advanced privacy regulations as the EU, the classification model works independently of your location. For websites other than in English, the model can have slightly reduced performance, as it cannot extract all meaningful features about the cookie content. However, the most useful features for the classification are language agnostic, so this might have only a minor impact. Enjoy what is called Brussels effect.
 
 
 * **Q:** Can I use CookieBlock together with other extensions?
 
   **A:** Yes, we are not aware of any incompatibility with extensions such as uBlock Origin, AdBlock, Ghostery, Privacy Badger, Consent-O-Matic, or I don't care about cookies.
+
+
+* **Q:** When and how does CookieBlock remove cookies?
+
+  **A:** CookieBlock does not prevent websites to create cookies, it needs to observe their content to classify them. The cookies are removed immediately after creation and classification, how long this takes depends when the browser informs us about the event of cookie creation, but usually it is in about 15 ms.
 
 
 * **Q:** CookieBlock does not remove the cookie banners. How do I get rid of them?
