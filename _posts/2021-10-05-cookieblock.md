@@ -91,6 +91,10 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
 
 ### Q&A
 
+* **Q:** Will there be Safari version?
+
+  **A:** No, Safari does not support collecting information about cookies changes for their extensions. For those interested in technical details, they do not support any of these two methods for collecting cookie changes:  [cookies.onChanged](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/onChanged) and [change event of cookie store API](https://developer.mozilla.org/en-US/docs/Web/API/Cookie_Store_API).
+
 * **Q:** Is CookieBlock collecting any information from my browser?
 
   **A:** No, all classification and enforcement happen on the client-side. We also do **not** collect any scientific data, and we adhere to the GDPR. If you want to provide us feedback, please fill out the [feedback form](https://forms.gle/tL21ruvPZq2q218P8), or leave a review in the extension store or send us an email. If you observe a malfunctioning website, send us an email to <cookie.block.extension@gmail.com>, fill an [issue on GitHub](https://github.com/dibollinger/CookieBlock/issues), or make a pull-request with updated [`known_cookies.json`](https://github.com/dibollinger/CookieBlock/blob/main/src/ext_data/known_cookies.json).
@@ -101,9 +105,14 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
   **A:** Easiest solution is to "Add this site as an exception" in the CookieBlock popup. If the website does not start working immediately, you might need to clear cookies for the website. If even this does not help, you can "Pause cookie removal." No matter what technique you use, let us know about your issues by email to <cookie.block.extension@gmail.com> or an [issue on GitHub](https://github.com/dibollinger/CookieBlock/issues).
 
 
+* **Q:** CookieBlock breaks my website. How can I make my website compatible with CookieBlock?
+
+  **A:** You can try CookieBlock on your website and check whether the classification of cookies matches your expectations. Consider whether you are not overusing cookies to multiple purposes. If not, you can report the problems, or directly contribute to CookeiBlock (pull request on GitHub) with the exceptions.
+
+
 * **Q:** What is the recommended settings for CookieBlock?
 
-  **A:** We strongly suggest to accept also Functional cookies. These can provide customization of websites - setting the language, currency, dark mode, etc.
+  **A:** We strongly suggest to accept also Functionality cookies. These can provide customization of websites - setting the language, currency, dark mode, etc.
 
 
 * **Q:** Does CookieBlock work outside of the EU?
@@ -136,6 +145,11 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
   **A:** While we refer to the violations as *potential*, we do so as only a judicial ruling can provide the legal certainty as to whether they are true legal violations. All of the violations imply that the user consents to incorrect information, and it requires an individual inspection to declare them as neglect or malice. However, severe violations as marking Google Analytics cookies as necessary or unclassified or even omitting to declare them forces users to accept them. In such a case, the website might do even worse than the website without a cookie banner, as it gives users a false impression of choice.
 
 
+### Media
+
+* ETH news: [English](https://ethz.ch/en/news-and-events/eth-news/news/2022/03/automatically-filter-and-block-cookies.html) and [German](https://ethz.ch/de/news-und-veranstaltungen/eth-news/news/2022/03/cookies-automatisch-filtern-und-blockieren.html) version.
+
+
 ### Acknowledgement
 
 The authors would like to thank:
@@ -145,6 +159,7 @@ The authors would like to thank:
 
 ### Updates
 
+* *March 23, 2022:* More FAQ and media references.
 * *February 6, 2022:* Added slides from invited talk at EPFL.
 * *November 17, 2021:* We received all 3 artifact badges: Artifact Available, Artifact Functional, and Artifact Reproduced.
 * *November 11, 2021:* Paper released by USENIX.
