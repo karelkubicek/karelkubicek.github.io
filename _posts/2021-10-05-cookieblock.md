@@ -24,7 +24,7 @@ We document the severity of this situation through an analysis of potential GDPR
 * Download extended version of paper (Dino Bollinger's Master's thesis): [PDF](https://karelkubicek.github.io/assets/pdf/Dino_Bollinger_Analyzing_Cookies_Compliance_with_the_GDPR.pdf)
 * Download presentation: TBA
 * See full conference talk: TBA
-* Invited talk: [slides](https://docs.google.com/presentation/d/1lTB4G1D1bjY61SqNJ7uHuUgm3NFwxPVT18hUjyw70lk)
+* Invited talk: [slides](https://docs.google.com/presentation/d/1h20XaZVdNnGKOGhq_idP5gg_n-CYy-dwEApZpnl6J6s)
 * Download [datasets](https://zenodo.org/record/5568491), [crawler](https://github.com/dibollinger/CookieBlock-Consent-Crawler), [classifier](https://github.com/dibollinger/CookieBlock-Consent-Classifier), and [violation detection scripts](https://github.com/dibollinger/CookieBlock-Violation-Detection)
 * Test your website for violations: TBA
 * Try our extension CookieBlock: [Chrome](https://chrome.google.com/webstore/detail/cookieblock/fbhiolckidkciamgcobkokpelckgnnol), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cookieblock/), [Edge](https://microsoftedge.microsoft.com/addons/detail/cookieblock/mnfolmjlccppcgdeinhidialajfiopcc), [Opera](https://addons.opera.com/en/extensions/details/cookieblock/), or check out the [source code](https://github.com/dibollinger/CookieBlock)
@@ -89,7 +89,7 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
 * Regulatory authorities can inspect the website's compliance.
 * Privacy- and web-researchers can use the model to classify the cookie types in follow-up studies.
 
-### Q&A
+### Q&A for users
 
 * **Q:** Will there be Safari version?
 
@@ -103,11 +103,6 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
 * **Q:** CookieBlock breaks website xyz.com. What should I do?
 
   **A:** Easiest solution is to "Add this site as an exception" in the CookieBlock popup. If the website does not start working immediately, you might need to clear cookies for the website. If even this does not help, you can "Pause cookie removal." No matter what technique you use, let us know about your issues by email to <cookie.block.extension@gmail.com> or an [issue on GitHub](https://github.com/dibollinger/CookieBlock/issues).
-
-
-* **Q:** CookieBlock breaks my website. How can I make my website compatible with CookieBlock?
-
-  **A:** You can try CookieBlock on your website and check whether the classification of cookies matches your expectations. Consider whether you are not overusing cookies to multiple purposes. If not, you can report the problems, or directly contribute to CookeiBlock (pull request on GitHub) with the exceptions.
 
 
 * **Q:** What is the recommended settings for CookieBlock?
@@ -135,9 +130,25 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
   **A:** We want to keep our extension as simple as possible and with only the purpose of removing the cookies. Recommended extensions that remove the popups are: [Consent-O-Matic](https://github.com/cavi-au/Consent-O-Matic), [I don't care about cookies](https://www.i-dont-care-about-cookies.eu/), or [uBlock Origin](https://ublockorigin.com/) with Annoyances filters (e.g., EasyList Cookie).
 
 
+* **Q:** CookieBlock breaks Google services. What can I do?
+
+  **A:** We make sure that Google services work as they suppose to, but if you install CookieBlock to a profile with already some history, there can be an undefined state of your browser. Solution is to sign-out of your account and sign in again. If even that did not help, try removing cookies of your browser, fresh profile should work correctly.
+
+
+### Q&A for developers
+
+
+* **Q:** CookieBlock breaks my website. How can I make my website compatible with CookieBlock?
+
+  **A:** You can try CookieBlock on your website and check whether the classification of cookies matches your expectations. Consider whether you are not overusing cookies to multiple purposes. If not, you can report the problems, or directly contribute to CookeiBlock (pull request on GitHub) with the exceptions.
+
+
 * **Q:** My website is in the published dataset, and according to it, it contains violations. Can you redact it?
 
   **A:** While some of the violation detection methods can produce false positives, given the vast non-compliance, it is likely that your website does violate some of the consent requirements. We also appreciate your effort, given that your website at least uses a CMP giving user choices, which is better than 96% of the Internet. You can contact the CMP or the web developer to inspect what can be improved. Anyway, you can contact us at <cookie.block.extension@gmail.com>, and we can figure out the removal from the dataset.
+
+
+### Q&A for researchers/others
 
 
 * **Q:** How severe are the detected violations?
@@ -147,6 +158,7 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
 
 ### Media
 
+* NZZ am Sonntag: [German, paywall, contact us for full text](https://magazin.nzz.ch/nzz-am-sonntag/wissen/so-wird-der-browser-zum-datenschuetzer-ld.1677025)
 * ETH news: [English](https://ethz.ch/en/news-and-events/eth-news/news/2022/03/automatically-filter-and-block-cookies.html) and [German](https://ethz.ch/de/news-und-veranstaltungen/eth-news/news/2022/03/cookies-automatisch-filtern-und-blockieren.html) version.
 
 
