@@ -24,7 +24,7 @@ We document the severity of this situation through an analysis of potential GDPR
 * Download extended version of paper (Dino Bollinger's Master's thesis): [PDF](https://karelkubicek.github.io/assets/pdf/Dino_Bollinger_Analyzing_Cookies_Compliance_with_the_GDPR.pdf)
 * Download presentation: TBA
 * See full conference talk: TBA
-* Invited talk: [slides](https://docs.google.com/presentation/d/1h20XaZVdNnGKOGhq_idP5gg_n-CYy-dwEApZpnl6J6s)
+* Invited talk: [slides](https://docs.google.com/presentation/d/1h20XaZVdNnGKOGhq_idP5gg_n-CYy-dwEApZpnl6J6s/)
 * Download [datasets](https://zenodo.org/record/5568491), [crawler](https://github.com/dibollinger/CookieBlock-Consent-Crawler), [classifier](https://github.com/dibollinger/CookieBlock-Consent-Classifier), and [violation detection scripts](https://github.com/dibollinger/CookieBlock-Violation-Detection)
 * Test your website for violations: TBA
 * Try our extension CookieBlock: [Chrome](https://chrome.google.com/webstore/detail/cookieblock/fbhiolckidkciamgcobkokpelckgnnol), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cookieblock/), [Edge](https://microsoftedge.microsoft.com/addons/detail/cookieblock/mnfolmjlccppcgdeinhidialajfiopcc), [Opera](https://addons.opera.com/en/extensions/details/cookieblock/), or check out the [source code](https://github.com/dibollinger/CookieBlock)
