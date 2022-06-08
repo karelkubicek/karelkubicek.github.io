@@ -10,6 +10,8 @@ categories: cookies CMP GDPR privacy
 keywords: cookies, CMP, GDPR, privacy
 ---
 
+![CookieBlock interface](https://karelkubicek.github.io/assets/images/cookieblock_paper/banner.png)
+
 # Automating Cookie Consent and GDPR Violation Detection
 
 **Authors: Dino Bollinger, Karel Kubicek <karel.kubicek@inf.ethz.ch>, Carlos Cotrini, David Basin**
@@ -25,7 +27,7 @@ We document the severity of this situation through an analysis of potential GDPR
 * Download presentation: TBA
 * See full conference talk: TBA
 * Invited talk: [slides](https://docs.google.com/presentation/d/1h20XaZVdNnGKOGhq_idP5gg_n-CYy-dwEApZpnl6J6s/)
-* Download [datasets](https://zenodo.org/record/5568491), [crawler](https://github.com/dibollinger/CookieBlock-Consent-Crawler), [classifier](https://github.com/dibollinger/CookieBlock-Consent-Classifier), and [violation detection scripts](https://github.com/dibollinger/CookieBlock-Violation-Detection)
+* Download [datasets](https://zenodo.org/record/5838646), [crawler](https://github.com/dibollinger/CookieBlock-Consent-Crawler), [classifier](https://github.com/dibollinger/CookieBlock-Consent-Classifier), and [violation detection scripts](https://github.com/dibollinger/CookieBlock-Violation-Detection)
 * Test your website for violations: TBA
 * Try our extension CookieBlock: [Chrome](https://chrome.google.com/webstore/detail/cookieblock/fbhiolckidkciamgcobkokpelckgnnol), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cookieblock/), [Edge](https://microsoftedge.microsoft.com/addons/detail/cookieblock/mnfolmjlccppcgdeinhidialajfiopcc), [Opera](https://addons.opera.com/en/extensions/details/cookieblock/), or check out the [source code](https://github.com/dibollinger/CookieBlock)
 * Give us [feedback on the extension](https://forms.gle/tL21ruvPZq2q218P8)
@@ -80,7 +82,7 @@ For cookie classification, CookieBlock uses an ensemble of decision trees model,
 
 We evaluate CookieBlock on a set of 100 websites to quantify the impact the extension has on the browsing experience. CookieBlock causes no issues on 85% of the sites, minor problems involving non-essential website functions on 8%, and more substantial defects on 7%. The latter involve the user's login status being lost due to the cookie removal. To resolve these problems, the user can selectively define website exemptions, and change the classification of cookies through CookieBlock's interface.
 
-![CookieBlock interface](https://karelkubicek.github.io/assets/images/cookieblock_paper/cookieblock.jpg)
+![CookieBlock interface](https://karelkubicek.github.io/assets/images/cookieblock_paper/cookieblock.png)
 *CookieBlock interface consists of a simple popup and settings.*
 
 CookieBlock, the cookie purpose classification model, and the web crawler can help various parties:
@@ -112,7 +114,9 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
 
 * **Q:** Does CookieBlock work outside of the EU?
 
-  **A:** Yes, despite the fact that other countries do not have as advanced privacy regulations as the EU, the classification model works independently of your location. For websites other than in English, the model can have slightly reduced performance, as it cannot extract all meaningful features about the cookie content. However, the most useful features for the classification are language agnostic, so this might have only a minor impact. Enjoy what is called Brussels effect.
+  **A:** Yes, despite the fact that other countries do not have as advanced privacy regulations as the EU, the classification model works independently of your location. Note that CookieBlock will not cause websites to start displaying popups, only the cookies are being filtered.
+
+  For websites other than in English, the model can have slightly reduced performance, as it cannot extract all meaningful features about the cookie content. However, the most useful features for the classification are language agnostic, so this might have only a minor impact. Enjoy what is called Brussels effect.
 
 
 * **Q:** Can I use CookieBlock together with other extensions?
@@ -171,6 +175,7 @@ The authors would like to thank:
 
 ### Updates
 
+* *June 8, 2022:* FAQ clarifications, artifacts link update, images improved.
 * *March 23, 2022:* More FAQ and media references.
 * *February 6, 2022:* Added slides from invited talk at EPFL.
 * *November 17, 2021:* We received all 3 artifact badges: Artifact Available, Artifact Functional, and Artifact Reproduced.
