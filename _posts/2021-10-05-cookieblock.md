@@ -26,7 +26,7 @@ We document the severity of this situation through an analysis of potential GDPR
 * Download extended version of paper (Dino Bollinger's Master's thesis): [PDF](https://karelkubicek.github.io/assets/pdf/Dino_Bollinger_Analyzing_Cookies_Compliance_with_the_GDPR.pdf)
 * Download presentation: TBA
 * See full conference talk: TBA
-* SOUPS poster **CookieBlock & CookieAudit: Fixing Cookie Consent with ML**: [pdf](https://karelkubicek.github.io/assets/pdf/CookieBlock_CookieAudit_Fixing_Cookie_Consent_with_ML.pdf) and [BibTeX](https://www.usenix.org/biblio/export/bibtex/282877)
+* SOUPS poster **CookieBlock & CookieAudit: Fixing Cookie Consent with ML**: [pdf](https://karelkubicek.github.io/assets/pdf/CookieBlock_CookieAudit_Fixing_Cookie_Consent_with_ML.pdf), [BibTeX](https://www.usenix.org/biblio/export/bibtex/282877), and [page](https://www.usenix.org/conference/soups2022/presentation/kubicek-poster).
 * Invited talk: [slides](https://docs.google.com/presentation/d/1h20XaZVdNnGKOGhq_idP5gg_n-CYy-dwEApZpnl6J6s/)
 * Download [datasets](https://zenodo.org/record/5838646), [crawler](https://github.com/dibollinger/CookieBlock-Consent-Crawler), [classifier](https://github.com/dibollinger/CookieBlock-Consent-Classifier), and [violation detection scripts](https://github.com/dibollinger/CookieBlock-Violation-Detection)
 * Test your website for violations: TBA
