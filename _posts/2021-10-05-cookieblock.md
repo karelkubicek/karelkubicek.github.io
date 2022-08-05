@@ -41,21 +41,22 @@ We document the severity of this situation through an analysis of potential GDPR
   booktitle = {31st USENIX Security Symposium (USENIX Security 22)},
   year = {2022},
   month = aug,
-  pages = {TBA},
-  isbn = {TBA},
+  pages = {2893--2910},
+  isbn = {978-1-939133-31-1},
   publisher = {USENIX Association},
   url = {https://www.usenix.org/conference/usenixsecurity22/presentation/bollinger},
   address = {Boston, MA},
 }
 ```
 
-### Cookie consents are fundamentally broken
+### Cookie consent is fundamentally broken
 
-Browser cookies are the most common method for tracking the session state of websites, as about 80-90% of websites use cookies for user tracking according to prior works. The EU government has attempted to address this through regulations mandating consent, namely by General Data Protection Regulation (*GDPR*) and the ePrivacy Directive.
+Browser cookies are one of the most commonly used methods for tracking the session state of websites, and for tracking the identity of visitors. According to prior studies, between 80-90% of websites use cookies for user tracking, often without their knowledge. The EU government has attempted to address this issue through regulations mandating consent for data collection, in particular through the General 
+Data Protection Regulation (*GDPR*) and the ePrivacy Directive.
 
-Despite the consent requirement, prior works showed that less than half of websites show a cookie banner, and those that show the consent still violate even basic rules. The majority of websites do not adhere to the opt-in requirement of the consent, and >10% store affirmative consent before any user action or store positive consent even though the user rejected cookies. Finally, more than half of the consent banners are designed to nudge users to accept all cookies.
+Despite these requirements, prior research has shown that less than half of all websites ask visitors for consent. Of the remaining websites, many violate even basic consent requirements. For instance, the majority of websites did not adhere to the opt-in requirement, and more than 10% stored affirmative consent before visitors could react to the consent notice. Some websites also stored affirmative consent despite explicit rejection, and many consent notices use dark patterns to nudge users into accepting all cookies.
 
-By our analysis, we confirm the lack of GDPR compliance by extending and improving upon past research. We analyze the accuracy of the information displayed on cookie banners using a dataset collected from almost 30k websites. Specifically, we identify incorrect category assignments, misleading cookie expiration times, and assess the overall completeness of the consent mechanism. We define six novel methods to detect potential GDPR violations and extend two methods used in prior works. Of the selected domains, we find that 94.7% contained at least one potential violation. In 36.4%, we found at least one cookie with an incorrectly assigned purpose, and in 85.8%, there was at least one cookie with a missing declaration or missing purpose. 69.7% of sites assumed positive consent before it is given, and 21.3% created cookies despite negative consent. Our results indicate that the problem is more severe than previously indicated.
+In our analysis, we confirm the lack of GDPR compliance by extending and improving upon past research. We analyze the accuracy of the information displayed on cookie banners using a dataset collected from almost 30k websites. Specifically, we identify incorrect category assignments, misleading cookie expiration times, and assess the overall completeness of the consent mechanism. We define six novel methods to detect potential GDPR violations and extend two methods used in prior works. Of the selected domains, we find that 94.7% contained at least one potential violation. In 36.4%, we found at least one cookie with an incorrectly assigned purpose, and in 85.8%, there was at least one cookie with a missing declaration or missing purpose. 69.7% of sites assumed positive consent before it is given, and 21.3% created cookies despite negative consent. Our results indicate that consent notices are less compliant than previous research indicated.
 
 ![Violation types](https://karelkubicek.github.io/assets/images/cookieblock_paper/violations_types.png)
 *The number of websites that show the respective type of violation. The first six are novel and have not been explored in prior work.*
@@ -63,22 +64,24 @@ By our analysis, we confirm the lack of GDPR compliance by extending and improvi
 We support the legal claims by referring to relevant sections of GPDR and ePrivacy Directive and [Planet49 case](https://europeanlawblog.eu/2019/10/08/planet49-cjeu-judgment-brings-some-cookie-consent-certainty-to-planet-online-tracking/) ruled by the EU Court of Justice.
 
 ![Histogram of violations](https://karelkubicek.github.io/assets/images/cookieblock_paper/violations_histogram.png)
-*This histogram shows the distribution of violation types per site, with the green bar representing the compliant websites. It does not include repetitions of a single type.*
+*This histogram shows the distribution of violation types per website, with the green bar representing the compliant ones. It does not include repetitions of a single type.*
 
 For the case of missing cookie declarations or purposes, we argue that the issues stem from neglect rather than malice. The cause is likely the lack of enforcement and web administrators who are not sufficiently familiar with the legal requirements. These violations can be addressed by providing regulatory authorities crawlers used in this study to improve enforcement of the GDPR. If you are a regulatory authority or any legal body interested in our work, please contact the authors.
 
 ### Client-side mitigation with extension CookieBlock
 
-According to evidence from prior works and our own measurements, cookie consent practices are so often in violation of the GDPR that regulatory authorities cannot hope to keep up. Therefore, we provide users with a tool to enforce cookie consent on their web clients without requiring regulations to be enforced. We develop the browser extension CookieBlock that classifies cookies by purpose, deleting those that the user rejects. In this way, the user can remove over 90% of all privacy-invasive cookies, without having to trust cookie banners. Previous attempts to provide users such control, like the P3P standard, failed due to a lack of willingness of website administrators to implement the functionality. We sidestep this problem by not relying on the cooperation of the websites at all.
+According to evidence from prior works and our own measurements, cookie consent practices are so often in violation of the GDPR that regulatory authorities cannot hope to keep up. Therefore, we provide users with a tool to enforce cookie consent on their web clients without requiring regulations to be enforced. We develop the browser extension CookieBlock, which classifies cookies by purpose, deleting those that the user rejects. In this way, the user can remove over 90% of all privacy-invasive cookies, without having to trust cookie banners. Previous attempts to provide users such control, like the P3P standard, failed due to a lack of willingness of website administrators to implement the functionality. We sidestep this problem by not relying on the cooperation of the websites at all.
 
-In order to train a model for cookie purpose classification, we collected a dataset of 304k labeled cookies from 30k websites using a consent management platform with cookie-to-purpose mapping. We then extract statistically-rich, domain-specific features from multiple attributes, including a name, domain, path, value, expiration timestamp, as well as flags such as the “HttpOnly,” “Secure,” “SameSite,” and “HostOnly” properties.
+In order to train the classifier model, we collected a dataset of approximately 304k cookies with purpose labels from 30k websites using selected Consent Management Platforms (CMP) to display the consent notice including cookie to purpose mapping. We retrieve the purposes the cookies are assigned to, and match these to the actual cookies that are created in the browser while visiting the website.
+
+From the collected cookies, we extract statistically-rich, domain-specific features for each cookie. These features are determined from multiple attributes, including the name, domain, path, value, expiration date, as well as flags such as the “HttpOnly,” “Secure,” “SameSite,” and “HostOnly” properties.
 
 For cookie classification, CookieBlock uses an ensemble of decision trees model, which is trained using the XGBoost library. We evaluate the model by comparing its performance to that of the [Cookiepedia repository](https://cookiepedia.co.uk/). Cookiepedia assigns purposes to cookies based on their name and was constructed manually for 10 years by human operators. We query this repository for purpose predictions and compare the results to the ground truth. In summary, we find that Cookiepedia achieves a balanced accuracy of 84.7%, while our XGBoost model achieves 84.4%. As such, our model is competitive with human expertise, showing that it is possible to automatically classify cookies by purpose using only the information available in the cookies themselves.
 
 ![Cookiepedia performance](https://karelkubicek.github.io/assets/images/cookieblock_paper/cookiepedia_perf.png){: style="float: left; width:50%"}![Our XGBoost model performance](https://karelkubicek.github.io/assets/images/cookieblock_paper/xgboost_perf.png){: style="float: left; width:50%"}
 
 ![Confusion matrices](https://karelkubicek.github.io/assets/images/cookieblock_paper/conf_matrices.png)
-*Performance comparison of our manually-labeled Cookiepedia to our automated XGBoost model, showing that our model is competitive with human expertise.*
+*Performance comparison of Cookiepedia to our automated XGBoost model, showing that our model is competitive with human expertise.*
 
 We evaluate CookieBlock on a set of 100 websites to quantify the impact the extension has on the browsing experience. CookieBlock causes no issues on 85% of the sites, minor problems involving non-essential website functions on 8%, and more substantial defects on 7%. The latter involve the user's login status being lost due to the cookie removal. To resolve these problems, the user can selectively define website exemptions, and change the classification of cookies through CookieBlock's interface.
 
@@ -95,26 +98,26 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
 
 * **Q:** Will there be Safari version?
 
-  **A:** No, Safari does not support collecting information about cookies changes for their extensions. For those interested in technical details, they do not support any of these two methods for collecting cookie changes:  [cookies.onChanged](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/onChanged) and [change event of cookie store API](https://developer.mozilla.org/en-US/docs/Web/API/Cookie_Store_API).
+  **A:** No, Safari lacks the necessary web extension APIs to intercept the creation of cookies in the browser. This is essential for gathering cookie data to predict a usage purpose, as well as to prevent undesired cookies from being stored in the browser. For those interested in technical details, they do not support any of these two methods for collecting cookie changes: [cookies.onChanged](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/onChanged) and [change event of cookie store API](https://developer.mozilla.org/en-US/docs/Web/API/Cookie_Store_API).
 
-* **Q:** Is CookieBlock collecting any information from my browser?
+* **Q:** Is CookieBlock collecting any information from my browser? Does it store this in a remote host?
 
-  **A:** No, all classification and enforcement happen on the client-side. We also do **not** collect any scientific data, and we adhere to the GDPR. If you want to provide us feedback, please fill out the [feedback form](https://forms.gle/tL21ruvPZq2q218P8), or leave a review in the extension store or send us an email. If you observe a malfunctioning website, send us an email to <cookie.block.extension@gmail.com>, fill an [issue on GitHub](https://github.com/dibollinger/CookieBlock/issues), or make a pull-request with updated [`known_cookies.json`](https://github.com/dibollinger/CookieBlock/blob/main/src/ext_data/known_cookies.json).
+  **A:** **No, the classification is done client-side.** User can allow collection of a local cookie history, this is only used locally for improving the classifier accuracy. The data never leaves the browser's storage, and we adhere to the requirements of the GDPR. If you want to provide us feedback, please fill out the [feedback form](https://forms.gle/tL21ruvPZq2q218P8), or leave a review in the extension store or send us an email. If you observe a malfunctioning website, send us an email to <cookie.block.extension@gmail.com>, fill an [issue on GitHub](https://github.com/dibollinger/CookieBlock/issues), or make a pull-request with updated [`known_cookies.json`](https://github.com/dibollinger/CookieBlock/blob/main/src/ext_data/known_cookies.json).
 
 
 * **Q:** CookieBlock breaks website xyz.com. What should I do?
 
-  **A:** Easiest solution is to "Add this site as an exception" in the CookieBlock popup. If the website does not start working immediately, you might need to clear cookies for the website. If even this does not help, you can "Pause cookie removal." No matter what technique you use, let us know about your issues by email to <cookie.block.extension@gmail.com> or an [issue on GitHub](https://github.com/dibollinger/CookieBlock/issues).
+  **A:** The easiest solution is to use the button “Add this site as an exception” in the CookieBlock popup. If the website does not start working immediately, you might need to clear cookies for the website. If even this does not help, you can also select “Pause cookie removal.” No matter which technique you use, let us know about your issues by email to <cookie.block.extension@gmail.com> or an [issue on GitHub](https://github.com/dibollinger/CookieBlock/issues).
 
 
 * **Q:** What is the recommended settings for CookieBlock?
 
-  **A:** We strongly suggest to accept also Functionality cookies. These can provide customization of websites - setting the language, currency, dark mode, etc.
+  **A:** The extension comes pre-installed with the recommended settings active. We recommend having Functionality cookies enabled to reduce potential website breakage. These types of cookies often enable the customization of websites without requiring to log in. Examples are, setting the language, enabling dark mode, etc. We also recommend to enable “Keep Track of Cookie History,” which improves classification and makes the extension more efficient.
 
 
 * **Q:** Does CookieBlock work outside of the EU?
 
-  **A:** Yes, despite the fact that other countries do not have as advanced privacy regulations as the EU, the classification model works independently of your location. Note that CookieBlock will not cause websites to start displaying popups, only the cookies are being filtered.
+  **A:** Yes, despite the fact that other countries do not have privacy regulations as advanced as the EU, the classification model works independently of your location. Note that CookieBlock will not cause websites to start displaying popups, only the cookies are being filtered.
 
   For websites other than in English, the model can have slightly reduced performance, as it cannot extract all meaningful features about the cookie content. However, the most useful features for the classification are language agnostic, so this might have only a minor impact. Enjoy what is called Brussels effect.
 
@@ -126,7 +129,7 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
 
 * **Q:** When and how does CookieBlock remove cookies?
 
-  **A:** CookieBlock does not prevent websites to create cookies, it needs to observe their content to classify them. The cookies are removed immediately after creation and classification, how long this takes depends when the browser informs us about the event of cookie creation, but usually it is in about 15 ms.
+  **A:** CookieBlock does not prevent websites to create cookies, as it needs to observe their content to classify them. The cookies are removed immediately after creation and classification. How long this takes depends when the browser informs us about the event of cookie creation, but usually it occurs after roughly 15 ms.
 
 
 * **Q:** CookieBlock does not remove the cookie banners. How do I get rid of them?
@@ -136,7 +139,7 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
 
 * **Q:** CookieBlock breaks Google services. What can I do?
 
-  **A:** We make sure that Google services work as they suppose to, but if you install CookieBlock to a profile with already some history, there can be an undefined state of your browser. Solution is to sign-out of your account and sign in again. If even that did not help, try removing cookies of your browser, fresh profile should work correctly.
+  **A:** We try to make sure that Google services work as they are supposed to, but if you install CookieBlock to a profile with already some history, some issues may still arise. One solution is to sign out of your account and sign in again. If even that did not help, try removing cookies of your browser, a fresh profile should work correctly.
 
 
 ### Q&A for developers
