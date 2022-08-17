@@ -24,9 +24,14 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 
 * Automating Cookie Consent and GDPR Violation Detection
   * *Dino Bollinger, Karel Kubicek, [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), [David Basin](http://people.inf.ethz.ch/basin/)*
-  * USENIX Security 2022
+  * USENIX Security 2022, best artifact award
   * Keywords: GDPR, research, cookies, CMP, GDPR, privacy. 
-  * [PDF](https://karelkubicek.github.io/assets/pdf/Automating_Cookie_Consent_and_GDPR_Violation_Detection.pdf), [paper website](https://karelkubicek.github.io/post/cookieblock)
+  * [PDF](https://karelkubicek.github.io/assets/pdf/Automating_Cookie_Consent_and_GDPR_Violation_Detection.pdf), [paper website](https://karelkubicek.github.io/post/cookieblock), also as [SOUPS poster](https://karelkubicek.github.io/assets/pdf/CookieBlock_CookieAudit_Fixing_Cookie_Consent_with_ML.pdf)
+
+* Large-scale Randomness Study of Security Margins for 100+ Cryptographic Functions
+  * *Dusan Klinec, Marek Sys, Karel Kubicek, Petr Svenda, Vashek Matyas*
+  * SECRYPT 2022-19th International Conference on Security and Cryptography
+  * Keywords: randomness, hypothesis, statistical testing, symmetric cryptoprimitives, [paper website](https://www.insticc.org/node/TechnicalProgram/SECRYPT/2022/presentationDetails/112676)
 
 * BoolTest: The Fast Randomness Testing Strategy Based on Boolean Functions with Application to DES, 3-DES, MD5, MD6 and SHA-256
   * *Marek Sys, Dusan Klinec, Karel Kubicek and [Petr Svenda](https://crocs.fi.muni.cz/people/svenda)*
@@ -46,7 +51,7 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 * ML-based trackers blocking.
 * Interested in privacy and ML? Let me know if you have another topic.
 
-### Successful Students
+### Supervised Students
 
 * Analysing and exploiting Google’s FLoC advertising proposal
   * *Florian Turati*, 2022
