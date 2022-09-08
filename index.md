@@ -31,7 +31,7 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 * Large-scale Randomness Study of Security Margins for 100+ Cryptographic Functions
   * *Dusan Klinec, Marek Sys, Karel Kubicek, Petr Svenda, Vashek Matyas*
   * SECRYPT 2022-19th International Conference on Security and Cryptography
-  * Keywords: randomness, hypothesis, statistical testing, symmetric cryptoprimitives, [paper website](https://www.insticc.org/node/TechnicalProgram/SECRYPT/2022/presentationDetails/112676)
+  * Keywords: randomness, hypothesis, statistical testing, symmetric cryptoprimitives, [PDF](https://karelkubicek.github.io/assets/pdf/Analyzing_security_margins_of_100_cryptographic_functions.pdf), [paper website](https://www.scitepress.org/PublicationsDetail.aspx?ID=iTqltaXgmDY=&t=1), [BiBTex](https://karelkubicek.github.io/assets/bib/sec-mar.bib)
 
 * BoolTest: The Fast Randomness Testing Strategy Based on Boolean Functions with Application to DES, 3-DES, MD5, MD6 and SHA-256
   * *Marek Sys, Dusan Klinec, Karel Kubicek and [Petr Svenda](https://crocs.fi.muni.cz/people/svenda)*
