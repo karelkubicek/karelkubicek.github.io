@@ -80,7 +80,7 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 
 ## Other Interests
 
-I write a [blog](https://bender250.github.io) about my outdoor activities, feel free to check it.
+I write a [blog](https://bender250.github.io) about my outdoor activities, feel free to check it. My girfriend writes about teaching kids outside in this [blog](https://sites.google.com/view/nature-exploration-with-nina/).
 
 ## Acknowledgment
 
