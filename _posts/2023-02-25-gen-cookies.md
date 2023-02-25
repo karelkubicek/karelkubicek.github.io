@@ -123,7 +123,6 @@ button:hover {
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
-  
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
@@ -144,7 +143,6 @@ button:hover {
   </span>
   
   <h1>We value your privacy</h1>
-  <!-- One "tab" for each step in the form: -->
   <div class="tab">
     <p>
       <span class="tooltip">
@@ -197,10 +195,8 @@ var currentTab = 0; // Current tab is set to be the first tab (0)
 showTab(currentTab); // Display the current tab
 
 function showTab(n) {
-  // This function will display the specified tab of the form...
   var x = document.getElementsByClassName("tab");
   x[n].style.display = "block";
-  //... and fix the Previous/Next buttons:
   if (n == 0) {
     document.getElementById("rejTool").style.display = "inline-block";
     document.getElementById("cloTool").style.display = "inline-block";
@@ -227,22 +223,10 @@ function showTab(n) {
 }
 
 function nextPrev(n, consent = "") {
-  // This function will figure out which tab to display
   var x = document.getElementsByClassName("tab");
-  // Exit the function if any field in the current tab is invalid:
-  //if (n == 1 && !validateForm()) return false;
-  // Hide the current tab:
   x[currentTab].style.display = "none";
-  // Increase or decrease the current tab by 1:
   currentTab = currentTab + n;
-  // if you have reached the end of the form...
-  //if (currentTab >= x.length) {
-  //  // ... the form gets submitted:
-  //  document.getElementById("regForm").submit();
-  //  return false;
-  //}
   document.getElementsByClassName("consentType")[0].innerHTML = consent;
-  // Otherwise, display the correct tab:
   showTab(currentTab);
 }
 </script>
@@ -277,7 +261,7 @@ We can parametrize website selection based on the country, popularity rank, and 
 * Popular websites have fewer **visible violations** such as missing notice, missing reject button, or undeclared purposes than less popular websites. Yet when it comes to how they **track users** the situation is opposite. Popular websites ignore rejected consent, assume consent before user interacts with the notice, or assume consent after user uses "close button" more often than less popular websites.
 * Sampling bias of prior studies, stemming from reliance to specific consent notice technologies, makes the majority of observed results vastly different from Chrome UX report sample. Specifically, websites using [Transparency & Consent Framework](https://iabeurope.eu/transparency-consent-framework/) studied by [Matte et al.](https://doi.org/10.1109/SP40000.2020.00076) are far more violating consent.
 
-![Violations per rank](https://karelkubicek.github.io/assets/images/gen-cookies/violations_bar_per_rank.svg){: style="float: left; width:50%"}![Violations bias comparison](https://karelkubicek.github.io/assets/images/gen-cookies/violations_bias.svg){: style="float: left;width:50%;"}
+![Violations per rank](https://karelkubicek.github.io/assets/images/gen-cookies/violations_bar_per_rank.svg){: style="float: left; width:50%"}![Violations bias comparison](https://karelkubicek.github.io/assets/images/gen-cookies/violations_bias.svg){: style="float: left;width:50%;margin-bottom:20px;margin-top:20px;"}
 *On the left, we present violations per rank from Chrome UX report. On the right, we compare our results with other studies and investigate, whether their website selection caused any bias.*
 
 
