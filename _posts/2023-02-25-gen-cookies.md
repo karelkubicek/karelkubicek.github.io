@@ -43,6 +43,8 @@ We then browse the website after different interaction with the notice: rejectin
 
 Using machine translation and multi-lingual models, we support websites in the following languages: Danish, Dutch, English, Finnish, French, German, Italian, Portuguese, Polish, Spanish, and Swedish.
 
+Below, we show you an example interactive cookie notice. All elements in blue dotted boxes contain description of how our ML models would classify them, which is available when you hover your mouse over them. You need JS to see the demo.
+
 <!-- interactive notice -->
 <dev>
 <style type="text/css" scoped>
@@ -296,9 +298,7 @@ We can parametrize website selection based on the country, popularity rank, and 
 
 The authors would like to thank:
 
- * [Hung Hoang](https://ch.linkedin.com/in/hung-hoang-5b253a9a) for his advice on integer programming, without him we would still be using naive heuristic by orders of magnitude slower.
- * [Matteo Scarlata](https://hjkl.space/) for his valuable feedback on the draft.
- * MinHash Hierarchy authors for providing us with the implementation of the MinHash signature  computation in their system.
+ * TBA
 
 ### Updates
 
