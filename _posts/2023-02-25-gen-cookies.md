@@ -30,23 +30,24 @@ TBA
 
 ### Motivation
 
-With ePrivacy Directive and GDPR, EU tried to address ubiquitous tracking on websites. Therefore are websites now asking for cosent with these practices, often framed as "cookie consent." As numerous prior studies, including our own [CookieBlock](https://karelkubicek.github.io/post/cookieblock), showed, these notices fail the task to inform users and even more in giving users choices.
+With the ePrivacy Directive and GDPR, the EU tried to address ubiquitous tracking on websites. Therefore are websites now asking for consent with these practices, often framed as "cookie consent." As numerous prior studies, including our own [CookieBlock](https://karelkubicek.github.io/post/cookieblock), showed, these notices fail the task to inform users and even more in giving users choices.
  <!-- This creates a false expectation of compliance while also harming web usability. -->
 
-These past studies are however significantly constrained, giving us biased measurements. Either they depend on specific technologies present in a subset of consent notice or they are manual and therefore cannot scale. Our work addresses these constrains.
+These past studies are however significantly constrained, giving us biased measurements. Either they depend on specific technologies present in a subset of consent notice or they are manual and therefore cannot scale. Our work addresses these constraints.
 
 ### Crawler interacting with notices
 
 The past automated studies relied on the API or cookies used by specific notices. We created a crawler that detects notices using a crowd-sourced [EasyList Cookie](https://secure.fanboy.co.nz/fanboy-cookiemonster.txt). Then it does not stop at the notice front page, but it navigates the notice as a graph using DFS, observing what interaction is available. This allows us to perceive the notices as users do, not as the API specifies them.
 
-We then browse the website after different interaction with the notice: rejecting or accepting the cookies, saving default settings, dismissing the notice with close button, or not interacting at all.
+We then browse the website after different interactions with the notice: rejecting or accepting the cookies, saving default settings, dismissing the notice with a close button, or not interacting at all.
 
-Using machine translation and multi-lingual models, we support websites in the following languages: Danish, Dutch, English, Finnish, French, German, Italian, Portuguese, Polish, Spanish, and Swedish.
+Using machine translation and multilingual models, we support websites in the following languages: Danish, Dutch, English, Finnish, French, German, Italian, Portuguese, Polish, Spanish, and Swedish.
 
-Below, we show you an example interactive cookie notice. All elements in blue dotted boxes contain description of how our ML models would classify them, which is available when you hover your mouse over them. You need JS to see the demo.
+
+*Below, we show you an example interactive cookie notice. All elements in blue dotted boxes contain descriptions of how our ML models would classify them, which is available when you hover your mouse over them. You need JS to see the demo.*
 
 <!-- interactive notice -->
-<dev>
+<div>
 <style type="text/css" scoped>
 * {
   box-sizing: border-box;
@@ -54,12 +55,12 @@ Below, we show you an example interactive cookie notice. All elements in blue do
 
 #regForm {
   background-color: #f7f7f7;
-  margin: 100px auto;
+  margin: 30px auto;
   font-family: Raleway;
   padding: 40px;
   padding-bottom: 80px;
   width: 40%;
-  min-width: 500px;
+  min-width: 520px;
 }
 
 h1 {
@@ -142,7 +143,7 @@ button:hover {
     <span class="tooltiptext">Interactive element prediction: close.</span>
   </span>
   
-  <h1>We value your privacy</h1>
+  <h1>Example cookie notice</h1>
   <div class="tab">
     <p>
       <span class="tooltip">
@@ -230,15 +231,15 @@ function nextPrev(n, consent = "") {
   showTab(currentTab);
 }
 </script>
-</dev>
+</div>
 
 ### ML and NLP models
 
-Crawler extracts the declared behavior by the notice, i.e., its the text and interaction choices, as well as the observed behavior, i.e., cookies that were used by the website depending on our notice interaction. We reason about the collected data using three ML models.
+Crawler extracts the declared behavior by the notice, i.e., its text and interaction choices, as well as the observed behavior, i.e., cookies that were used by the website depending on our notice interaction. We reason about the collected data using three ML models.
 
-* We predict the declared data collection purposes in the notice text using a BERT model. We trained this model using dataset by [Santos et al.](https://arxiv.org/abs/2110.02597), where we reduced labels to binary decision whether sentence declares data processing purpose that requires users' consent. This included the following purposes: profiling, advertising, custom content, analytics, and social media features. This model reaches 97.6% accuracy.
-* We predict purpose of interactive elements of the cookie notice using a BERT model trained on a dataset of 2353 interactive elements annotated in notices by us. The labels are accept, reject, close, save, settings, and other. This model achieves 95.1% accuracy.
-* We classify whether website uses cookies that require consent using an XGBoost model. This model is based on our prior [CookieBlock](https://karelkubicek.github.io/post/cookieblock) work, but it operates over all cookies of website, allowing us to classify when website uses such cookies with a precision of 98.67% and a recall of 91.82%.
+* We predict the declared data collection purposes in the notice text using a BERT model. We trained this model using the dataset by [Santos et al.](https://arxiv.org/abs/2110.02597), where we reduced labels to binary decision whether the sentence declares data processing purpose that requires users' consent. This included the following purposes: profiling, advertising, custom content, analytics, and social media features. This model reaches 97.6% accuracy.
+* We predict the purpose of interactive elements of the cookie notice using a BERT model trained on a dataset of 2353 interactive elements annotated in notices by us. The labels are accept, reject, close, save, settings, and other. This model achieves 95.1% accuracy.
+* We classify whether the website uses cookies that require consent using an XGBoost model. This model is based on our prior [CookieBlock](https://karelkubicek.github.io/post/cookieblock) work, but it operates over all cookies of website, allowing us to classify when website uses such cookies with a precision of 98.67% and a recall of 91.82%.
 
 <!-- ML perf? -->
 
@@ -246,24 +247,23 @@ Crawler extracts the declared behavior by the notice, i.e., its the text and int
 
 We select 35k websites for crawling using Chrome UX report. This list generalizes the real browsing patterns the best ([Ruth et al.](https://doi.org/10.1145/3517745.3561444)). Selecting EU (+UK) countries that speak one of the supported languages ensures that the websites target users under GDPR.
 
-The crawled data allows us to reason about differences between declared and observed behavior. The outputs of ML models are parameters for or decision tree, which outputs list ten privacy violations or dark patterns.
+The crawled data allows us to reason about differences between declared and observed behavior. The outputs of ML models are parameters for or decision tree, which outputs ten privacy violations or dark patterns.
 
 ![Decision tree for violations](https://karelkubicek.github.io/assets/images/gen-cookies/decision_violations.svg)
 *Decision tree that takes as input the classifications by our model and outputs all types of potential violations present on the website.*
 
 ![Decision tree dark patterns](https://karelkubicek.github.io/assets/images/gen-cookies/decision_darkpatterns.svg){: style="float: left; width:50%"}![Observed violations](https://karelkubicek.github.io/assets/images/gen-cookies/violations_bar.svg){: style="float: left;width:50%;"}
-*On the left, decision tree of dark patterns. On the right, observed statistics of potential violations and dark patterns.*
+*On the left, the decision tree of dark patterns. On the right, observed statistics of potential violations and dark patterns.*
 
 ### Selected results of specific populations
 
 We can parametrize website selection based on the country, popularity rank, and the consent notice technology the website uses. We list the most important observations, all of them are statistically significant:
 
-* Popular websites have fewer **visible violations** such as missing notice, missing reject button, or undeclared purposes than less popular websites. Yet when it comes to how they **track users** the situation is opposite. Popular websites ignore rejected consent, assume consent before user interacts with the notice, or assume consent after user uses "close button" more often than less popular websites.
-* Sampling bias of prior studies, stemming from reliance to specific consent notice technologies, makes the majority of observed results vastly different from Chrome UX report sample. Specifically, websites using [Transparency & Consent Framework](https://iabeurope.eu/transparency-consent-framework/) studied by [Matte et al.](https://doi.org/10.1109/SP40000.2020.00076) are far more violating consent.
+* Popular websites have fewer **visible violations** such as missing notice, missing reject button, or undeclared purposes than less popular websites. Yet when it comes to how they **track users** the situation is the opposite. Popular websites ignore rejected consent, assume consent before user interacts with the notice, or assume consent after user uses "close button" more often than less popular websites.
+* Sampling bias of prior studies, stemming from reliance on specific consent notice technologies, makes the majority of observed results vastly different from Chrome UX report sample. Specifically, websites using [Transparency & Consent Framework](https://iabeurope.eu/transparency-consent-framework/) studied by [Matte et al.](https://doi.org/10.1109/SP40000.2020.00076) are far more violating consent.
 
 ![Violations per rank](https://karelkubicek.github.io/assets/images/gen-cookies/violations_bar_per_rank.svg){: style="float: left; width:50%"}![Violations bias comparison](https://karelkubicek.github.io/assets/images/gen-cookies/violations_bias.svg){: style="float: left;width:50%;margin-bottom:20px;margin-top:20px;"}
-*On the left, we present violations per rank from Chrome UX report. On the right, we compare our results with other studies and investigate, whether their website selection caused any bias.*
-
+*On the left, we present violations per rank from the Chrome UX report. On the right, we compare our results with other studies and investigate whether their website selection caused any bias.*
 
 
 
@@ -271,19 +271,19 @@ We can parametrize website selection based on the country, popularity rank, and 
 
 * **Q:** How can I access the study results or code?
 
-  **A:** Since our work depends on ML, it can produce false positives. To reduce impact of false reporting of individual websites violating regulations, we restrict access upon request. Please fill [this form](TODO) to get access.
+  **A:** Since our work depends on ML, it can produce false positives. To reduce the impact of false reporting of individual websites violating regulations, we restrict access upon request. Please fill [this form](TODO) to get access.
 
-* **Q:** What is the probability that your violation decision tree produces false positive?
+* **Q:** What is the probability that your violation decision tree produces false positives?
 
-  **A:** We evaluated the process on 200 websites...
+  **A:** We tuned the models to be conservative, so they rather produce false negatives. Our evaluation on 200 random websites confirmed that the predictions behave according to our plan, for more details, check Section 7 of the paper.
 
 
 ### Acknowledgement
 
 The authors would like to thank:
 
- * TBA
+ * Nataliia Bielova and Vincent Toubiana from CNIl for their feedback on our project.
 
 ### Updates
 
-* *February 25, 2023:* The initial version of this page.
+* *February 27, 2023:* The initial version of this page.
