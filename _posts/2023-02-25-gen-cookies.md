@@ -20,7 +20,7 @@ keywords: cookies, CMP, GDPR, privacy
 
 * Download author pre-print of the paper: [PDF](todo)
 * Request access to source code and interactive results visualization: [Google form](todo)
-* Ahmed Bouhoula's MSc thesis about FLoC: [PDF](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/575741/BouhoulaAhmed.pdf?sequence=1&isAllowed=y)
+* Ahmed Bouhoula's MSc thesis: [PDF](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/575741/BouhoulaAhmed.pdf?sequence=1&isAllowed=y)
 
 ### BibTex
 
