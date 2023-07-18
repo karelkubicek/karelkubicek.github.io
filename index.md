@@ -63,7 +63,7 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
   * *Rita Ganz*, 2022
   * Keywords: tracking pixels, GDPR compliance, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/535362)
 
-*  Designing a generic web forms crawler to enable legal compliance analysis of authentication sections
+* Designing a generic web forms crawler to enable legal compliance analysis of authentication sections
   * *Luka Lodrant*, 2022
   * Keywords: crawling, registration, GDPR compliance, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/534764)
 
