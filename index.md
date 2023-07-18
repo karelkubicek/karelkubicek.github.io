@@ -16,42 +16,44 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 
 ## Publications
 
+* Locality-Sensitive Hashing Does Not Guarantee Privacy! Attacks on Google’s FLoC and the MinHash Hierarchy System
+  * *Florian Turati, Karel Kubicek, [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), and [David Basin](http://people.inf.ethz.ch/basin/)*
+  * PETS 2023.
+  * [PDF](https://petsymposium.org/2023/files/papers/issue4/popets-2023-0101.pdf), [paper website](https://karelkubicek.github.io/post/floc)
+
 * Checking Websites’ GDPR Consent Compliance for Marketing Emails
   * *Karel Kubicek, [Jakob Merane](https://lawecon.ethz.ch/group/scientific-team/merane.html), [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), [Alexander Stremitzer](https://laweconbusiness.ethz.ch/group/professor/stremitzer.html), [Stefan Bechtold](https://lawecon.ethz.ch/group/professors/bechtold.html), and [David Basin](http://people.inf.ethz.ch/basin/)*
   * PETS 2022.
-  * Keywords: marketing email, website registration, ePrivacy Directive, GDPR, consent, compliance, privacy.
   * [PDF](https://karelkubicek.github.io/assets/pdf/Checking_Websites_GDPR_Consent_Compliance_for_Marketing_Emails.pdf), [paper website](https://karelkubicek.github.io/post/reg-pets)
 
 * Automating Cookie Consent and GDPR Violation Detection
   * *Dino Bollinger, Karel Kubicek, [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), [David Basin](http://people.inf.ethz.ch/basin/)*
   * USENIX Security 2022, best artifact award
-  * Keywords: GDPR, research, cookies, CMP, GDPR, privacy. 
   * [PDF](https://karelkubicek.github.io/assets/pdf/Automating_Cookie_Consent_and_GDPR_Violation_Detection.pdf), [paper website](https://karelkubicek.github.io/post/cookieblock), also as [SOUPS poster](https://karelkubicek.github.io/assets/pdf/CookieBlock_CookieAudit_Fixing_Cookie_Consent_with_ML.pdf)
 
 * Large-scale Randomness Study of Security Margins for 100+ Cryptographic Functions
   * *Dusan Klinec, Marek Sys, Karel Kubicek, Petr Svenda, Vashek Matyas*
   * SECRYPT 2022-19th International Conference on Security and Cryptography
-  * Keywords: randomness, hypothesis, statistical testing, symmetric cryptoprimitives, [PDF](https://karelkubicek.github.io/assets/pdf/Analyzing_security_margins_of_100_cryptographic_functions.pdf), [paper website](https://www.scitepress.org/PublicationsDetail.aspx?ID=iTqltaXgmDY=&t=1), [BiBTex](https://karelkubicek.github.io/assets/bib/sec-mar.bib)
 
 * BoolTest: The Fast Randomness Testing Strategy Based on Boolean Functions with Application to DES, 3-DES, MD5, MD6 and SHA-256
   * *Marek Sys, Dusan Klinec, Karel Kubicek and [Petr Svenda](https://crocs.fi.muni.cz/people/svenda)*
   * E-Business and Telecommunications, Springer International Publishing, 2019, 123–149.
-  * Keywords: randomness, hypothesis, boolean, [PDF](https://crocs.fi.muni.cz/_media/public/papers/booltest_preprint_2017.pdf), [paper website](https://crocs.fi.muni.cz/public/papers/Secrypt2017selected)
+  * [PDF](https://crocs.fi.muni.cz/_media/public/papers/booltest_preprint_2017.pdf), [paper website](https://crocs.fi.muni.cz/public/papers/Secrypt2017selected)
 
 * New results on reduced-round Tiny Encryption Algorithm using genetic programming
   * *Karel Kubicek, Jiri Novotny, [Petr Svenda](https://crocs.fi.muni.cz/people/svenda) and [Martin Ukrop](https://crocs.fi.muni.cz/people/mukrop)*
   * [IEEE Infocommunications, 2016](http://www.infocommunications.hu/2016_1).
-  * Keywords: eacirc, randomness, [PDF](https://crocs.fi.muni.cz/_media/public/papers/infocom/infocommunications2016.pdf), [paper website](https://crocs.fi.muni.cz/public/papers/infocomm2016)
+  * [PDF](https://crocs.fi.muni.cz/_media/public/papers/infocom/infocommunications2016.pdf), [paper website](https://crocs.fi.muni.cz/public/papers/infocomm2016)
 
-## Supervision
+## Supervised Students
 
-### Currently Open Topics
+* Analysing and exploiting Google’s FLoC advertising proposal
+  * *Elias Datler*, 2023
+  * Keywords: GitHub, developer intentions, GDPR compliance, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/612634)
 
-* Where do spammers get my email address? Honey-potting contact on websites and Android apps.
-* ML-based trackers blocking.
-* Interested in privacy and ML? Let me know if you have another topic.
-
-### Supervised Students
+* Automated Detection of GDPR Violations in Cookie Notices Using Machine Learning
+  * *Ahmed Bouhoula*, 2022
+  * Keywords: cookies, GDPR compliance, NLP, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/575741)
 
 * Analysing and exploiting Google’s FLoC advertising proposal
   * *Florian Turati*, 2022
