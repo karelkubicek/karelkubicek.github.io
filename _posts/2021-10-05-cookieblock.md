@@ -25,11 +25,10 @@ We document the severity of this situation through an analysis of potential GDPR
 * Download author pre-print of the paper: [PDF](https://karelkubicek.github.io/assets/pdf/Automating_Cookie_Consent_and_GDPR_Violation_Detection.pdf)
 * Download extended version of paper (Dino Bollinger's Master's thesis): [PDF](https://karelkubicek.github.io/assets/pdf/Dino_Bollinger_Analyzing_Cookies_Compliance_with_the_GDPR.pdf)
 * Presentation: [Google slides](https://docs.google.com/presentation/d/1BMfN6rdAVIxt_EUs5lqikqY84tpFD8FOf__HW2tjwnw)
-* See full conference talk: TBA
+* See full conference talk: [YouTube](https://www.youtube.com/watch?v=ZpJQQslB3IA)
 * SOUPS poster **CookieBlock & CookieAudit: Fixing Cookie Consent with ML**: [pdf](https://karelkubicek.github.io/assets/pdf/CookieBlock_CookieAudit_Fixing_Cookie_Consent_with_ML.pdf), [BibTeX](https://www.usenix.org/biblio/export/bibtex/282877), and [page](https://www.usenix.org/conference/soups2022/presentation/kubicek-poster)
 * Invited talk: [slides](https://docs.google.com/presentation/d/1h20XaZVdNnGKOGhq_idP5gg_n-CYy-dwEApZpnl6J6s/)
 * Download artifact that won distinguish artifact award: [datasets](https://zenodo.org/record/5838646), [crawler](https://github.com/dibollinger/CookieBlock-Consent-Crawler), [classifier](https://github.com/dibollinger/CookieBlock-Consent-Classifier), and [violation detection scripts](https://github.com/dibollinger/CookieBlock-Violation-Detection)
-* Test your website for violations: TBA
 * Try our extension CookieBlock: [Chrome](https://chrome.google.com/webstore/detail/cookieblock/fbhiolckidkciamgcobkokpelckgnnol), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cookieblock/), [Edge](https://microsoftedge.microsoft.com/addons/detail/cookieblock/mnfolmjlccppcgdeinhidialajfiopcc), [Opera](https://addons.opera.com/en/extensions/details/cookieblock/), or check out the [source code](https://github.com/dibollinger/CookieBlock)
 * Give us [feedback on the extension](https://forms.gle/tL21ruvPZq2q218P8)
 
@@ -184,6 +183,7 @@ The authors would like to thank:
 
 ### Updates
 
+* *July 26, 2023:* Recording link
 * *August 17, 2022:* We won USENIX's distinguish artifact reward.
 * *June 8, 2022:* FAQ clarifications, artifacts link update, images improved.
 * *March 23, 2022:* More FAQ and media references.
