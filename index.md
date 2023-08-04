@@ -36,20 +36,23 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
   * SECRYPT 2022-19th International Conference on Security and Cryptography
 
 * BoolTest: The Fast Randomness Testing Strategy Based on Boolean Functions with Application to DES, 3-DES, MD5, MD6 and SHA-256
-  * *Marek Sys, Dusan Klinec, Karel Kubicek and [Petr Svenda](https://crocs.fi.muni.cz/people/svenda)*
+  * *Marek Sys, Dusan Klinec, Karel Kubicek, and [Petr Svenda](https://crocs.fi.muni.cz/people/svenda)*
   * E-Business and Telecommunications, Springer International Publishing, 2019, 123–149.
   * [PDF](https://crocs.fi.muni.cz/_media/public/papers/booltest_preprint_2017.pdf), [paper website](https://crocs.fi.muni.cz/public/papers/Secrypt2017selected)
 
 * New results on reduced-round Tiny Encryption Algorithm using genetic programming
-  * *Karel Kubicek, Jiri Novotny, [Petr Svenda](https://crocs.fi.muni.cz/people/svenda) and [Martin Ukrop](https://crocs.fi.muni.cz/people/mukrop)*
+  * *Karel Kubicek, Jiri Novotny, [Petr Svenda](https://crocs.fi.muni.cz/people/svenda), and [Martin Ukrop](https://crocs.fi.muni.cz/people/mukrop)*
   * [IEEE Infocommunications, 2016](http://www.infocommunications.hu/2016_1).
   * [PDF](https://crocs.fi.muni.cz/_media/public/papers/infocom/infocommunications2016.pdf), [paper website](https://crocs.fi.muni.cz/public/papers/infocomm2016)
 
 ## Supervised Students
 
-* Analysing and exploiting Google’s FLoC advertising proposal
+* Intended Compliance: An Automated Analysis of GDPR-related GitHub Issues
   * *Elias Datler*, 2023
   * Keywords: GitHub, developer intentions, GDPR compliance, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/612634)
+
+* Privacy Observatory: Collecting Privacy Policies and Terms of Service on a Regular Basis
+  * *Long Truong*, 2022
 
 * Automated Detection of GDPR Violations in Cookie Notices Using Machine Learning
   * *Ahmed Bouhoula*, 2022
