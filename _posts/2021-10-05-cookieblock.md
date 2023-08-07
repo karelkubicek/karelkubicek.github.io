@@ -94,9 +94,11 @@ CookieBlock, the cookie purpose classification model, and the web crawler can he
 * Regulatory authorities can inspect the website's compliance.
 * Privacy- and web-researchers can use the model to classify the cookie types in follow-up studies.
 
-### Errata of paper
+### Errata of paper (addressed in our [version](https://karelkubicek.github.io/assets/pdf/Automating_Cookie_Consent_and_GDPR_Violation_Detection.pdf))
 
 In Section 6.4, we claim *"This aligns with the results by Nouwens et al. [39], who found that 67.6% of 680 sites used implicit consent"* However, Nouwens et al. found the violations at **32.5%** of websites, therefore our results are not aligned with theirs. This is caused by entirely different sample of websites, where Nouwens et al. has a generic sample of websites while we focus only on websites with selected CMPs.
+
+In section 4.1, we reported that Cookiepedia achieves 83.4% ballanced accuracy, while in the final measurement of our work, we observed 84.7%.
 
 
 ### Q&A for users
@@ -183,7 +185,8 @@ The authors would like to thank:
 
 ### Updates
 
-* *July 26, 2023:* Recording link
+* *August 7, 2023:* Errata for mistakes found in the paper.
+* *July 26, 2023:* Recording link.
 * *August 17, 2022:* We won USENIX's distinguish artifact reward.
 * *June 8, 2022:* FAQ clarifications, artifacts link update, images improved.
 * *March 23, 2022:* More FAQ and media references.
