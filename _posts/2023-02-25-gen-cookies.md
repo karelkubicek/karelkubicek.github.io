@@ -285,7 +285,7 @@ We can parametrize website selection based on the country, popularity rank, and 
 
 * **Q:** What is the probability that your violation decision tree produces false positives?
 
-  **A:** We tuned the models to be conservative, so they rather produce false negatives. Our evaluation on 200 random websites confirmed that the predictions behave according to our plan, for more details, check Section 7 of the paper.
+  **A:** We tuned the models to be conservative, so they rather produce false negatives. Our evaluation on 500 random websites quntifies both false positives and negatives, showing that our results are conservative. For more details, check Section 7 of the paper.
 
 
 ### Acknowledgement
