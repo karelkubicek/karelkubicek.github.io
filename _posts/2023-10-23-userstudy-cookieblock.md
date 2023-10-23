@@ -1,0 +1,119 @@
+---
+layout: post
+title: "Block Cookies, Not Websites: Analysing Mental Models and Usability of the Privacy-Preserving Browser Extension CookieBlock"
+abstract: "In the modern web, users are confronted with a plethora of complex privacy-related decisions about cookies and consent, often compounded by misleading policies and deceptive patterns. Past efforts to enhance online privacy have failed due to their dependence on website compliance. A solution to this lies in privacy-enhancing tools that are directly controlled by the user. However, challenges related to the usability and flawed understanding of the tools' functionality hinder their widespread adoption. To address this problem, we evaluated the browser extension CookieBlock as an example of a current tool, which supports users by blocking tracking cookies independent of website compliance.
+
+We used a complementary approach consisting of an expert evaluation of CookieBlock and the related tools NoScript and Ghostery, and a laboratory user study focusing on the unique details of how users interact with CookieBlock specifically. The laboratory study with 42 participants investigated usage, mental models, and usability of CookieBlock based on eye tracking, interaction, and self-report data. While CookieBlock received good usability ratings, 18 participants were unable to solve a website breakage caused by cookie misclassification on their own. Overall, the results revealed flawed mental models of CookieBlock's functionality and resulting challenges in making the connection between website breakage and cookie misclassification. Implications for CookieBlock and related applications include interface design recommendations supporting accurate mental models and the proposal of improved heuristics to better guide users and warn them about potential identified website breakage."
+authors: Lorin Schöni, Karel Kubicek, Verena Zimmermann
+publisher: To appear in Proceedings on Privacy Enhancing Technologies, PETS, 2024.
+categories: cookies
+keywords: usability, extension, cookies, privacy
+---
+
+![CookieBlock interface](https://karelkubicek.github.io/assets/images/cookieblock_paper/banner.png)
+
+# Block Cookies, Not Websites: Analysing Mental Models and Usability of the Privacy-Preserving Browser Extension CookieBlock
+
+**Authors: Lorin Schöni <lorin.schoeni@gess.ethz.ch>, Karel Kubicek <karel.kubicek@inf.ethz.ch>, Verena Zimmermann <verena.zimmermann@gess.ethz.ch>**
+
+**Abstract:** *In the modern web, users are confronted with a plethora of complex privacy-related decisions about cookies and consent, often compounded by misleading policies and deceptive patterns. Past efforts to enhance online privacy have failed due to their dependence on website compliance. A solution to this lies in privacy-enhancing tools that are directly controlled by the user. However, challenges related to the usability and flawed understanding of the tools' functionality hinder their widespread adoption. To address this problem, we evaluated the browser extension CookieBlock as an example of a current tool, which supports users by blocking tracking cookies independent of website compliance.*
+
+*We used a complementary approach consisting of an expert evaluation of CookieBlock and the related tools NoScript and Ghostery, and a laboratory user study focusing on the unique details of how users interact with CookieBlock specifically. The laboratory study with 42 participants investigated usage, mental models, and usability of CookieBlock based on eye tracking, interaction, and self-report data. While CookieBlock received good usability ratings, 18 participants were unable to solve a website breakage caused by cookie misclassification on their own. Overall, the results revealed flawed mental models of CookieBlock's functionality and resulting challenges in making the connection between website breakage and cookie misclassification. Implications for CookieBlock and related applications include interface design recommendations supporting accurate mental models and the proposal of improved heuristics to better guide users and warn them about potential identified website breakage.*
+
+* Conference page: [PETS 2024](https://petsymposium.org/2024/paperlist.php)
+* Download pre-print of the paper: [PDF](https://petsymposium.org/popets/2024/popets-2024-0012.pdf)
+* Presentation: TBA
+* See full conference talk: TBA
+
+### BibTeX
+
+```latex
+@article{shoni2024block,
+  title={Block Cookies, Not Websites: Analysing Mental Models and Usability of the Privacy-Preserving Browser Extension {CookieBlock},
+  author={Lorin Schöni and Karel Kubicek and Verena Zimmermann},
+  journal={Proceedings on Privacy Enhancing Technologies},
+  volume={2024},
+  number={1},
+  year={2024},
+  pages={192–216},
+  doi={10.56553/popets-2024-0012}
+}
+```
+
+### Users seeking privacy turn to extensions
+
+Majority of CS research shows that websites are collecting too much user data. A viable way of protecting the privacy are browser extensions that can prevent the data collection on the client side. However, these extensions are often designed by enthusiasts and they target other knowledgeable users.
+
+This work evaluates the usability of privacy-enhancing browser extensions. In a expert evaluation, we compared extensions Ghostery (which is known for good usability), NoScript (which trades usability for complete control) with [CookieBlock](https://karelkubicek.github.io/post/cookieblock), extension developed in our prior work that represent an alternative of ML-driven privacy enforcement. We also evaluated CookieBlock in a laboratory study with 42 participants, evaluating their understanding of CookieBlock (mental models), and their interaction during installation and encountering a website where CookieBlock breaks the functionality due to ML-misclassification of a cookie purpose.
+
+![CookieBlock after our changes](https://karelkubicek.github.io/assets/images/userstudy-cookieblock/cookieblock_new.png)
+*Based on results of our study, we proposed changes to COokieBlock, which we also implemented. Here is the popup after interface update.*
+
+
+### Expert evaluation
+
+Four usability experts evaluated the following aspects of the extensions. Here are the results:
+
+| **Usability Heuristic**   | **CookieBlock**   | **NoScript**  | **Ghostery**  |
+|---    |---    |---    |---    |
+| Visibility of system status   | **Installation**: Feedback on successful installation but not on whether CookieBlock is already active and pinned. Feedback on setting selection and removing cookies is difficult to note in normal font size, not really clear what happened.<br>**Settings**: "Add Domain Exception" button switches to "Remove Domain Exception" when clicked and is greyed out when clicking not possible, greyed out button could be misunderstood as an error and difficult to understand why button is not always clickable -> indicate state via radio button? Difference between "Cookie Configuration" and "Settings" unclear, why is configuration not part of settings? Scale for Bias for Necessary Cookies not self-explainable. Unclear what happens when you choose “exempted”. Sometimes not clear that something is clickable, e.g., known cookie list or cookie statistics<br>**Use**: For lay users it might already be difficult to decide, in case of a problem, whether to pause cookie removal or to add domain exception. Feedback is only provided for pause cookie removal, then icon is greyed out. No feedback what happens on a specific website -> should at least be visible when clicking on icon.  | **Installation**: Feedback on successful installation but not on whether NoScript is already active and pinned.<br>**Settings**: Feedback that NoScript site cannot be configured because it’s privileged helpful, but looks like warning message -> should look more neutral. Many different symbols of which meaning only becomes clearer through mouseover. Greyed-out symbols indicate non-clickable state, but then no mouseover available to understand meaning. Unclear what lock symbol means and what happens when it is clicked and turns red and unlocked, appears like an insecure state. Click on domain leads to error message rather than forwarding to domain.<br>**Use**: Not clear what default setting is – trusted or untrusted? Feedback provided on which symbol is selected as it gets larger while the mouse hovers over one. Textual mouseover for each symbol available. Feedback on number of blocked things as compared to list that appears when clicking on symbol inconsistent, e.g., 6 things in list in pop-up and feedback that 7 blocked in symbol. Unclear why more blocked things appear when blocking temporarily deactivated. That symbol changes appearance when not active provides helpful feedback     | **Installation**: Start in inactive state and first needs to be enabled, but provides visual information how and where to pin as well as feedback that setup was successful.<br>**Settings**: Visual feedback on selected settings, e.g., checkbox and red text next to selected type of blocked content<br>**Use**: Feedback on number of trackers blocked in little number below symbol and in detailed screen when clicking on symbol.  Actions are visible and feedback on implications of choices is provided. Visual color-feedback which choice is activated. Meaning of “Requests modified” unclear -> Is only ad blocked on website or other content, too?   |
+| Match between system and the real world   | **Installation**: /<br>**Settings**: General and advanced settings on one page -> should be better differentiated. Often technical language that might not be understandable, e.g., terms “classifier”, “domain”, “class”.<br>**Use**: /  | **Installation**: /<br>**Settings**: What is a privileged site? Naming and terms for options concerning default, trusted and untrusted is very technical and might be unclear to the user.<br>**Use**: /  | **Installation**: /<br>**Settings**: /<br>**Use**: The use of tracking categories like “Social Media” does not seem entirely clear and some trackers are simply “Unidentified.”  The never-consent option claims that it also blocks tracking, but in reality it only rejects choices in consent notice popups and does not directly interact with tracking.  |
+| User control and freedom  | **Installation**: /<br>**Settings**: When closing, the icon disappears. It first has to be pinned, which might be unclear to user. Accidentally added domains or typos can easily be removed by clicking on a cross. Info that bias configuration is only for expert users is quite hidden -> could be a separate area.<br>**Use**: /     | **Installation**: /<br>**Settings**: When closing, the icon disappears. It first has to be pinned, which might be unclear to user. Accidentally added domains or typos can easily be removed by clicking on a cross. Info that bias configuration is only for expert users is quite hidden -> could be a separate area.<br>**Use**: /     | **Installation**: /<br>**Settings**: Information that Ghostery symbol first has to be pinned. Settings can be easily reversed, e.g., trust or block site.<br>**Use**: /   |
+| Consistency and standards     | **Installation**: Symbol on installation site and in browser consistent. The four cookie categories and the setting “keep track of cookie history” look very similar so that it looks as an additional category. Expectation that normally info on activating/pinning CookieBlock in installation process, but not given here.<br>**Settings**: CookieBlock symbol is in expected place.<br>**Use**: /    | **Installation**: Expectation that normally info on activating/pinning NoScript in installation process, but not given here. Symbol of NoScript in installation process looks different from the symbol in browser.<br>**Settings**: Symbols in pop-up are not intuitive (label in mouseover). No settings list or "general settings" as expected from platforms.<br>**Use**: /   | **Installation**: Symbol on installation site and in browser consistent.<br>**Settings**: standards are considered, e.g. green and red color, underlined text for links and further information.<br>**Use**: In the settings menu, information that does not belong together is visually grouped together so that it appears to be belonging together.    |
+| Error prevention  | **Installation**: While no errors seem apparent, unintended actions may be possible, e.g., by clicking on “Keep track of cookie history”, because it looks like an additional cookie category.<br>**Settings**: When click on cookie statistics, then all cookie data appears which looks like an error, no option to go back and no explanation but you can just close the tab. When you enter a domain exception you can remove it by clicking a cross which is an expected action.<br>**Use**: No easily visible error recovery solution in case of website breakage as option for cookie pause is available but not obvious as solution for problem (connection between CookieBlock and website breakage not visible).    | **Installation**: /<br>**Settings**: Click on a domain leads to an error message, unclear whether to click on proceed or cancel. Implications of selections in advanced settings are unclear.<br>**Use**: /   | **Installation**: /<br>**Settings**: /<br>**Use**: If site is restricted, no sub settings or improvements can be made, site first has to be activated again, hierarchy of settings thus seems not plausible.  |
+| Recognition rather than recall    | **Installation**: /<br>**Settings**: Symbol for CookieBlock with shield can be recognized and does not need to be recalled. In settings screen lack of symbols and structure -> would be beneficial for recognition.<br>**Use**: /    | **Installation**: Symbols for NoScript are not consistent.<br>**Settings**: Symbols are not recognizable without text.<br>**Use**: Symbols are not recognizable but require further explanation.  | **Installation**: /<br>**Settings**: Symbols are consistently used and explained (and info buttons available in many places).<br>**Use**: /   |
+| Flexibility and efficiency of use     | **Installation**: /<br>**Settings**: Configuration of cookies very detailed and complex for lay users -> better differentiation for lay and expert user would help to increase flexibility, all expert settings could be hidden or below lay user setting.<br>**Use**: /  | **Installation**: /<br>**Settings**: Settings use tabs for easy overview. Advanced settings are separated from general settings. Search function allows for shortcuts for experienced users.<br>**Use**: /    | **Installation**: /<br>**Settings**: /<br>**Use**: : It seems easy to block or trust overall, but difficult to set granular advanced settings. "Submit a tracker" seems to be an  advanced feature, so unclear why positioned in main menu.   |
+| Aesthetic and minimalist design   | **Installation**: Information on how to provide feedback and suggestions on CookieBlock before actual cookie selection even though the latter is probably the user’s priority.<br>**Settings**: Settings and pop-up when clicking on icon is minimalist -> Setting screen could profit from structure, e.g., lay user and expert settings. Design of "cookie configuration" screen is not minimalist but has very detailed settings.<br>**Use**: /    | **Installation**: /<br>**Settings**: While minimalist in the sense that there is little text, there are many symbols that are not self-explanatory. Setting to be able to choose dark mode good in terms of accessibility. Change of symbol might not be necessary and is not consistently applied across screens.<br>**Use**: /  | **Installation**: Visual illustration of installation process. Aesthetic and modern design. Consistent use of symbols.<br>**Settings**: List and structure so that not all information is displayed at once.<br>**Use**: /    |
+| Help users recognize, diagnose, and recover from errors   | **Installation**: /<br>**Settings**: /<br>**Use**: Not clear that website breakage is related to CookieBlock from interface or feedback, no easily visible way out.   | **Installation**: /<br>**Settings**: /<br>**Use**: When content is blocked, NoScript symbol appears on blocked content (e.g., video), so connection between blocking and breakage can be  made. However, no information what to do or how to recover.     | **Installation**: /<br>**Settings**: /<br>**Use**: Perhaps not clear that there is a connection between Ghostery’s blocking functionality and potential website breakage, but  Ghostery does not seem disruptive in comparison.   |
+| Help and documentation    | **Installation**: Cookie types are explained on initial set-up page, but more info or different wording could be helpful in some cases, e.g., button “Categorize and remove stored cookies”.<br>**Settings**: Information text available for each setting, but some explanations require expert knowledge.<br>**Use**: No information on what CookieBlock is currently doing on website.  | **Installation**: /<br>**Settings**: No further help or information available on first glance.<br>**Use**: /  | **Installation**: Help module and information on why and how to pin extension available.<br>**Settings**: /<br>**Use**: In many places little information symbols and further information available.  |
+
+### User study evaluation
+
+#### Design
+
+The user study had four steps:
+
+1. Preliminaries: The study participants were presented with a background questionnaire (Affinity for Technology Interaction (ATI) and Internet Users’ Information Privacy Concerns (IUIPC) scales), followed by the eye tracker calibration procedure.
+2. CookieBlock installation: participants read CookieBlock's description in the Google Chrome web store and to install the extension on the lab PC. Then they fill a questionnaire about their experiences and understanding of CookieBlock to explore mental models and their prediction of potential problems with CookieBlock, as well as the System Usability Scale (SUS).
+3. Website interaction: participants were twice instructed to buy tickets for a specific event on our web shops. In the working condition, CookieBlock did not interfere and they could proceed as usual. In the breaking condition, CookieBlock intentionally misclassified a login cookie and blocked it, which caused the login to fail and prevented participants from purchasing tickets. Accordingly, participants had to anticipate that CookieBlock caused the disruption and use CookieBlock's options to resolve the problem or disable the extension altogether.
+4. Closing questionnaire: reevaluating the users' understanding of CookieBlock to detect a potential impact of using the extension on the users' mental model. It also asked for participants' feedback on potential design improvements.
+
+#### Observations
+
+* **Mental models**: Most participants had a flawed understanding of potential negative consequences using CookieBlock.
+* **Website breakage**: Participants had to anticipate that CookieBlock caused the disruption and use CookieBlock's options to resolve the problem or disable the extension altogether. 20/42 participants were not able to make any progress within five minutes, so we explained to them that CookieBlock breaks the website. This is a high number confirming wrong mental models. Total of 25 participants solved the problem using the CookieBlock interface as expected.
+* **Eye tracking**: The breaking condition, compared to the working condition or extension installation, created increased cognitive load - indicative of how much demand is placed on mental resources in a task. In the breaking condition, the median time between looking at the CookieBlock icon and the mouse click on it was 4.85 seconds. The median time of interacting with the open popup was only 2.49 seconds. This illustrates that participants hesitated much longer when looking at the icon and came to a much quicker decision on the popup, but the popup demanded more visual attention than the icon. Without a surprise, participants requiring assistance needed longer to interact with CookieBlock.
+* **User Evaluation of CookieBlock**: After installation, the mean SUS scores were M = 75.81, after working condition M = 74.62, and after breaking condition M = 61.35. SUS ranges from 0 = worst to 100 = best usability and >0.7 is considered good usability. [The average usability of web applications is 68](https://doi.org/10.1080/10447310802205776), DuckDuckGo Privacy Essentials and Privacy Badger scored 60 and 62 in [prior work](https://link.springer.com/10.1007/978-3-030-23535-2_33).
+
+![Eye tracking](https://karelkubicek.github.io/assets/images/userstudy-cookieblock/heatmap_v2_help.png){: style="float: left; width:50%"}![Violations histogram](https://karelkubicek.github.io/assets/images/userstudy-cookieblock/heatmap_v2_nohelp.png){: style="float: left;width:50%;margin-bottom: 100px;margin-top: 100px;"}
+*Heat maps of eye fixations on the drop-down menu for people who did (left) vs, did not (right) require help in making the connection between website breakage and CookieBlock.*
+
+#### Recommendations
+
+We draw in the paper multiple design recommendations to not only CookieBlock but any privacy-enhancing browser extension.
+
+* We suggest an adapted extension description in a short bullet list with emphasis on the key functionalities that were unclear to users.
+  - We updated CookieBlock's installation and settings page text.
+* We recommend secondary mechanisms to identify situations where CookieBlock might interfere with user goals, i.e. through website breakage.
+  - We proposed a heuristic that would detect possible website breakage and ask users if cookie removal should be paused.
+* The icon should be visible, understandable, and described in the installation process. The icon's visibility should change depending on whether CookieBlock is active, is blocking anything, or is inactive.
+* We recommend tooltips explaining the interface and visually distinguishing the interface for resolving website breakage from other settings.
+  - We updated CookieBlock's interface with tooltips explaining the actions.
+* We recommend adding statistics on removed cookies based on our participants' suggestions. This might provide feedback on whether the extension is active and on what happens in the background.
+  - We added statistics into the CookieBlock popup.
+* We suggest explicitly stating that cookie notices are not removed by CookieBlock and adding links to notice-removing extensions. We also suggest modifying the statement about local cookie history to counteract the incorrect assumption that CookieBlock itself tracks users.
+  - We updated CookieBlock's installation and settings page text.
+* We recommend descriptions to be concise without relying on overly technical language. Further information can be put on a separate element people could access through a button.
+  - We limited the technical language in installation and settings.
+*  We recommend PETs to employ clear classification categories that follow established standards, like the ICC UK categories for cookies. These should be evaluated to further increase understandability.
+  - Already used in CookieBlock.
+
+
+### Acknowledgement
+
+We thank Yanis Isenring and Linda Fanconi for their contribution to data collection. We also thank Linda Fanconi for contributions to analysis. 
+
+
+### Updates
+
+* *October 23, 2021:* Paper released by PETS.

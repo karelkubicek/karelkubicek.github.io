@@ -6,7 +6,7 @@ abstract: "Privacy regulations such as the General Data Protection Regulation (*
 We present the first general, large-scale, automated analysis of cookie notice compliance. Our method is capable of interacting with cookie notices, e.g., by navigating through their settings. It observes declared processing purposes and available consent options using Natural Language Processing and compares the actual use of cookies with the declared usage. By virtue of the generality and scale of our analysis, we correct for the selection bias present in previous studies focusing on specific Consent Management Platforms (*CMP*). We also provide a more general view of the overall compliance picture using a set of 97k websites popular in the EU. We report, in particular, that 65.4% of websites offering a cookie rejection option likely collect user data despite explicit negative consent."
 authors: Ahmed Bouhoula, Karel Kubicek, Amit Zac, Carlos Cotrini, and David Basin
 publisher: Submitted to USENIX Security, 2023.
-categories: FLoC privacy
+categories: cookies CMP GDPR privacy crawling
 keywords: cookies, CMP, GDPR, privacy
 ---
 
