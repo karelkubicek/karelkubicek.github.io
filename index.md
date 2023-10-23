@@ -16,6 +16,11 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 
 ## Publications
 
+* Block Cookies, Not Websites: Analysing Mental Models and Usability of the Privacy-Preserving Browser Extension CookieBlock
+  * *Lorin Schöni, Karel Kubicek, Verena Zimmermann*
+  * PETS 2024.
+  * [PDF](https://petsymposium.org/popets/2024/popets-2024-0012.pdf), [paper website](https://karelkubicek.github.io/post/userstudy-cookieblock)
+
 * Locality-Sensitive Hashing Does Not Guarantee Privacy! Attacks on Google’s FLoC and the MinHash Hierarchy System
   * *Florian Turati, Karel Kubicek, [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), and [David Basin](http://people.inf.ethz.ch/basin/)*
   * PETS 2023.
