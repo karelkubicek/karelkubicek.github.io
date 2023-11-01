@@ -50,38 +50,36 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
   * [IEEE Infocommunications, 2016](http://www.infocommunications.hu/2016_1).
   * [PDF](https://crocs.fi.muni.cz/_media/public/papers/infocom/infocommunications2016.pdf), [paper website](https://crocs.fi.muni.cz/public/papers/infocomm2016)
 
+
 ## Supervised Students
 
+
+* Quantifying Mechanisms behind Cookie Consent (Non-)Compliance: A Notification Study of Audit Tools
+  * *Laura-Vanessa Soldner*, 2023, [PDF](https://karelkubicek.github.io/assets/pdf/Laura_Soldner_BSc_Thesis.pdf)
+
 * Intended Compliance: An Automated Analysis of GDPR-related GitHub Issues
-  * *Elias Datler*, 2023
-  * Keywords: GitHub, developer intentions, GDPR compliance, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/612634)
+  * *Elias Datler*, 2023, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/612634)
 
 * Privacy Observatory: Collecting Privacy Policies and Terms of Service on a Regular Basis
-  * *Long Truong*, 2022
+  * *Truong Hoang Long*, 2022, [PDF](https://karelkubicek.github.io/assets/pdf/Truong_Hoang_Long_BSc_Thesis_Privacy_Observatory.pdf)
 
 * Automated Detection of GDPR Violations in Cookie Notices Using Machine Learning
-  * *Ahmed Bouhoula*, 2022
-  * Keywords: cookies, GDPR compliance, NLP, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/575741)
+  * *Ahmed Bouhoula*, 2022, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/575741)
 
 * Analysing and exploiting Google’s FLoC advertising proposal
-  * *Florian Turati*, 2022
-  * Keywords: FLoC, cookie alternatives, LSH, SimHash [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/535362)
+  * *Florian Turati*, 2022, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/535362)
 
 * Understanding GDPR compliance of tracking pixel declarations using privacy filter lists
-  * *Rita Ganz*, 2022
-  * Keywords: tracking pixels, GDPR compliance, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/535362)
+  * *Rita Ganz*, 2022, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/535362)
 
 * Designing a generic web forms crawler to enable legal compliance analysis of authentication sections
-  * *Luka Lodrant*, 2022
-  * Keywords: crawling, registration, GDPR compliance, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/534764)
+  * *Luka Lodrant*, 2022, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/534764)
 
 * Analyzing Cookies Compliance with the GDPR
-  * *Dino Bollinger*, 2021
-  * Keywords: cookies, GDPR compliance, enforcement, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/477333)
+  * *Dino Bollinger*, 2021, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/477333)
 
 * Enforcement Bots: Nothing can block us! Automating website registration for GDPR compliance analysis
-  * *Patrice Kast*, 2021
-  * Keywords: crawling, registration, GDPR compliance, [PDF](https://karelkubicek.github.io/assets/pdf/Patrice_Kast_Automating_website_registration_for_GDPR_compliance_analysis_signed.pdf)
+  * *Patrice Kast*, 2021, [PDF](https://karelkubicek.github.io/assets/pdf/Patrice_Kast_Automating_website_registration_for_GDPR_compliance_analysis_signed.pdf)
 
 ## Teaching
 
