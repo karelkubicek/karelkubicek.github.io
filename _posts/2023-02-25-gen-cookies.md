@@ -262,7 +262,7 @@ We select 97k websites for crawling using Chrome UX report. This list generalize
 The crawled data allows us to reason about differences between declared and observed behavior. The outputs of ML models are parameters for or decision tree, which outputs ten privacy violations or dark patterns.
 
 ![Decision tree for violations](https://karelkubicek.github.io/assets/images/gen-cookies/decision_violations.svg)
-*Decision tree that takes as input the classifications by our model and outputs all types of potential violations present on the website.*
+*Decision tree that takes as input the classifications by our model and outputs all types of potential violations present on the website. AA cookies stands for Analytics or Advertising cookies = these purposes requires consent under the EU regulation.*
 
 ![Decision tree dark patterns](https://karelkubicek.github.io/assets/images/gen-cookies/decision_darkpatterns.svg){: style="float: left; width:50%"}![Observed violations](https://karelkubicek.github.io/assets/images/gen-cookies/violations_bar.svg){: style="float: left;width:50%;"}
 *On the left, the decision tree of dark patterns. On the right, observed statistics of potential violations and dark patterns.*
