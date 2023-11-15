@@ -1,24 +1,26 @@
 ---
 layout: post
-title: "Automated, Large-Scale Analysis of Cookie Notice Compliance"
-abstract: "Privacy regulations such as the General Data Protection Regulation (*GDPR*) require websites to inform EU-based users about non-essential data collection and to request their consent to this practice. Previous studies have documented widespread violation of these regulations. However, these studies provide a limited view of the general compliance picture: they are either restricted to a subset of notice types, detect only simple violations using prescribed patterns, or analyze notices manually. Thus, they are restricted both in their scope and in their ability to analyze violations at scale.
+title: "Automated Large-Scale Analysis of Cookie Notice Compliance"
+abstract: "Privacy regulations such as the General Data Protection Regulation (GDPR) require websites to inform EU-based users about non-essential data collection and to request their consent to this practice. Previous studies have documented widespread violations of these regulations. However, these studies provide a limited view of the general compliance picture: they are either restricted to a subset of notice types, detect only simple violations using prescribed patterns, or analyze notices manually. Thus, they are restricted both in their scope and in their ability to analyze violations at scale.
 
-We present the first general, large-scale, automated analysis of cookie notice compliance. Our method is capable of interacting with cookie notices, e.g., by navigating through their settings. It observes declared processing purposes and available consent options using Natural Language Processing and compares the actual use of cookies with the declared usage. By virtue of the generality and scale of our analysis, we correct for the selection bias present in previous studies focusing on specific Consent Management Platforms (*CMP*). We also provide a more general view of the overall compliance picture using a set of 97k websites popular in the EU. We report, in particular, that 65.4% of websites offering a cookie rejection option likely collect user data despite explicit negative consent."
+We present the first general, automated, large-scale analysis of cookie notice compliance. Our method interacts with cookie notices, e.g., by navigating through their settings. It observes declared processing purposes and available consent options using Natural Language Processing and compares them to the actual use of cookies. By virtue of the generality and scale of our analysis, we correct for the selection bias present in previous studies focusing on specific Consent Management Platforms (CMP). We also provide a more general view of the overall compliance picture using a set of 97k websites popular in the EU. We report, in particular, that 65.4% of websites offering a cookie rejection option likely collect user data despite explicit negative consent."
 authors: Ahmed Bouhoula, Karel Kubicek, Amit Zac, Carlos Cotrini, and David Basin
 publisher: Submitted to USENIX Security, 2023.
 categories: cookies CMP GDPR privacy crawling
 keywords: cookies, CMP, GDPR, privacy
 ---
 
-# Automated, Large-Scale Analysis of Cookie Notice Compliance
+# Automated Large-Scale Analysis of Cookie Notice Compliance
 
-**Authors: Ahmed Bouhoula, Karel Kubicek <karel.kubicek@inf.ethz.ch>, Amit Zac, Carlos Cotrini, and David Basin**
+**Authors: Ahmed Bouhoula, Karel Kubicek, Amit Zac, Carlos Cotrini, and David Basin**
 
-**Abstract:** *Privacy regulations such as the General Data Protection Regulation (*GDPR*) require websites to inform EU-based users about non-essential data collection and to request their consent to this practice. Previous studies have documented widespread violation of these regulations. However, these studies provide a limited view of the general compliance picture: they are either restricted to a subset of notice types, detect only simple violations using prescribed patterns, or analyze notices manually. Thus, they are restricted both in their scope and in their ability to analyze violations at scale.*
+**Abstract:** *Privacy regulations such as the General Data Protection Regulation (GDPR) require websites to inform EU-based users about non-essential data collection and to request their consent to this practice. Previous studies have documented widespread violations of these regulations. However, these studies provide a limited view of the general compliance picture: they are either restricted to a subset of notice types, detect only simple violations using prescribed patterns, or analyze notices manually. Thus, they are restricted both in their scope and in their ability to analyze violations at scale.*
 
-*We present the first general, large-scale, automated analysis of cookie notice compliance. Our method is capable of interacting with cookie notices, e.g., by navigating through their settings. It observes declared processing purposes and available consent options using Natural Language Processing and compares the actual use of cookies with the declared usage. By virtue of the generality and scale of our analysis, we correct for the selection bias present in previous studies focusing on specific Consent Management Platforms (*CMP*). We also provide a more general view of the overall compliance picture using a set of 97k websites popular in the EU. We report, in particular, that 65.4% of websites offering a cookie rejection option likely collect user data despite explicit negative consent.*
+*We present the first general, automated, large-scale analysis of cookie notice compliance. Our method interacts with cookie notices, e.g., by navigating through their settings. It observes declared processing purposes and available consent options using Natural Language Processing and compares them to the actual use of cookies. By virtue of the generality and scale of our analysis, we correct for the selection bias present in previous studies focusing on specific Consent Management Platforms (CMP). We also provide a more general view of the overall compliance picture using a set of 97k websites popular in the EU. We report, in particular, that 65.4% of websites offering a cookie rejection option likely collect user data despite explicit negative consent.*
 
-* Download author pre-print of the paper: [PDF](https://karelkubicek.github.io/assets/pdf/Generalized_GDPR_Violation_Detection_in_Cookie_Notices_preprint.pdf)
+* Ahmed's website about the paper: [URL](https://ahmedbouhoula.github.io/post/automated)
+* Conference page: [URL](https://www.usenix.org/conference/usenixsecurity24/presentation/bouhoula)
+* Download the paper: [PDF](https://www.usenix.org/system/files/sec23winter-prepub-107-bouhoula.pdf)
 * Request access to source code and interactive results visualization: [Google form](https://forms.gle/4cPPLnkwA241sKbP6)
 * Ahmed Bouhoula's MSc thesis: [PDF](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/575741/BouhoulaAhmed.pdf?sequence=1&isAllowed=y)
 
@@ -27,7 +29,7 @@ keywords: cookies, CMP, GDPR, privacy
 ```latex
 @inproceedings{bouhoula2024automated,
   author = {Ahmed Bouhoula and Karel Kubicek and Amit Zac and Carlos Cotrini and David Basin},
-  title = {Automated, Large-Scale Analysis of Cookie Notice Compliance},
+  title = {Automated Large-Scale Analysis of Cookie Notice Compliance},
   booktitle = {33st USENIX Security Symposium (USENIX Security 24)},
   year = {2024},
   month = aug,
@@ -296,5 +298,6 @@ The authors would like to thank:
 
 ### Updates
 
+* *November 15, 2023:* Paper released by USENIX Security.
 * *August 8, 2023:* Major update upon paper's acceptance.
 * *February 27, 2023:* The initial version of this page.
