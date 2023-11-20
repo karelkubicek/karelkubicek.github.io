@@ -16,6 +16,11 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 
 ## Publications
 
+* Automated Large-Scale Analysis of Cookie Notice Compliance
+  * *Ahmed Bouhoula, Karel Kubicek, Amit Zac, Carlos Cotrini, and David Basin*
+  * USENIX Security 2024.
+  * [PDF](https://www.usenix.org/system/files/sec23winter-prepub-107-bouhoula.pdf), [paper website](https://ahmedbouhoula.github.io/post/automated)
+
 * Block Cookies, Not Websites: Analysing Mental Models and Usability of the Privacy-Preserving Browser Extension CookieBlock
   * *Lorin Schöni, Karel Kubicek, Verena Zimmermann*
   * PETS 2024.
