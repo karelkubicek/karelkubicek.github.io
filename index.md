@@ -17,7 +17,7 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 ## Publications
 
 * Automated Large-Scale Analysis of Cookie Notice Compliance
-  * *Ahmed Bouhoula, Karel Kubicek, Amit Zac, Carlos Cotrini, and David Basin*
+  * *Ahmed Bouhoula, Karel Kubicek, Amit Zac, Carlos Cotrini, David Basin*
   * USENIX Security 2024.
   * [PDF](https://www.usenix.org/system/files/sec23winter-prepub-107-bouhoula.pdf), [paper website](https://ahmedbouhoula.github.io/post/automated)
 
@@ -27,12 +27,12 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
   * [PDF](https://petsymposium.org/popets/2024/popets-2024-0012.pdf), [paper website](https://karelkubicek.github.io/post/userstudy-cookieblock)
 
 * Locality-Sensitive Hashing Does Not Guarantee Privacy! Attacks on Google’s FLoC and the MinHash Hierarchy System
-  * *Florian Turati, Karel Kubicek, [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), and [David Basin](http://people.inf.ethz.ch/basin/)*
+  * *Florian Turati, Karel Kubicek, [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), [David Basin](http://people.inf.ethz.ch/basin/)*
   * PETS 2023.
   * [PDF](https://petsymposium.org/2023/files/papers/issue4/popets-2023-0101.pdf), [paper website](https://karelkubicek.github.io/post/floc)
 
 * Checking Websites’ GDPR Consent Compliance for Marketing Emails
-  * *Karel Kubicek, [Jakob Merane](https://lawecon.ethz.ch/group/scientific-team/merane.html), [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), [Alexander Stremitzer](https://laweconbusiness.ethz.ch/group/professor/stremitzer.html), [Stefan Bechtold](https://lawecon.ethz.ch/group/professors/bechtold.html), and [David Basin](http://people.inf.ethz.ch/basin/)*
+  * *Karel Kubicek, [Jakob Merane](https://lawecon.ethz.ch/group/scientific-team/merane.html), [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), [Alexander Stremitzer](https://laweconbusiness.ethz.ch/group/professor/stremitzer.html), [Stefan Bechtold](https://lawecon.ethz.ch/group/professors/bechtold.html), [David Basin](http://people.inf.ethz.ch/basin/)*
   * PETS 2022.
   * [PDF](https://karelkubicek.github.io/assets/pdf/Checking_Websites_GDPR_Consent_Compliance_for_Marketing_Emails.pdf), [paper website](https://karelkubicek.github.io/post/reg-pets)
 
@@ -46,18 +46,21 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
   * SECRYPT 2022-19th International Conference on Security and Cryptography
 
 * BoolTest: The Fast Randomness Testing Strategy Based on Boolean Functions with Application to DES, 3-DES, MD5, MD6 and SHA-256
-  * *Marek Sys, Dusan Klinec, Karel Kubicek, and [Petr Svenda](https://crocs.fi.muni.cz/people/svenda)*
+  * *Marek Sys, Dusan Klinec, Karel Kubicek, [Petr Svenda](https://crocs.fi.muni.cz/people/svenda)*
   * E-Business and Telecommunications, Springer International Publishing, 2019, 123–149.
   * [PDF](https://crocs.fi.muni.cz/_media/public/papers/booltest_preprint_2017.pdf), [paper website](https://crocs.fi.muni.cz/public/papers/Secrypt2017selected)
 
 * New results on reduced-round Tiny Encryption Algorithm using genetic programming
-  * *Karel Kubicek, Jiri Novotny, [Petr Svenda](https://crocs.fi.muni.cz/people/svenda), and [Martin Ukrop](https://crocs.fi.muni.cz/people/mukrop)*
+  * *Karel Kubicek, Jiri Novotny, [Petr Svenda](https://crocs.fi.muni.cz/people/svenda), [Martin Ukrop](https://crocs.fi.muni.cz/people/mukrop)*
   * [IEEE Infocommunications, 2016](http://www.infocommunications.hu/2016_1).
   * [PDF](https://crocs.fi.muni.cz/_media/public/papers/infocom/infocommunications2016.pdf), [paper website](https://crocs.fi.muni.cz/public/papers/infocomm2016)
 
 
 ## Supervised Students
 
+
+* Privacy Observatory: Aggregation System for Reproduction of Privacy Studies
+  * *Patrice Kast*, 2023, PDF to be added
 
 * Quantifying Mechanisms behind Cookie Consent (Non-)Compliance: A Notification Study of Audit Tools
   * *Laura-Vanessa Soldner*, 2023, [PDF](https://karelkubicek.github.io/assets/pdf/Laura_Soldner_BSc_Thesis.pdf)
