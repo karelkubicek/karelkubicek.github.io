@@ -1,133 +1,535 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="276.75mm" height="124.62mm" version="1.1" viewBox="0 0 276.75 124.62" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <clipPath id="clipPath18">
-   <path d="m0 0h1255v526h-1255z"/>
-  </clipPath>
-  <clipPath id="clipPath34">
-   <path d="m0 0h1255v526h-1255z"/>
-  </clipPath>
-  <clipPath id="clipPath50">
-   <path d="m0 0h1255v526h-1255z"/>
-  </clipPath>
-  <clipPath id="clipPath66">
-   <path d="m0 0h1255v526h-1255z"/>
-  </clipPath>
-  <clipPath id="clipPath82">
-   <path d="m0 0h1255v526h-1255z"/>
-  </clipPath>
-  <clipPath id="clipPath98">
-   <path d="m0 0h1255v526h-1255z"/>
-  </clipPath>
-  <clipPath id="clipPath114">
-   <path d="m0 0h1255v526h-1255z"/>
-  </clipPath>
-  <clipPath id="clipPath130">
-   <path d="m0 0h1255v526h-1255z"/>
-  </clipPath>
-  <clipPath id="clipPath146">
-   <path d="m0 0h1255v526h-1255z"/>
-  </clipPath>
-  <clipPath id="clipPath162">
-   <path d="m0 0h1255v526h-1255z"/>
-  </clipPath>
-  <clipPath id="clipPath178">
-   <path d="m0 0h1255v526h-1255z"/>
-  </clipPath>
-  <clipPath id="clipPath194">
-   <path d="m0 0h1255v526h-1255z"/>
-  </clipPath>
-  <clipPath id="clipPath210">
-   <path d="m0 0h1255v526h-1255z"/>
-  </clipPath>
-  <clipPath id="clipPath226">
-   <path d="m0 0h1255v526h-1255z"/>
-  </clipPath>
-  <clipPath id="clipPath242">
-   <path d="m0 0h1255v526h-1255z"/>
-  </clipPath>
- </defs>
- <g transform="translate(47.202 94.629)">
-  <g transform="matrix(.35278 0 0 .35278 -47.07 -94.497)">
-   <g clip-path="url(#clipPath18)" opacity=".3">
-    <path d="m22.5 0h136.5v273.54h-136.5z" fill="#142735"/>
-   </g>
-   <g clip-path="url(#clipPath34)" opacity=".3">
-    <path d="m181.5 92.004c74.25 0 74.25 7.168 148.5 7.168v181.54c-74.25 0-74.25-7.172-148.5-7.172z" fill="#ca9a9a"/>
-   </g>
-   <g clip-path="url(#clipPath50)" opacity=".3">
-    <path d="m181.5 0h68.25v92.004h-68.25z" fill="#cfffff"/>
-   </g>
-   <g clip-path="url(#clipPath66)" opacity=".3">
-    <path d="m22.5 273.54h255v78.961h-255z" fill="#c8a192"/>
-   </g>
-   <g clip-path="url(#clipPath82)" opacity=".3">
-    <path d="m272.25 27.496c97.5 0 97.5 9.426 195 9.426v35.25c-97.5 0-97.5-9.426-195-9.426z" fill="#d59d89"/>
-   </g>
-   <g clip-path="url(#clipPath98)" opacity=".3">
-    <path d="m489.75 41.152c82.875 0 82.875 10.344 165.75 10.344v31.02c-82.875 0-82.875-10.344-165.75-10.344z" fill="#ffa07d"/>
-   </g>
-   <g clip-path="url(#clipPath114)" opacity=".3">
-    <path d="m272.25 62.746c97.5 0 97.5 11.676 195 11.676v29.258c-97.5 0-97.5-11.676-195-11.676z" fill="#909090"/>
-   </g>
-   <g clip-path="url(#clipPath130)" opacity=".3">
-    <path d="m272.25 0h195v27.496h-195z" fill="#b0ff78"/>
-   </g>
-   <g clip-path="url(#clipPath146)" opacity=".3">
-    <path d="m489.75 77.242c82.875 0 82.875 5.274 165.75 5.274v26.437c-82.875 0-82.875-5.273-165.75-5.273z" fill="#ffa07d"/>
-   </g>
-   <g clip-path="url(#clipPath162)" opacity=".3">
-    <path d="m678.75 0h82.5v17.625h-82.5z" fill="#0eff00"/>
-   </g>
-   <g clip-path="url(#clipPath178)" opacity=".3">
-    <path d="m489.75 0h166.5v13.746h-166.5z" fill="#7bff64"/>
-   </g>
-   <g clip-path="url(#clipPath194)" opacity=".3">
-    <path d="m489.75 13.746c82.875 0 82.875 24 165.75 24v13.75c-82.875 0-82.875-24-165.75-24z" fill="#ffa07d"/>
-   </g>
-   <g clip-path="url(#clipPath210)" opacity=".3">
-    <path d="m489.75 36.922c83.25 0 83.25-23.176 166.5-23.176v4.231c-83.25 0-83.25 23.175-166.5 23.175z" fill="#7bff64"/>
-   </g>
-   <g clip-path="url(#clipPath226)" opacity=".3">
-    <path d="m489.75 74.422c83.25 0 83.25-56.445 166.5-56.445v2.82c-83.25 0-83.25 56.445-166.5 56.445z" fill="#7bff64"/>
-   </g>
-   <g clip-path="url(#clipPath242)" opacity=".3">
-    <path d="m678 37.746c41.625 0 41.625-20.121 83.25-20.121v0.703c-41.625 0-41.625 20.125-83.25 20.125z" fill="#ffa07d"/>
-   </g>
-   <path d="m0 0h22.5v352.5h-22.5z" fill="#142735" stroke="#091319" stroke-width=".75"/>
-   <text transform="translate(27,179.4)" fill="#000000" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.7059999 9.2340002 14.742 18.441" y="0">Start</tspan></text>
-   <text transform="rotate(-90 102.44 86.691)" fill="#ffffff" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.724 8.5769997 14.301 20.025" y="0">1,000</tspan></text>
-   <path d="m761.25 0h22.5v18.328h-22.5z" fill="#088d00" stroke="#034500" stroke-width=".75"/>
-   <text transform="translate(688.12 12.315)" fill="#000000" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.8410001 11.376 16.316999 21.851999 24.344999 29.664 35.199001 40.904999 43.757999 49.292999 58.058998 63.567001 66.059998" y="0">Received email</tspan></text>
-   <text transform="rotate(-90 395.95 -381.05)" fill="#ffffff" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.724" y="0">52</tspan></text>
-   <path d="m159 0h22.5v273.54h-22.5z" fill="#9d8e66" stroke="#4c4531" stroke-width=".75"/>
-   <text transform="translate(186,139.92)" fill="#000000" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 4.8509998 10.35 15.858 21.563999 27.099001 32.805 35.658001 40.338001 46.035 50.976002 55.917 61.452 66.132004 70.811996 73.980003 79.677002 82.169998 84.663002" y="0">Loaded successfully</tspan></text>
-   <text transform="rotate(-90 160.05 -14.695)" fill="#ffffff" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.724 11.448" y="0">776</tspan></text>
-   <path d="m656.25 0h22.5v20.797h-22.5z" fill="#066a00" stroke="#023300" stroke-width=".75"/>
-   <text transform="translate(499.88 13.549)" fill="#000000" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.7059999 11.403 16.344 21.285 26.82 31.5 36.18 39.348 45.044998 47.537998 50.390999 53.891998 59.426998 65.133003 67.625999 72.306 75.834 79.532997 85.041 88.569 91.061996 96.560997 102.258 105.111 108.621 114.156 118.836 122.364 124.857 133.623 139.131 142.659 148.194" y="0">Successful registration (estimate)</tspan></text>
-   <text transform="rotate(-90 344.06 -327.94)" fill="#ffffff" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.724" y="0">59</tspan></text>
-   <path d="m249.75 0h22.5v92.004h-22.5z" fill="#9d8e66" stroke="#4c4531" stroke-width=".75"/>
-   <text transform="translate(276.75 49.151)" fill="#000000" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.8410001 11.376 17.082001 19.575001 24.254999 27.783001 31.482 36.990002 40.518002 43.011002 48.509998 54.207001 57.060001 60.228001 65.726997 69.264 78.029999 80.883003 84.051003 89.550003 95.247002 100.944" y="0">Registration form found</tspan></text>
-   <text transform="rotate(-90 160.05 -105.45)" fill="#ffffff" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.724 11.448" y="0">261</tspan></text>
-   <path d="m277.5 273.54h22.5v78.961h-22.5z" fill="#626262" stroke="#303030" stroke-width=".75"/>
-   <text transform="translate(37.765 316.17)" fill="#000000" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 4.3470001 9.8549995 12.348 14.841 20.375999 26.082001 29.106001 31.959 35.487 37.98 46.745998 52.280998 57.779999 63.477001 67.004997 70.028999 75.735001 81.234001 84.762001 87.614998 93.320999 98.856003 102.384 107.919 112.86 116.388 118.881 124.38 130.077 133.101 138.798 144.495 149.175 154.87199 160.578 166.284 171.783 175.48199 179.00999 184.545 190.25101 193.104 195.597 201.105 206.802 212.508 218.205 223.713 229.41901" y="0">Failed: timeout/bot detection/unsupported language</tspan></text>
-   <text transform="rotate(-90 307.43 14.18)" fill="#ffffff" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.724 11.448" y="0">224</tspan></text>
-   <path d="m467.25 0h22.5v27.496h-22.5z" fill="#9d8d65" stroke="#4c4531" stroke-width=".75"/>
-   <text transform="translate(305.72 16.898)" fill="#000000" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.8410001 11.376 17.082001 19.575001 24.254999 27.783001 31.482 36.990002 40.518002 43.011002 48.509998 54.207001 57.060001 61.740002 67.436996 73.142998 81.908997 84.402 89.082001 93.762001 96.254997 101.754 107.451 110.304 114.984 120.681 125.622 130.563 136.09801 140.778 145.45799 148.62601 154.323" y="0">Registration submission successful</tspan></text>
-   <text transform="rotate(-90 251.24 -231.76)" fill="#ffffff" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.724" y="0">78</tspan></text>
-   <path d="m467.25 36.922h22.5v35.25h-22.5z" fill="#9d8d65" stroke="#4c4531" stroke-width=".75"/>
-   <text transform="translate(327.36 57.699)" fill="#000000" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.8410001 11.376 17.082001 19.575001 24.254999 27.783001 31.482 36.990002 40.518002 43.011002 48.509998 54.207001 57.060001 61.740002 67.436996 73.142998 81.908997 84.402 89.082001 93.762001 96.254997 101.754 107.451 110.304 113.472 118.98 121.473 123.966 129.50101" y="0">Registration submission failed</tspan></text>
-   <text transform="rotate(-90 273.07 -209.93)" fill="#ffffff" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.724 11.448" y="0">100</tspan></text>
-   <path d="m467.25 74.422h22.5v29.258h-22.5z" fill="#9d8d65" stroke="#4c4531" stroke-width=".75"/>
-   <text transform="translate(339.06 92.202)" fill="#000000" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.8410001 11.376 17.082001 19.575001 24.254999 27.783001 31.482 36.990002 40.518002 43.011002 48.509998 54.207001 57.060001 61.740002 65.267998 70.776001 74.304001 79.838997 82.692001 88.389 94.085999 99.296997 104.994 110.493 117.846" y="0">Registration state unknown</tspan></text>
-   <text transform="rotate(-90 288.89 -194.11)" fill="#ffffff" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.724" y="0">83</tspan></text>
-   <path d="m330 99.172h22.5v181.54h-22.5z" fill="#ca9696" stroke="#624949" stroke-width=".75"/>
-   <text transform="translate(201.13 193.09)" fill="#000000" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.8410001 11.376 17.082001 19.575001 24.254999 27.783001 31.482 36.990002 40.518002 43.011002 48.509998 54.207001 57.060001 60.228001 65.726997 69.264 78.029999 80.883003 86.580002 92.079002 95.607002 98.459999 101.628 107.127 112.824 118.521" y="0">Registration form not found</tspan></text>
-   <text transform="rotate(-90 272.14 -73.61)" fill="#ffffff" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.724 11.448" y="0">515</tspan></text>
-   <path d="m655.5 37.746h22.5v71.207h-22.5z" fill="#9d8d65" stroke="#4c4531" stroke-width=".75"/>
-   <text transform="translate(519.45 76.5)" fill="#000000" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.8410001 11.376 17.082001 19.575001 24.254999 27.783001 31.482 36.990002 40.518002 43.011002 48.509998 54.207001 57.060001 60.228001 65.736 68.228996 70.722 76.257004 81.962997 84.816002 88.325996 93.861 98.541 102.069 104.562 113.328 118.836 122.364 127.899" y="0">Registration failed (estimate)</tspan></text>
-   <text transform="rotate(-90 376.59 -294.66)" fill="#ffffff" font-family="'DejaVu Sans'" font-size="9px"><tspan x="0 5.724 11.448" y="0">202</tspan></text>
+
+<svg
+   width="276.75mm"
+   height="124.62mm"
+   version="1.1"
+   viewBox="0 0 276.75 124.62"
+   id="svg223"
+   sodipodi:docname="sankey.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview225"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.7877898"
+     inkscape:cx="672.05887"
+     inkscape:cy="206.95945"
+     inkscape:window-width="2560"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g219" />
+  <defs
+     id="defs47">
+    <clipPath
+       id="clipPath18">
+      <path
+         d="m0 0h1255v526h-1255z"
+         id="path2" />
+    </clipPath>
+    <clipPath
+       id="clipPath34">
+      <path
+         d="m0 0h1255v526h-1255z"
+         id="path5" />
+    </clipPath>
+    <clipPath
+       id="clipPath50">
+      <path
+         d="m0 0h1255v526h-1255z"
+         id="path8" />
+    </clipPath>
+    <clipPath
+       id="clipPath66">
+      <path
+         d="m0 0h1255v526h-1255z"
+         id="path11" />
+    </clipPath>
+    <clipPath
+       id="clipPath82">
+      <path
+         d="m0 0h1255v526h-1255z"
+         id="path14" />
+    </clipPath>
+    <clipPath
+       id="clipPath98">
+      <path
+         d="m0 0h1255v526h-1255z"
+         id="path17" />
+    </clipPath>
+    <clipPath
+       id="clipPath114">
+      <path
+         d="m0 0h1255v526h-1255z"
+         id="path20" />
+    </clipPath>
+    <clipPath
+       id="clipPath130">
+      <path
+         d="m0 0h1255v526h-1255z"
+         id="path23" />
+    </clipPath>
+    <clipPath
+       id="clipPath146">
+      <path
+         d="m0 0h1255v526h-1255z"
+         id="path26" />
+    </clipPath>
+    <clipPath
+       id="clipPath162">
+      <path
+         d="m0 0h1255v526h-1255z"
+         id="path29" />
+    </clipPath>
+    <clipPath
+       id="clipPath178">
+      <path
+         d="m0 0h1255v526h-1255z"
+         id="path32" />
+    </clipPath>
+    <clipPath
+       id="clipPath194">
+      <path
+         d="m0 0h1255v526h-1255z"
+         id="path35" />
+    </clipPath>
+    <clipPath
+       id="clipPath210">
+      <path
+         d="m0 0h1255v526h-1255z"
+         id="path38" />
+    </clipPath>
+    <clipPath
+       id="clipPath226">
+      <path
+         d="m0 0h1255v526h-1255z"
+         id="path41" />
+    </clipPath>
+    <clipPath
+       id="clipPath242">
+      <path
+         d="m0 0h1255v526h-1255z"
+         id="path44" />
+    </clipPath>
+  </defs>
+  <g
+     transform="translate(47.202 94.629)"
+     id="g221">
+    <g
+       transform="matrix(.35278 0 0 .35278 -47.07 -94.497)"
+       id="g219">
+      <g
+         clip-path="url(#clipPath18)"
+         opacity=".3"
+         id="g51">
+        <path
+           d="m22.5 0h136.5v273.54h-136.5z"
+           fill="#142735"
+           id="path49" />
+      </g>
+      <g
+         clip-path="url(#clipPath34)"
+         opacity=".3"
+         id="g55">
+        <path
+           d="m181.5 92.004c74.25 0 74.25 7.168 148.5 7.168v181.54c-74.25 0-74.25-7.172-148.5-7.172z"
+           fill="#ca9a9a"
+           id="path53" />
+      </g>
+      <g
+         clip-path="url(#clipPath50)"
+         opacity=".3"
+         id="g59">
+        <path
+           d="m181.5 0h68.25v92.004h-68.25z"
+           fill="#cfffff"
+           id="path57" />
+      </g>
+      <g
+         clip-path="url(#clipPath66)"
+         opacity=".3"
+         id="g63">
+        <path
+           d="m22.5 273.54h255v78.961h-255z"
+           fill="#c8a192"
+           id="path61" />
+      </g>
+      <g
+         clip-path="url(#clipPath82)"
+         opacity=".3"
+         id="g67">
+        <path
+           d="m272.25 27.496c97.5 0 97.5 9.426 195 9.426v35.25c-97.5 0-97.5-9.426-195-9.426z"
+           fill="#d59d89"
+           id="path65" />
+      </g>
+      <g
+         clip-path="url(#clipPath98)"
+         opacity=".3"
+         id="g71">
+        <path
+           d="m489.75 41.152c82.875 0 82.875 10.344 165.75 10.344v31.02c-82.875 0-82.875-10.344-165.75-10.344z"
+           fill="#ffa07d"
+           id="path69" />
+      </g>
+      <g
+         clip-path="url(#clipPath114)"
+         opacity=".3"
+         id="g75">
+        <path
+           d="m272.25 62.746c97.5 0 97.5 11.676 195 11.676v29.258c-97.5 0-97.5-11.676-195-11.676z"
+           fill="#909090"
+           id="path73" />
+      </g>
+      <g
+         clip-path="url(#clipPath130)"
+         opacity=".3"
+         id="g79">
+        <path
+           d="m272.25 0h195v27.496h-195z"
+           fill="#b0ff78"
+           id="path77" />
+      </g>
+      <g
+         clip-path="url(#clipPath146)"
+         opacity=".3"
+         id="g83">
+        <path
+           d="m489.75 77.242c82.875 0 82.875 5.274 165.75 5.274v26.437c-82.875 0-82.875-5.273-165.75-5.273z"
+           fill="#ffa07d"
+           id="path81" />
+      </g>
+      <g
+         clip-path="url(#clipPath162)"
+         opacity=".3"
+         id="g87">
+        <path
+           d="m678.75 0h82.5v17.625h-82.5z"
+           fill="#0eff00"
+           id="path85" />
+      </g>
+      <g
+         clip-path="url(#clipPath178)"
+         opacity=".3"
+         id="g91">
+        <path
+           d="m489.75 0h166.5v13.746h-166.5z"
+           fill="#7bff64"
+           id="path89" />
+      </g>
+      <g
+         clip-path="url(#clipPath194)"
+         opacity=".3"
+         id="g95">
+        <path
+           d="m489.75 13.746c82.875 0 82.875 24 165.75 24v13.75c-82.875 0-82.875-24-165.75-24z"
+           fill="#ffa07d"
+           id="path93" />
+      </g>
+      <g
+         clip-path="url(#clipPath210)"
+         opacity=".3"
+         id="g99">
+        <path
+           d="m489.75 36.922c83.25 0 83.25-23.176 166.5-23.176v4.231c-83.25 0-83.25 23.175-166.5 23.175z"
+           fill="#7bff64"
+           id="path97" />
+      </g>
+      <g
+         clip-path="url(#clipPath226)"
+         opacity=".3"
+         id="g103">
+        <path
+           d="m489.75 74.422c83.25 0 83.25-56.445 166.5-56.445v2.82c-83.25 0-83.25 56.445-166.5 56.445z"
+           fill="#7bff64"
+           id="path101" />
+      </g>
+      <g
+         clip-path="url(#clipPath242)"
+         opacity=".3"
+         id="g107">
+        <path
+           d="m678 37.746c41.625 0 41.625-20.121 83.25-20.121v0.703c-41.625 0-41.625 20.125-83.25 20.125z"
+           fill="#ffa07d"
+           id="path105" />
+      </g>
+      <path
+         d="m0 0h22.5v352.5h-22.5z"
+         fill="#142735"
+         stroke="#091319"
+         stroke-width=".75"
+         id="path109" />
+      <text
+         transform="translate(27,179.4)"
+         fill="#000000"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text113"><tspan
+           x="0 5.7059999 9.2340002 14.742 18.441"
+           y="0"
+           id="tspan111">Start</tspan></text>
+      <text
+         transform="rotate(-90)"
+         fill="#ffffff"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text117"
+         x="-184.63104"
+         y="15.749"><tspan
+           id="tspan115">100</tspan></text>
+      <path
+         d="m761.25 0h22.5v18.328h-22.5z"
+         fill="#088d00"
+         stroke="#034500"
+         stroke-width=".75"
+         id="path119" />
+      <text
+         transform="translate(688.12 12.315)"
+         fill="#000000"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text123"><tspan
+           x="0 5.8410001 11.376 16.316999 21.851999 24.344999 29.664 35.199001 40.904999 43.757999 49.292999 58.058998 63.567001 66.059998"
+           y="0"
+           id="tspan121">Received email</tspan></text>
+      <text
+         transform="rotate(-90)"
+         fill="#ffffff"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text127"
+         x="-16.39999"
+         y="777"><tspan
+           id="tspan125">5.2</tspan></text>
+      <path
+         d="m159 0h22.5v273.54h-22.5z"
+         fill="#9d8e66"
+         stroke="#4c4531"
+         stroke-width=".75"
+         id="path129" />
+      <text
+         transform="translate(186,139.92)"
+         fill="#000000"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text133"><tspan
+           x="0 4.8509998 10.35 15.858 21.563999 27.099001 32.805 35.658001 40.338001 46.035 50.976002 55.917 61.452 66.132004 70.811996 73.980003 79.677002 82.169998 84.663002"
+           y="0"
+           id="tspan131">Loaded successfully</tspan></text>
+      <text
+         transform="rotate(-90)"
+         fill="#ffffff"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text137"
+         x="-146.855"
+         y="174.745"><tspan
+           id="tspan135">77.6</tspan></text>
+      <path
+         d="m656.25 0h22.5v20.797h-22.5z"
+         fill="#066a00"
+         stroke="#023300"
+         stroke-width=".75"
+         id="path139" />
+      <text
+         transform="translate(499.88 13.549)"
+         fill="#000000"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text143"><tspan
+           x="0 5.7059999 11.403 16.344 21.285 26.82 31.5 36.18 39.348 45.044998 47.537998 50.390999 53.891998 59.426998 65.133003 67.625999 72.306 75.834 79.532997 85.041 88.569 91.061996 96.560997 102.258 105.111 108.621 114.156 118.836 122.364 124.857 133.623 139.131 142.659 148.194"
+           y="0"
+           id="tspan141">Successful registration (estimate)</tspan></text>
+      <text
+         transform="rotate(-90)"
+         fill="#ffffff"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text147"
+         x="-17.619991"
+         y="672"><tspan
+           id="tspan145">5.9</tspan></text>
+      <path
+         d="m249.75 0h22.5v92.004h-22.5z"
+         fill="#9d8e66"
+         stroke="#4c4531"
+         stroke-width=".75"
+         id="path149" />
+      <text
+         transform="translate(276.75 49.151)"
+         fill="#000000"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text153"><tspan
+           x="0 5.8410001 11.376 17.082001 19.575001 24.254999 27.783001 31.482 36.990002 40.518002 43.011002 48.509998 54.207001 57.060001 60.228001 65.726997 69.264 78.029999 80.883003 84.051003 89.550003 95.247002 100.944"
+           y="0"
+           id="tspan151">Registration form found</tspan></text>
+      <text
+         transform="rotate(-90)"
+         fill="#ffffff"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text157"
+         x="-56.099991"
+         y="265.5"><tspan
+           id="tspan155">26.1</tspan></text>
+      <path
+         d="m277.5 273.54h22.5v78.961h-22.5z"
+         fill="#626262"
+         stroke="#303030"
+         stroke-width=".75"
+         id="path159" />
+      <text
+         transform="translate(37.765 316.17)"
+         fill="#000000"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text163"><tspan
+           x="0 4.3470001 9.8549995 12.348 14.841 20.375999 26.082001 29.106001 31.959 35.487 37.98 46.745998 52.280998 57.779999 63.477001 67.004997 70.028999 75.735001 81.234001 84.762001 87.614998 93.320999 98.856003 102.384 107.919 112.86 116.388 118.881 124.38 130.077 133.101 138.798 144.495 149.175 154.87199 160.578 166.284 171.783 175.48199 179.00999 184.545 190.25101 193.104 195.597 201.105 206.802 212.508 218.205 223.713 229.41901"
+           y="0"
+           id="tspan161">Failed: timeout/bot detection/unsupported language</tspan></text>
+      <text
+         transform="rotate(-90)"
+         fill="#ffffff"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text167"
+         x="-323.10999"
+         y="293.25"><tspan
+           id="tspan165">22.4</tspan></text>
+      <path
+         d="m467.25 0h22.5v27.496h-22.5z"
+         fill="#9d8d65"
+         stroke="#4c4531"
+         stroke-width=".75"
+         id="path169" />
+      <text
+         transform="translate(305.72 16.898)"
+         fill="#000000"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text173"><tspan
+           x="0 5.8410001 11.376 17.082001 19.575001 24.254999 27.783001 31.482 36.990002 40.518002 43.011002 48.509998 54.207001 57.060001 61.740002 67.436996 73.142998 81.908997 84.402 89.082001 93.762001 96.254997 101.754 107.451 110.304 114.984 120.681 125.622 130.563 136.09801 140.778 145.45799 148.62601 154.323"
+           y="0"
+           id="tspan171">Registration submission successful</tspan></text>
+      <text
+         transform="rotate(-90)"
+         fill="#ffffff"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text177"
+         x="-20.97999"
+         y="483"><tspan
+           id="tspan175">7.8</tspan></text>
+      <path
+         d="m467.25 36.922h22.5v35.25h-22.5z"
+         fill="#9d8d65"
+         stroke="#4c4531"
+         stroke-width=".75"
+         id="path179" />
+      <text
+         transform="translate(327.36 57.699)"
+         fill="#000000"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text183"><tspan
+           x="0 5.8410001 11.376 17.082001 19.575001 24.254999 27.783001 31.482 36.990002 40.518002 43.011002 48.509998 54.207001 57.060001 61.740002 67.436996 73.142998 81.908997 84.402 89.082001 93.762001 96.254997 101.754 107.451 110.304 113.472 118.98 121.473 123.966 129.50101"
+           y="0"
+           id="tspan181">Registration submission failed</tspan></text>
+      <text
+         transform="rotate(-90)"
+         fill="#ffffff"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text187"
+         x="-64.639992"
+         y="483"><tspan
+           id="tspan185">10.0</tspan></text>
+      <path
+         d="m467.25 74.422h22.5v29.258h-22.5z"
+         fill="#9d8d65"
+         stroke="#4c4531"
+         stroke-width=".75"
+         id="path189" />
+      <text
+         transform="translate(339.06 92.202)"
+         fill="#000000"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text193"><tspan
+           x="0 5.8410001 11.376 17.082001 19.575001 24.254999 27.783001 31.482 36.990002 40.518002 43.011002 48.509998 54.207001 57.060001 61.740002 65.267998 70.776001 74.304001 79.838997 82.692001 88.389 94.085999 99.296997 104.994 110.493 117.846"
+           y="0"
+           id="tspan191">Registration state unknown</tspan></text>
+      <text
+         transform="rotate(-90)"
+         fill="#ffffff"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text197"
+         x="-96.279991"
+         y="483"><tspan
+           id="tspan195">8.3</tspan></text>
+      <path
+         d="m330 99.172h22.5v181.54h-22.5z"
+         fill="#ca9696"
+         stroke="#624949"
+         stroke-width=".75"
+         id="path199" />
+      <text
+         transform="translate(201.13 193.09)"
+         fill="#000000"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text203"><tspan
+           x="0 5.8410001 11.376 17.082001 19.575001 24.254999 27.783001 31.482 36.990002 40.518002 43.011002 48.509998 54.207001 57.060001 60.228001 65.726997 69.264 78.029999 80.883003 86.580002 92.079002 95.607002 98.459999 101.628 107.127 112.824 118.521"
+           y="0"
+           id="tspan201">Registration form not found</tspan></text>
+      <text
+         transform="rotate(-90)"
+         fill="#ffffff"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text207"
+         x="-200.02998"
+         y="345.75"><tspan
+           id="tspan205">51.5</tspan></text>
+      <path
+         d="m655.5 37.746h22.5v71.207h-22.5z"
+         fill="#9d8d65"
+         stroke="#4c4531"
+         stroke-width=".75"
+         id="path209" />
+      <text
+         transform="translate(519.45 76.5)"
+         fill="#000000"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text213"><tspan
+           x="0 5.8410001 11.376 17.082001 19.575001 24.254999 27.783001 31.482 36.990002 40.518002 43.011002 48.509998 54.207001 57.060001 60.228001 65.736 68.228996 70.722 76.257004 81.962997 84.816002 88.325996 93.861 98.541 102.069 104.562 113.328 118.836 122.364 127.899"
+           y="0"
+           id="tspan211">Registration failed (estimate)</tspan></text>
+      <text
+         transform="rotate(-90)"
+         fill="#ffffff"
+         font-family="'DejaVu Sans'"
+         font-size="9px"
+         id="text217"
+         x="-83.429993"
+         y="671.25"><tspan
+           id="tspan215">20.2</tspan></text>
+    </g>
   </g>
- </g>
 </svg>
