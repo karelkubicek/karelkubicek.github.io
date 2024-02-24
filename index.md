@@ -16,6 +16,11 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 
 ## Publications
 
+* Automating Website Registration for Studying GDPR Compliance
+  * *Karel Kubicek, Jakob Merane, Ahmed Bouhoula, David Basin*
+  * The Web Conference (WWW 2024).
+  * [PDF](https://karelkubicek.github.io/assets/pdf/Automating_Website_Registration_for_Studying_GDPR_Compliance.pdf), [paper website](https://karelkubicek.github.io/post/reg-www)
+
 * Automated Large-Scale Analysis of Cookie Notice Compliance
   * *Ahmed Bouhoula, Karel Kubicek, Amit Zac, Carlos Cotrini, David Basin*
   * USENIX Security 2024.
