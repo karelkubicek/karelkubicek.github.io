@@ -27,7 +27,7 @@ keywords: usability, extension, cookies, privacy
 
 ```latex
 @article{shoni2024block,
-  title={Block Cookies, Not Websites: Analysing Mental Models and Usability of the Privacy-Preserving Browser Extension {CookieBlock},
+  title={Block Cookies, Not Websites: Analysing Mental Models and Usability of the Privacy-Preserving Browser Extension {CookieBlock}},
   author={Lorin Schöni and Karel Kubicek and Verena Zimmermann},
   journal={Proceedings on Privacy Enhancing Technologies},
   volume={2024},
