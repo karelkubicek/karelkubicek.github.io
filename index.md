@@ -16,6 +16,11 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 
 ## Publications
 
+* Automated Analysis and Enforcement of Consent Compliance
+  * *Karel Kubicek*
+  * PhD thesis, ETH Zurich.
+  * [PDF](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/662039/4/PhD_thesis_Karel_Kubicek_with_doi_electronic.pdf), [website](https://karelkubicek.github.io/post/phd)
+
 * Automating Website Registration for Studying GDPR Compliance
   * *Karel Kubicek, Jakob Merane, Ahmed Bouhoula, David Basin*
   * The Web Conference (WWW 2024).
@@ -65,7 +70,7 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 
 
 * Privacy Observatory: Aggregation System for Reproduction of Privacy Studies
-  * *Patrice Kast*, 2023, PDF to be added
+  * *Patrice Kast*, 2023, [PDF](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/662341/Kast_Patrice.pdf)
 
 * Quantifying Mechanisms behind Cookie Consent (Non-)Compliance: A Notification Study of Audit Tools
   * *Laura-Vanessa Soldner*, 2023, [PDF](https://karelkubicek.github.io/assets/pdf/Laura_Soldner_BSc_Thesis.pdf)
@@ -101,7 +106,7 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 
 ## Other Interests
 
-I write a [blog](https://bender250.github.io) about my outdoor activities, feel free to check it. My girfriend writes about teaching kids outside on this [blog](https://sites.google.com/view/nature-exploration-with-nina/).
+I write a [blog](https://bender250.github.io) about my outdoor activities, feel free to check it.
 
 ## Acknowledgment
 
