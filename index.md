@@ -6,13 +6,15 @@ layout: default
 
 <img class="profile-picture" src="karel.jpg">
 
-Hi! I am a computer science PhD candidate at ETH Zurich. My supervisor is [David Basin](http://people.inf.ethz.ch/basin/), who leads the [Information Security Group](https://infsec.ethz.ch/). Here is my [resume.pdf](https://karelkubicek.github.io/resume.pdf).
+I am a computer science SNSF Postdoc.Mobility fellow at INRIA Sophia Antipolis hosted by [Nataliia Bielova](https://www-sop.inria.fr/members/Nataliia.Bielova/) from the [PRIVATICS team](https://team.inria.fr/privatics/). I got my PhD from ETH Zurich, advised by [David Basin](http://people.inf.ethz.ch/basin/) (CS) and advised by [Stefan Bechtold](https://lawecon.ethz.ch/group/professors/bechtold.html) (law). Here is my [resume.pdf](https://karelkubicek.github.io/resume.pdf).
 
-## Research Interest
+## Research
 
-Web privacy: Internet develops fast, but the user needs are overlooked, namely privacy. Regulations like GDPR are trying to fix that, but their enforcement is lacking behind. I try to address this lack of enforcement by developing automated techniques for privacy compliance analysis, or by directly blocking the privacy leakage events.
+My research focuses at web privacy using the framework of (mostly EU) privacy regulations. My works typically use machine learning to protect users, measure the widespread of privacy issues, attacking novel privacy schemes, and evaluating user perception of privacy tools.
 
-Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I studied how statistical testing can automate analysis of cryptoprimitives.
+* **User protection**: Our browser extension [CookieBlock](https://karelkubicek.github.io/post/cookieblock) automatically classify and remove advertising and tracking cookies. It also awarded [Distinguished Artifact Award as USENIX Security](https://www.usenix.org/conference/usenixsecurity22/presentation/bollinger) and 1st place in [CSAW'22 Europe Applied Research Competition](https://linkedin.com/posts/csaw-europe_csaw-cybersecuritaez-cybersecurity-activity-6996790240472408064-qJga).
+* **Measurements and enforcement**: I coauthored multiple works analyzing consent compliance using ML and NLP: in the case of [cookies notices](https://ahmedbouhoula.github.io/post/automated) and [marketing emails](https://karelkubicek.github.io/post/reg-www). These works are extended to multiple legal journal publications and we collaborate with data protection authorities to deploy them for automated privacy compliance enforcement.
+* **Others**: I also collaborated on discovering [vulnerabilities in novel privacy technologies](https://karelkubicek.github.io/post/floc), evaluating [usability](https://karelkubicek.github.io/post/userstudy-cookieblock) of privacy enhancing browser extensions, and developing scraping methods for legal scholars. Prior my PhD, I published studies of statistical testing application in symmetric cryptoprimitives analysis.
 
 ## Publications
 
@@ -69,8 +71,12 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 ## Supervised Students
 
 
+* Generalizing Browser Extension CookieAudit for Auditing Consent Popups’ GDPR Compliance
+  * *Szymon Nastaly*, 2024, [PDF](https://karelkubicek.github.io/assets/pdf/Generalizing_Browser_Extension_CookieAudit_for_Auditing_Consent_Popups_GDPR_Compliance_Szymon_Nastaly.pdf)
+
 * Privacy Observatory: Aggregation System for Reproduction of Privacy Studies
   * *Patrice Kast*, 2023, [PDF](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/662341/Kast_Patrice.pdf)
+    * Follow up semester thesis by Elisa Baux, 2024, [PDF](https://karelkubicek.github.io/assets/pdf/Privacy_Observatory_Reproducing_Privacy_Studies_Elisa_Baux.pdf)
 
 * Quantifying Mechanisms behind Cookie Consent (Non-)Compliance: A Notification Study of Audit Tools
   * *Laura-Vanessa Soldner*, 2023, [PDF](https://karelkubicek.github.io/assets/pdf/Laura_Soldner_BSc_Thesis.pdf)
@@ -104,13 +110,23 @@ Symmetric cryptanalysis: In the past, my focus was in applied cryptography. I st
 * Information Security
 * Algorithms and Data Structures
 
+## Service
+
+* Reviewer:
+  * IEEE Transactions on Privacy 2024 (journal)
+  * ACM CCS 2019 (review assigned by my colleague)
+* Local responsibilities
+  * Academic Staff Organisation (VMI) at ETH Zurich: treasurer, event organizer (retreats, career panels, social events), member of two hiring committees and helper to department evaluation team
+  * STEM Engagement Coordinator at Masaryk University: Organizing informatics seminar, competitions, and puzzle hunts for both secondary-school and university students
+
 ## Other Interests
 
 I write a [blog](https://bender250.github.io) about my outdoor activities, feel free to check it.
 
 ## Acknowledgment
 
-* [CRoCS MUNI](https://crocs.fi.muni.cz/) for showing me what I can achieve.
-* [InfSec group of ETH Zurich](https://infsec.ethz.ch/) for current supervision and opportunity to work on what I find interesting.
-* Jekyll template by [Ankit Sultana](https://github.com/ankitsultana), but substantially modified by me.
+* SNSF for financing my postdoc at INRIA.
+* [InfSec group of ETH Zurich](https://infsec.ethz.ch/) for opportunity to work on what I find interesting and grow.
+* [CRoCS MUNI](https://crocs.fi.muni.cz/) for showing me the world of opportunities.
+* Jekyll template by [Ankit Sultana](https://github.com/ankitsultana).
 * Am I missing you here? Let me know!
