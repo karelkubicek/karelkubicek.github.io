@@ -1,10 +1,10 @@
-title: Karel Kubíček's research page
-author: Karel Kubíček
+title: Karel Kubicek's research page
+author: Karel Kubicek
 url: "https://karelkubicek.github.io"
 baseurl: ""
 
 markdown: kramdown
-ins_logo: "./eth-logo.png"
+# ins_logo: "./eth-logo.png"
 
 tracking_id: #
 

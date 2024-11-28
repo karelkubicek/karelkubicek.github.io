@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="karel.jpg">
 
-I am a computer science SNSF Postdoc.Mobility fellow at INRIA Sophia Antipolis hosted by [Nataliia Bielova](https://www-sop.inria.fr/members/Nataliia.Bielova/) from the [PRIVATICS team](https://team.inria.fr/privatics/). I got my PhD from ETH Zurich, advised by [David Basin](http://people.inf.ethz.ch/basin/) (CS) and advised by [Stefan Bechtold](https://lawecon.ethz.ch/group/professors/bechtold.html) (law). Here is my [resume.pdf](https://karelkubicek.github.io/resume.pdf).
+I am a computer science SNSF Postdoc.Mobility fellow at INRIA Sophia Antipolis hosted by [Nataliia Bielova](https://www-sop.inria.fr/members/Nataliia.Bielova/) from the [PRIVATICS team](https://team.inria.fr/privatics/). I got my PhD from ETH Zurich, advised by [David Basin](http://people.inf.ethz.ch/basin/) (CS) and [Stefan Bechtold](https://lawecon.ethz.ch/group/professors/bechtold.html) (law). Here is my [resume.pdf](https://karelkubicek.github.io/resume.pdf).
 
 ## Research
 
