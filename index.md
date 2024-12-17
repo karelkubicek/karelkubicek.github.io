@@ -6,14 +6,14 @@ layout: default
 
 <img class="profile-picture" src="karel.jpg">
 
-I am a computer science SNSF Postdoc.Mobility fellow at INRIA Sophia Antipolis hosted by [Nataliia Bielova](https://www-sop.inria.fr/members/Nataliia.Bielova/) from the [PRIVATICS team](https://team.inria.fr/privatics/). I got my PhD from ETH Zurich, advised by [David Basin](http://people.inf.ethz.ch/basin/) (CS) and [Stefan Bechtold](https://lawecon.ethz.ch/group/professors/bechtold.html) (law). Here is my [resume.pdf](https://karelkubicek.github.io/resume.pdf).
+I am a computer science postdoc at INRIA Sophia Antipolis hosted by [Nataliia Bielova](https://www-sop.inria.fr/members/Nataliia.Bielova/) and the [PRIVATICS team](https://team.inria.fr/privatics/), funded by [SNSF Postdoc.Mobility grant Nr. P500PT_225449](https://www.snf.ch/en/XIZpfY3iVS5KRRoD/funding/careers/postdoc-mobility). I got my PhD from ETH Zurich, advised by [David Basin](http://people.inf.ethz.ch/basin/) (CS) and [Stefan Bechtold](https://lawecon.ethz.ch/group/professors/bechtold.html) (law). Here is my [resume.pdf](https://karelkubicek.github.io/resume.pdf).
 
 ## Research
 
-My research focuses at web privacy using the framework of (mostly EU) privacy regulations. My works typically use machine learning to protect users, measure the widespread of privacy issues, attacking novel privacy schemes, and evaluating user perception of privacy tools.
+My research focuses at web privacy using the framework of (mostly) EU privacy regulations (GDPR, ePrivacy Directive). My works typically use machine learning to protect users, measure the widespread of privacy issues, attacking novel privacy schemes, and evaluating user perception of privacy tools.
 
-* **User protection**: Our browser extension [CookieBlock](https://karelkubicek.github.io/post/cookieblock) automatically classify and remove advertising and tracking cookies. It also awarded [Distinguished Artifact Award as USENIX Security](https://www.usenix.org/conference/usenixsecurity22/presentation/bollinger) and 1st place in [CSAW'22 Europe Applied Research Competition](https://linkedin.com/posts/csaw-europe_csaw-cybersecuritaez-cybersecurity-activity-6996790240472408064-qJga).
-* **Measurements and enforcement**: I coauthored multiple works analyzing consent compliance using ML and NLP: in the case of [cookies notices](https://ahmedbouhoula.github.io/post/automated) and [marketing emails](https://karelkubicek.github.io/post/reg-www). These works are extended to multiple legal journal publications and we collaborate with data protection authorities to deploy them for automated privacy compliance enforcement.
+* **User protection**: Our browser extension [CookieBlock](https://karelkubicek.github.io/post/cookieblock) automatically classifies and removes advertising and tracking cookies. It also awarded [Distinguished Artifact Award as USENIX Security](https://www.usenix.org/conference/usenixsecurity22/presentation/bollinger) and 1st place in [CSAW'22 Europe Applied Research Competition](https://linkedin.com/posts/csaw-europe_csaw-cybersecuritaez-cybersecurity-activity-6996790240472408064-qJga).
+* **Measurements and enforcement**: I coauthored multiple works analyzing consent compliance using ML and NLP focused on [cookies notices](https://ahmedbouhoula.github.io/post/automated) and [marketing emails](https://karelkubicek.github.io/post/reg-www). These works are extended to multiple legal journal publications and we collaborate with data protection authorities to deploy them for automated privacy compliance enforcement.
 * **Others**: I also collaborated on discovering [vulnerabilities in novel privacy technologies](https://karelkubicek.github.io/post/floc), evaluating [usability](https://karelkubicek.github.io/post/userstudy-cookieblock) of privacy enhancing browser extensions, and developing scraping methods for legal scholars. Prior my PhD, I published studies of statistical testing application in symmetric cryptoprimitives analysis.
 
 ## Publications
@@ -107,8 +107,10 @@ My research focuses at web privacy using the framework of (mostly EU) privacy re
 
 ## Teaching
 
+* I am open to give invited lectures on various topics, for instance: web tracking, privacy regulations (for a CS audience), or ML and NLP (for a non-CS audience).
 * Information Security
 * Algorithms and Data Structures
+* Automata Theory
 
 ## Service
 
