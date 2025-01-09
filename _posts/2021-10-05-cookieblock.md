@@ -169,6 +169,14 @@ In section 4.1, we reported that Cookiepedia achieves 83.4% ballanced accuracy, 
 
   **A:** While we refer to the violations as *potential*, we do so as only a judicial ruling can provide the legal certainty as to whether they are true legal violations. All of the violations imply that the user consents to incorrect information, and it requires an individual inspection to declare them as neglect or malice. However, severe violations as marking Google Analytics cookies as necessary or unclassified or even omitting to declare them forces users to accept them. In such a case, the website might do even worse than the website without a cookie banner, as it gives users a false impression of choice.
 
+* **Q:** How to use the classification in my crawler?
+
+  **A:** Please refer to [this documentation with code examples](https://measuretheweb.org/privacy/cookies#cookieblock_model).
+
+* **Q:** How to use the classification in my manual study?
+
+  **A:** Just install the extension, enable to keep track of cookie history, and disable cookie removal in the popup (to prevent interference with your browsing). Then you can browse the website to conduct the research. Afterwards, extract the classification of all cookies by opening "View full cookie history in JSON" from the settings page. You find an array of entries for each cookie, with `current_label` containing the classification (0 = Strictly necessary, 1 = Functionality, 2 = Analytics, 3 = Advertising/tracking cookies). We recommend to browse only one page at a time to be able to say which third-party cookies belong to which first party that you visited. Between visits, you have to clear cookie history (accessible from the settings page).
+
 
 ### Media
 
@@ -185,6 +193,7 @@ The authors would like to thank:
 
 ### Updates
 
+* *January 9, 2025:* More Q&A
 * *August 7, 2023:* Errata for mistakes found in the paper.
 * *July 26, 2023:* Recording link.
 * *August 17, 2022:* We won USENIX's distinguish artifact reward.
