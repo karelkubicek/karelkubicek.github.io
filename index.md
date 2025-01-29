@@ -18,43 +18,48 @@ My research focuses at web privacy using the framework of (mostly) EU privacy re
 
 ## Publications
 
+* Multilingual Scraper of Privacy Policies and Terms of Service
+  * *David Bernhard, Luka Nenadic, Stefan Bechtold, __Karel Kubicek__*
+  * CSLAW 2025.
+  * [PDF](https://karelkubicek.github.io/assets/pdf/Multilingual_Scraper_of_Privacy_Policies_and_Terms_of_Service.pdf), [website](https://karelkubicek.github.io/post/pptc)
+
 * Automated Analysis and Enforcement of Consent Compliance
-  * *Karel Kubicek*
+  * *__Karel Kubicek__*
   * PhD thesis, ETH Zurich.
   * [PDF](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/662039/4/PhD_thesis_Karel_Kubicek_with_doi_electronic.pdf), [website](https://karelkubicek.github.io/post/phd)
 
 * Automating Website Registration for Studying GDPR Compliance
-  * *Karel Kubicek, Jakob Merane, Ahmed Bouhoula, David Basin*
+  * *__Karel Kubicek__, Jakob Merane, Ahmed Bouhoula, David Basin*
   * The Web Conference (WWW 2024).
   * [PDF](https://karelkubicek.github.io/assets/pdf/Automating_Website_Registration_for_Studying_GDPR_Compliance.pdf), [paper website](https://karelkubicek.github.io/post/reg-www)
 
 * Automated Large-Scale Analysis of Cookie Notice Compliance
-  * *Ahmed Bouhoula, Karel Kubicek, Amit Zac, Carlos Cotrini, David Basin*
+  * *Ahmed Bouhoula, __Karel Kubicek__, Amit Zac, Carlos Cotrini, David Basin*
   * USENIX Security 2024.
   * [PDF](https://www.usenix.org/system/files/sec23winter-prepub-107-bouhoula.pdf), [paper website](https://ahmedbouhoula.github.io/post/automated)
 
 * Block Cookies, Not Websites: Analysing Mental Models and Usability of the Privacy-Preserving Browser Extension CookieBlock
-  * *Lorin Schöni, Karel Kubicek, Verena Zimmermann*
+  * *Lorin Schöni, __Karel Kubicek__, Verena Zimmermann*
   * PETS 2024.
   * [PDF](https://petsymposium.org/popets/2024/popets-2024-0012.pdf), [paper website](https://karelkubicek.github.io/post/userstudy-cookieblock)
 
 * Locality-Sensitive Hashing Does Not Guarantee Privacy! Attacks on Google’s FLoC and the MinHash Hierarchy System
-  * *Florian Turati, Karel Kubicek, [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), [David Basin](http://people.inf.ethz.ch/basin/)*
+  * *Florian Turati, __Karel Kubicek__, [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), [David Basin](http://people.inf.ethz.ch/basin/)*
   * PETS 2023.
   * [PDF](https://petsymposium.org/2023/files/papers/issue4/popets-2023-0101.pdf), [paper website](https://karelkubicek.github.io/post/floc)
 
 * Checking Websites’ GDPR Consent Compliance for Marketing Emails
-  * *Karel Kubicek, [Jakob Merane](https://lawecon.ethz.ch/group/scientific-team/merane.html), [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), [Alexander Stremitzer](https://laweconbusiness.ethz.ch/group/professor/stremitzer.html), [Stefan Bechtold](https://lawecon.ethz.ch/group/professors/bechtold.html), [David Basin](http://people.inf.ethz.ch/basin/)*
+  * *__Karel Kubicek__, [Jakob Merane](https://lawecon.ethz.ch/group/scientific-team/merane.html), [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), [Alexander Stremitzer](https://laweconbusiness.ethz.ch/group/professor/stremitzer.html), [Stefan Bechtold](https://lawecon.ethz.ch/group/professors/bechtold.html), [David Basin](http://people.inf.ethz.ch/basin/)*
   * PETS 2022.
   * [PDF](https://karelkubicek.github.io/assets/pdf/Checking_Websites_GDPR_Consent_Compliance_for_Marketing_Emails.pdf), [paper website](https://karelkubicek.github.io/post/reg-pets)
 
 * Automating Cookie Consent and GDPR Violation Detection
-  * *Dino Bollinger, Karel Kubicek, [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), [David Basin](http://people.inf.ethz.ch/basin/)*
+  * *Dino Bollinger, __Karel Kubicek__, [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), [David Basin](http://people.inf.ethz.ch/basin/)*
   * USENIX Security 2022, best artifact award
   * [PDF](https://karelkubicek.github.io/assets/pdf/Automating_Cookie_Consent_and_GDPR_Violation_Detection.pdf), [paper website](https://karelkubicek.github.io/post/cookieblock), also as [SOUPS poster](https://karelkubicek.github.io/assets/pdf/CookieBlock_CookieAudit_Fixing_Cookie_Consent_with_ML.pdf)
 
 * Large-scale Randomness Study of Security Margins for 100+ Cryptographic Functions
-  * *Dusan Klinec, Marek Sys, Karel Kubicek, Petr Svenda, Vashek Matyas*
+  * *Dusan Klinec, Marek Sys, __Karel Kubicek__, Petr Svenda, Vashek Matyas*
   * SECRYPT 2022-19th International Conference on Security and Cryptography
 
 * BoolTest: The Fast Randomness Testing Strategy Based on Boolean Functions with Application to DES, 3-DES, MD5, MD6 and SHA-256
@@ -63,7 +68,7 @@ My research focuses at web privacy using the framework of (mostly) EU privacy re
   * [PDF](https://crocs.fi.muni.cz/_media/public/papers/booltest_preprint_2017.pdf), [paper website](https://crocs.fi.muni.cz/public/papers/Secrypt2017selected)
 
 * New results on reduced-round Tiny Encryption Algorithm using genetic programming
-  * *Karel Kubicek, Jiri Novotny, [Petr Svenda](https://crocs.fi.muni.cz/people/svenda), [Martin Ukrop](https://crocs.fi.muni.cz/people/mukrop)*
+  * *__Karel Kubicek__, Jiri Novotny, [Petr Svenda](https://crocs.fi.muni.cz/people/svenda), [Martin Ukrop](https://crocs.fi.muni.cz/people/mukrop)*
   * [IEEE Infocommunications, 2016](http://www.infocommunications.hu/2016_1).
   * [PDF](https://crocs.fi.muni.cz/_media/public/papers/infocom/infocommunications2016.pdf), [paper website](https://crocs.fi.muni.cz/public/papers/infocomm2016)
 
