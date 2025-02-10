@@ -120,6 +120,8 @@ My research focuses at web privacy using the framework of (mostly) EU privacy re
 ## Service
 
 * Reviewer:
+  * Workshop on Measurements, Attacks, and Defenses for the Web (MADWeb) 2025
+  * Workshop on Technology and Consumer Protection (ConPro ’25)
   * IEEE Transactions on Privacy 2024 (journal)
   * ACM CCS 2019 (review assigned by my colleague)
 * Local responsibilities
