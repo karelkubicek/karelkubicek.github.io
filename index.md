@@ -18,6 +18,14 @@ My research focuses at web privacy using the framework of (mostly) EU privacy re
 
 ## Publications
 
+* Markets for Consent
+  * *Amit Zac, __Karel Kubicek__, Ahmed Bouhoula, Stefan Bechtold*
+  * To appear in ALEA 2025
+
+* Machine Learning Compliance Analysis for Email Regulation
+  * *Jakob Merane, __Karel Kubicek__, Luca Strässle, Vandit Sharma, Alexander Stremitzer*
+  * CSLAW 2025 (WiP, presetation only)
+
 * Multilingual Scraper of Privacy Policies and Terms of Service
   * *David Bernhard, Luka Nenadic, Stefan Bechtold, __Karel Kubicek__*
   * CSLAW 2025.
@@ -42,6 +50,10 @@ My research focuses at web privacy using the framework of (mostly) EU privacy re
   * *Lorin Schöni, __Karel Kubicek__, Verena Zimmermann*
   * PETS 2024.
   * [PDF](https://petsymposium.org/popets/2024/popets-2024-0012.pdf), [paper website](https://karelkubicek.github.io/post/userstudy-cookieblock)
+
+* Compliance Effort: The Timing and Content of Open Source Responses to Privacy Law Development
+  * *Aileen Nielsen, __Karel Kubicek__, Elias Datler*
+  * CSLAW 2024 (WiP, presetation only)
 
 * Locality-Sensitive Hashing Does Not Guarantee Privacy! Attacks on Google’s FLoC and the MinHash Hierarchy System
   * *Florian Turati, __Karel Kubicek__, [Carlos Cotrini](https://inf.ethz.ch/people/people-atoz/person-detail.MTg4OTEw.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html), [David Basin](http://people.inf.ethz.ch/basin/)*
@@ -120,6 +132,7 @@ My research focuses at web privacy using the framework of (mostly) EU privacy re
 ## Service
 
 * Reviewer:
+  * IEEE Transactions on Dependable and Secure Computing (journal)
   * Workshop on Measurements, Attacks, and Defenses for the Web (MADWeb) 2025
   * Workshop on Technology and Consumer Protection (ConPro ’25)
   * IEEE Transactions on Privacy 2024 (journal)
