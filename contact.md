@@ -27,5 +27,7 @@ These are **NOT** my addresses:
 * ![Not Karel's Kubicek address](https://karelkubicek.github.io/assets/images/unsubscribed/karel_kubicek_not_email.png)
 * ![karel.kubicek.c9c8@sybilmail.de](https://karelkubicek.github.io/assets/images/unsubscribed/karel_kubicek_not_email.png)
 * <span style="color: white">karel.kubicek.efe1@sybilmail.de</span>
-* Plase also do not contact any email from [this CV](https://karelkubicek.github.io/assets/pdf/unsubscribed/not_my_cv.pdf)
-<!-- Also do not contact this address: karel.kubicek.60c6@sybilmail.de ->
+* Please also do not contact any email from [this CV](https://karelkubicek.github.io/assets/pdf/unsubscribed/not_my_cv.pdf)
+
+<!--- Also do not contact this address: karel.kubicek.60c6@sybilmail.de -->
+[//]: # Also do not contact this address: karel.kubicek.5952@sybilmail.de
