@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="karel.jpg">
 
-I am a computer science postdoc at INRIA Sophia Antipolis hosted by [Nataliia Bielova](https://www-sop.inria.fr/members/Nataliia.Bielova/) and the [PRIVATICS team](https://team.inria.fr/privatics/), funded by [SNSF Postdoc.Mobility grant No. P500PT_225449](https://data.snf.ch/grants/grant/225449). I got my PhD from ETH Zurich, advised by [David Basin](http://people.inf.ethz.ch/basin/) (CS) and [Stefan Bechtold](https://lawecon.ethz.ch/group/professors/bechtold.html) (law). Here is my (academic) [resume.pdf](https://karelkubicek.github.io/resume.pdf).
+I am currently Senior privacy researcher at [VaultJS](https://vaultjs.com/), company that automates privacy and security scanning of websites. In the past, I was a postdoc at INRIA hosted by [Nataliia Bielova](https://www-sop.inria.fr/members/Nataliia.Bielova/) funded by [SNSF grant](https://data.snf.ch/grants/grant/225449). I got my PhD from ETH Zurich, advised by [David Basin](http://people.inf.ethz.ch/basin/) (CS) and [Stefan Bechtold](https://lawecon.ethz.ch/group/professors/bechtold.html) (law). Here is my (academic) [resume.pdf](https://karelkubicek.github.io/resume.pdf).
 
 ## Research
 
@@ -20,11 +20,11 @@ My research focuses at web privacy using the framework of (mostly) EU privacy re
 
 * Markets for Consent
   * *Amit Zac, __Karel Kubicek__, Ahmed Bouhoula, Stefan Bechtold*
-  * To appear in ALEA 2025
+  * ALEA 2025
 
 * Machine Learning Compliance Analysis for Email Regulation
   * *Jakob Merane, __Karel Kubicek__, Luca Strässle, Vandit Sharma, Alexander Stremitzer*
-  * CSLAW 2025 (WiP, presetation only)
+  * CSLAW 2025 (WiP, presentation only)
 
 * Multilingual Scraper of Privacy Policies and Terms of Service
   * *David Bernhard, Luka Nenadic, Stefan Bechtold, __Karel Kubicek__*
@@ -137,7 +137,11 @@ My research focuses at web privacy using the framework of (mostly) EU privacy re
   * Workshop on Technology and Consumer Protection (ConPro ’25)
   * IEEE Transactions on Privacy 2024 (journal)
   * ACM CCS 2019 (review assigned by my colleague)
-* Local responsibilities
+* Committees:
+  * MSc thesis of Elisa Baux, supervised by Mathilde Raynal and Carmela Troncoso at EPFL
+* Legal:
+  * CS expert for [Guidelines 2/2023 on Technical Scope of Art. 5(3) of ePrivacy Directive](https://www.edpb.europa.eu/system/files/2024-10/edpb_guidelines_202302_technical_scope_art_53_eprivacydirective_v2_en_0.pdf)
+* Local responsibilities:
   * Academic Staff Organisation (VMI) at ETH Zurich: treasurer, event organizer (retreats, career panels, social events), member of two hiring committees and helper to department evaluation team
   * STEM Engagement Coordinator at Masaryk University: Organizing informatics seminar, competitions, and puzzle hunts for both secondary-school and university students
 
