@@ -5,7 +5,7 @@ abstract: "In the modern web, users are confronted with a plethora of complex pr
 
 We used a complementary approach consisting of an expert evaluation of CookieBlock and the related tools NoScript and Ghostery, and a laboratory user study focusing on the unique details of how users interact with CookieBlock specifically. The laboratory study with 42 participants investigated usage, mental models, and usability of CookieBlock based on eye tracking, interaction, and self-report data. While CookieBlock received good usability ratings, 18 participants were unable to solve a website breakage caused by cookie misclassification on their own. Overall, the results revealed flawed mental models of CookieBlock's functionality and resulting challenges in making the connection between website breakage and cookie misclassification. Implications for CookieBlock and related applications include interface design recommendations supporting accurate mental models and the proposal of improved heuristics to better guide users and warn them about potential identified website breakage."
 authors: Lorin Schöni, Karel Kubicek, Verena Zimmermann
-publisher: To appear in Proceedings on Privacy Enhancing Technologies, PETS, 2024.
+publisher: Proceedings on Privacy Enhancing Technologies, PETS, 2024.
 categories: cookies
 keywords: usability, extension, cookies, privacy
 ---
@@ -20,8 +20,6 @@ keywords: usability, extension, cookies, privacy
 
 * Conference page: [PETS 2024](https://petsymposium.org/2024/paperlist.php)
 * Download pre-print of the paper: [PDF](https://petsymposium.org/popets/2024/popets-2024-0012.pdf)
-* Presentation: TBA
-* See full conference talk: TBA
 
 ### BibTeX
 

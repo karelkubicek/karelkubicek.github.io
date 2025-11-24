@@ -34,7 +34,7 @@ My research focuses at web privacy using the framework of (mostly) EU privacy re
 * Automated Analysis and Enforcement of Consent Compliance
   * *__Karel Kubicek__*
   * PhD thesis, ETH Zurich.
-  * [PDF](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/662039/4/PhD_thesis_Karel_Kubicek_with_doi_electronic.pdf), [website](https://karelkubicek.github.io/post/phd)
+  * [PDF](https://doi.org/10.3929/ethz-b-000662039), [website](https://karelkubicek.github.io/post/phd)
 
 * Automating Website Registration for Studying GDPR Compliance
   * *__Karel Kubicek__, Jakob Merane, Ahmed Bouhoula, David Basin*
@@ -92,7 +92,7 @@ My research focuses at web privacy using the framework of (mostly) EU privacy re
   * *Szymon Nastaly*, 2024, [PDF](https://karelkubicek.github.io/assets/pdf/Generalizing_Browser_Extension_CookieAudit_for_Auditing_Consent_Popups_GDPR_Compliance_Szymon_Nastaly.pdf)
 
 * Privacy Observatory: Aggregation System for Reproduction of Privacy Studies
-  * *Patrice Kast*, 2023, [PDF](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/662341/Kast_Patrice.pdf)
+  * *Patrice Kast*, 2023, [PDF](https://doi.org/10.3929/ethz-b-000662341)
     * Follow up semester thesis by Elisa Baux, 2024, [PDF](https://karelkubicek.github.io/assets/pdf/Privacy_Observatory_Reproducing_Privacy_Studies_Elisa_Baux.pdf)
 
 * Quantifying Mechanisms behind Cookie Consent (Non-)Compliance: A Notification Study of Audit Tools
@@ -108,16 +108,16 @@ My research focuses at web privacy using the framework of (mostly) EU privacy re
   * *Ahmed Bouhoula*, 2022, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/575741)
 
 * Analysing and exploiting Google’s FLoC advertising proposal
-  * *Florian Turati*, 2022, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/535362)
+  * *Florian Turati*, 2022, [PDF](https://doi.org/10.3929/ethz-b-000539945)
 
 * Understanding GDPR compliance of tracking pixel declarations using privacy filter lists
-  * *Rita Ganz*, 2022, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/535362)
+  * *Rita Ganz*, 2022, [PDF](https://doi.org/10.3929/ethz-b-000535362)
 
 * Designing a generic web forms crawler to enable legal compliance analysis of authentication sections
-  * *Luka Lodrant*, 2022, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/534764)
+  * *Luka Lodrant*, 2022, [PDF](https://doi.org/10.3929/ethz-b-000534764)
 
 * Analyzing Cookies Compliance with the GDPR
-  * *Dino Bollinger*, 2021, [PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/477333)
+  * *Dino Bollinger*, 2021, [PDF](https://doi.org/10.3929/ethz-b-000477333)
 
 * Enforcement Bots: Nothing can block us! Automating website registration for GDPR compliance analysis
   * *Patrice Kast*, 2021, [PDF](https://karelkubicek.github.io/assets/pdf/Patrice_Kast_Automating_website_registration_for_GDPR_compliance_analysis_signed.pdf)
