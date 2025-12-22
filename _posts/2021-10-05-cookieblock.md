@@ -29,7 +29,7 @@ We document the severity of this situation through an analysis of potential GDPR
 * SOUPS poster **CookieBlock & CookieAudit: Fixing Cookie Consent with ML**: [pdf](https://karelkubicek.github.io/assets/pdf/CookieBlock_CookieAudit_Fixing_Cookie_Consent_with_ML.pdf), [BibTeX](https://www.usenix.org/biblio/export/bibtex/282877), and [page](https://www.usenix.org/conference/soups2022/presentation/kubicek-poster)
 * Invited talk: [slides](https://docs.google.com/presentation/d/1h20XaZVdNnGKOGhq_idP5gg_n-CYy-dwEApZpnl6J6s/)
 * Download artifact that won distinguish artifact award: [datasets](https://zenodo.org/record/5838646), [crawler](https://github.com/dibollinger/CookieBlock-Consent-Crawler), [classifier](https://github.com/dibollinger/CookieBlock-Consent-Classifier), and [violation detection scripts](https://github.com/dibollinger/CookieBlock-Violation-Detection)
-* Try our extension CookieBlock: [Chrome](https://chrome.google.com/webstore/detail/cookieblock/fbhiolckidkciamgcobkokpelckgnnol), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cookieblock/), [Edge](https://microsoftedge.microsoft.com/addons/detail/cookieblock/mnfolmjlccppcgdeinhidialajfiopcc), [Opera](https://addons.opera.com/en/extensions/details/cookieblock/), or check out the [source code](https://github.com/dibollinger/CookieBlock)
+* Try our extension CookieBlock: [Chrome](https://chrome.google.com/webstore/detail/cookieblock/fbhiolckidkciamgcobkokpelckgnnol), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/cookieblock/), [Edge](https://microsoftedge.microsoft.com/addons/detail/cookieblock/mnfolmjlccppcgdeinhidialajfiopcc), or check out the [source code](https://github.com/dibollinger/CookieBlock)
 * Give us [feedback on the extension](https://forms.gle/tL21ruvPZq2q218P8)
 
 ### BibTeX
@@ -51,7 +51,7 @@ We document the severity of this situation through an analysis of potential GDPR
 
 ### Cookie consent is fundamentally broken
 
-Browser cookies are one of the most commonly used methods for tracking the session state of websites, and for tracking the identity of visitors. According to prior studies, between 80-90% of websites use cookies for user tracking, often without their knowledge. The EU government has attempted to address this issue through regulations mandating consent for data collection, in particular through the General 
+Browser cookies are one of the most commonly used methods for tracking the session state of websites, and for tracking the identity of visitors. According to prior studies, between 80-90% of websites use cookies for user tracking, often without their knowledge. The EU government has attempted to address this issue through regulations mandating consent for data collection, in particular through the General
 Data Protection Regulation (*GDPR*) and the ePrivacy Directive.
 
 Despite these requirements, prior research has shown that less than half of all websites ask visitors for consent. Of the remaining websites, many violate even basic consent requirements. For instance, the majority of websites did not adhere to the opt-in requirement, and more than 10% stored affirmative consent before visitors could react to the consent notice. Some websites also stored affirmative consent despite explicit rejection, and many consent notices use dark patterns to nudge users into accepting all cookies.
@@ -61,7 +61,7 @@ In our analysis, we confirm the lack of GDPR compliance by extending and improvi
 ![Violation types](https://karelkubicek.github.io/assets/images/cookieblock_paper/violations_types.png)
 *The number of websites that show the respective type of violation. The first six are novel and have not been explored in prior work.*
 
-We support the legal claims by referring to relevant sections of GPDR and ePrivacy Directive and [Planet49 case](https://europeanlawblog.eu/2019/10/08/planet49-cjeu-judgment-brings-some-cookie-consent-certainty-to-planet-online-tracking/) ruled by the EU Court of Justice.
+We support the legal claims by referring to relevant sections of GPDR and ePrivacy Directive and [Planet49 case](https://web.archive.org/web/20220211092254/https://europeanlawblog.eu/2019/10/08/planet49-cjeu-judgment-brings-some-cookie-consent-certainty-to-planet-online-tracking/) ruled by the EU Court of Justice.
 
 ![Histogram of violations](https://karelkubicek.github.io/assets/images/cookieblock_paper/violations_histogram.png)
 *This histogram shows the distribution of violation types per website, with the green bar representing the compliant ones. It does not include repetitions of a single type.*
