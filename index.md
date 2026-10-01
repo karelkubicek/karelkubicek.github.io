@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="karel.jpg">
 
-I am currently Senior privacy researcher at [VaultJS](https://vaultjs.com/), company that automates privacy and security scanning of websites. In the past, I was a postdoc at INRIA hosted by [Nataliia Bielova](https://www-sop.inria.fr/members/Nataliia.Bielova/) funded by [SNSF grant](https://data.snf.ch/grants/grant/225449). I got my PhD from ETH Zurich, advised by [David Basin](http://people.inf.ethz.ch/basin/) (CS) and [Stefan Bechtold](https://lawecon.ethz.ch/group/professors/bechtold.html) (law). Here is my (academic) [resume.pdf](https://karelkubicek.github.io/resume.pdf).
+I am currently Lead Privacy & AI Researcher at [VaultJS](https://vaultjs.com/), company that automates privacy and security scanning of websites, mobile, and CTV. In the past, I was a postdoc at INRIA hosted by [Nataliia Bielova](https://www-sop.inria.fr/members/Nataliia.Bielova/) funded by [SNSF grant](https://data.snf.ch/grants/grant/225449). I got my PhD from ETH Zurich, advised by [David Basin](http://people.inf.ethz.ch/basin/) (CS) and [Stefan Bechtold](https://lawecon.ethz.ch/group/professors/bechtold.html) (law). Here is my (academic) [resume.pdf](https://karelkubicek.github.io/resume.pdf).
 
 ## Research
 
